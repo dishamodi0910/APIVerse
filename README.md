@@ -30,11 +30,11 @@
      </thead>
     <tbody>
          <tr>
-            <td><img alt="Stars" src="https://img.shields.io/github/stars/dishamodi0910/APIBoxTesting?style=flat&logo=github"/></td>
-             <td><img alt="Forks" src="https://img.shields.io/github/forks/dishamodi0910/APIBoxTesting?style=flat&logo=github"/></td>
-            <td><img alt="Issues" src="https://img.shields.io/github/issues/dishamodi0910/APIBoxTesting?style=flat&logo=github"/></td>
-            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/dishamodi0910/APIBoxTesting?style=flat&logo=github"/></td>
-           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/dishamodi0910/APIBoxTesting?style=flat&color=critical&logo=github"/></td>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/dishamodi0910/APIVerse?style=flat&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/dishamodi0910/APIVerse?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/dishamodi0910/APIVerse?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/dishamodi0910/APIVerse?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/dishamodi0910/APIVerse?style=flat&color=critical&logo=github"/></td>
         </tr>
     </tbody>
 </table>
@@ -77,7 +77,7 @@ Happy Coding!❤️
  <h2 align = "center">✨ How to contribute?</h2>
  <div align = "left">
   
-- Go through project [README.md]() and [CONTRIBUTING GUIDELINES.md]() to know about project and related guidelines.<br>
+- Go through project [README.md](https://github.com/dishamodi0910/APIVerse/blob/master/README.md) and [CONTRIBUTING GUIDELINES.md](https://github.com/dishamodi0910/APIVerse/blob/master/CONTRIBUTING%20GUIDELINES.md) to know about project and related guidelines.<br>
 - Go through project to know what you can contribute towards it.<br>
 * *CREATING ISSUE!*
    - Under issues section, you can select proper template, and fill all the necessary details. <br>
@@ -102,7 +102,7 @@ Happy Coding!❤️
 <div align = "center">
  <h3>Thank you for contributing to our repository.😃</h3>
  
-![Contributors](https://contrib.rocks/image?repo=dishamodi0910/APIBoxTesting)
+![Contributors](https://contrib.rocks/image?repo=dishamodi0910/APIVerse)
 
 ###  Show some ❤️ by starring this awesome repository!
 </div>
