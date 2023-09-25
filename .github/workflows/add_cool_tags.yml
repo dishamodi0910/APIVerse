@@ -21,25 +21,25 @@ jobs:
             {
               coolTags.push('awesome');
               coolTags.push('newapi');
-              coolTags.push('hacktoberfest-23');
+              coolTags.push('hacktoberfest');
             }
             if(title && title.toLowerCase().includes('api enhancement'))
             {
               coolTags.push('wow');
               coolTags.push('enhancement');
-              coolTags.push('hacktoberfest-23');
+              coolTags.push('hacktoberfest');
             }
             if(title && title.toLowerCase().includes('existing api name'))
             {
               coolTags.push('wow');
               coolTags.push('existing-api');
-              coolTags.push('hacktoberfest-23');
+              coolTags.push('hacktoberfest');
             }
             if(title && title.toLowerCase().includes('documentation error'))
             {
               coolTags.push('good');
               coolTags.push('documentation');
-              coolTags.push('hacktoberfest-23');
+              coolTags.push('hacktoberfest');
             }
             console.log(coolTags.length);
             if (coolTags.length > 0) {
