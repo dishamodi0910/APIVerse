@@ -52,9 +52,11 @@
  
 <div style="color : red">
 <i><b>
- ✅ You should add either 1 new API or 1 existing API after testing the code properly. The file structure should be followed. README.md file should be present inside your folder. <br>
+ ✅ You should add either 1 new API or 1 existing APIafter testing the code properly. The file structure should be followed. README.md file should be present inside your folder. <br>
  ✅If you are contributing towards enhancement of any API, you need to make sure that you are enhancing atleast 2 APIs. <br>
  ✅If you are contributing towards any documentation related bug, you should solve atleast 5 documentation bugs to get your PR merged. <br>
+
+### Note : For existing API, You should submit the corresponding html and css files also so that we can better visualise how this API can be used within projects. Only submitting JS files won't work.
 </b></i>
  <br>
 </div>
