@@ -1,4 +1,4 @@
-name : Create your own API!
+name : Create your own API!🤓
 description: Add the basic implementation and explanantion for the API that you have created!
 title: "[New API] : " 
 
@@ -46,9 +46,9 @@ body:
     id : terms-conditions
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to our CONTRIBUTING GUIDELINES.
+      description: By submitting this issue, you agree to our [CONTRIBUTING GUIDELINES.](https://github.com/dishamodi0910/APIVerse/blob/master/CONTRIBUTING%20GUIDELINES.md)
       options:
-        - label: I follow CONTRIBUTING GUIDELINES of this project.
+        - label: I follow [CONTRIBUTING GUIDELINES](https://github.com/dishamodi0910/APIVerse/blob/master/CONTRIBUTING%20GUIDELINES.md) of this project.
           required: true
 
 

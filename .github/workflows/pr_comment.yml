@@ -16,7 +16,7 @@ jobs:
           pullRequestOpened: |
            @{{ author }}, Thank you for creating PR! We will review it super soon. 😇❣️
            As we continue to evolve and innovate, we encourage you to share your ideas, feedback, and code to help us push the boundaries of what's possible in the world of APIs🚀.
-           We hope you have followed [CONTRIBUTING GUIDELINES]().
+           We hope you have followed [CONTRIBUTING GUIDELINES](https://github.com/dishamodi0910/APIVerse/blob/master/CONTRIBUTING%20GUIDELINES.md).
            Thank you for being an essential part of our community. Together, we'll keep building amazing things!
            Don’t forget to ⭐ our repository!
            Happy Coding!✨
@@ -43,7 +43,7 @@ jobs:
          pullRequestClosed: |
             @{{ author }} ,I wanted to reach out and let you know that we have decided to close your pull request.🙇
             While we truly appreciate your effort and dedication in contributing to our project, after careful consideration, we have determined that this particular PR may not align with our current goals or requirements.😢
-            In case of any issues, you can contact us on [Discord]().
+            In case of any issues, you can contact us on [Discord](https://discord.gg/mv4NTzN).
             Thank you! ❣️
             Happy Coding! ✨
             Will See you soon❣️
