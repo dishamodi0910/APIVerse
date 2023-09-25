@@ -14,7 +14,10 @@
 
 <br>
 <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
-<br><br>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<br>
 <table align="center">
     <thead align="center">
         <tr border: 1px;>
