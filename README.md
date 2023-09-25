@@ -16,7 +16,7 @@ APIVerse is a collection of APIs that are useful for developers. It simplifies t
 <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+[![discord](https://img.shields.io/badge/Discord-blue?logo=discord&logoColor=white)](https://discord.gg/mv4NTzN)
 <br>
 <table align="center">
     <thead align="center">
