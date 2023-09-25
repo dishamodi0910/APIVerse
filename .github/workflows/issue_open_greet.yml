@@ -1,0 +1,24 @@
+name: Comment on opening issue!
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Issue Opened
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.APIVerse_SECRET }}
+          script: |
+            const { owner, repo, number } = context.issue;
+            const commentauthor = context.payload.issue.user.login;
+            const commentBody = `Greetings @${commentauthor}🎀 ! , We are excited to have you dive into another issue with us!🚀\nYour involvement in our project has been invaluable, and we're confident that your skills and insights will help us conquer this challenge😇. This issue represents an exciting opportunity for us to improve and enhance our project, and we are thrilled to have you on board.\n We request you to follow [CONTRIBUTING GUIDELINES]().\nLooking for your PR soon! \n In case of any issues, you can contact us on [Discord]().❣️`;
+            
+            await github.issues.createComment({ owner, repo, issue_number: number, body: commentBody });
+            console.log(`Commented on the issue: ${commentBody}.`);
+
+
