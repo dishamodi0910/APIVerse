@@ -79,6 +79,7 @@ Happy Coding!❤️
 * *CREATING ISSUE!*
    - Under issues section, you can select proper template, and fill all the necessary details. <br>
    `YOU ARE NOT SUPPOSED TO ALTER THE PROJECT TITLE. ISSUE TITLE SHOULD BE MENTIONED AFTER []`.
+     #### You can go through the issues mentioned here before creating any issue to know how the issue is supposed to be created : [Issue 1](https://github.com/dishamodi0910/APIVerse/issues/1) , [Issue 2](https://github.com/dishamodi0910/APIVerse/issues/2) , [Issue 3](https://github.com/dishamodi0910/APIVerse/issues/3), [Issue 4](https://github.com/dishamodi0910/APIVerse/issues/4)
    - You have to wait till the issue is assigned to you. After the issue is assigned, you can start working on the issue.
 * *ADDING YOUR CODE!*
    - You need to fork the repository to work on the project.
