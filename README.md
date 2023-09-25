@@ -30,11 +30,11 @@ APIVerse is a collection of APIs that are useful for developers. It simplifies t
      </thead>
     <tbody>
          <tr>
-            <td><img alt="Stars" src="https://img.shields.io/github/stars/dishamodi0910/APIVerse?style=flat&logo=github"/></td>
-             <td><img alt="Forks" src="https://img.shields.io/github/forks/dishamodi0910/APIVerse?style=flat&logo=github"/></td>
-            <td><img alt="Issues" src="https://img.shields.io/github/issues/dishamodi0910/APIVerse?style=flat&logo=github"/></td>
-            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/dishamodi0910/APIVerse?style=flat&logo=github"/></td>
-           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/dishamodi0910/APIVerse?style=flat&color=critical&logo=github"/></td>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/developer-student-clubs/APIVerse?style=flat&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/developer-student-clubs/APIVerse?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/developer-student-clubs/APIVerse?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/developer-student-clubs/APIVerse?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/developer-student-clubs/APIVerse?style=flat&color=critical&logo=github"/></td>
         </tr>
     </tbody>
 </table>
@@ -74,17 +74,20 @@ Happy Coding!❤️
  <h2 align = "center">✨ How to contribute?</h2>
  <div align = "left">
 
-- Go through project [README.md](https://github.com/dishamodi0910/APIVerse/blob/master/README.md) and [CONTRIBUTING GUIDELINES.md](https://github.com/dishamodi0910/APIVerse/blob/master/CONTRIBUTING%20GUIDELINES.md) to know about project and related guidelines.
+- Go through project [README.md](https://github.com/developer-student-clubs/APIVerse/blob/master/README.md) and [CONTRIBUTING GUIDELINES.md](https://github.com/developer-student-clubs/APIVerse/blob/master/CONTRIBUTING%20GUIDELINES.md) to know about project and related guidelines.
 - Go through project to know what you can contribute towards it.
 
 * *CREATING ISSUE!*
-   - Under issues section, you can select proper template, and fill all the necessary details. 
+
+   - Under issues section, you can select proper template, and fill all the necessary details.
       `YOU ARE NOT SUPPOSED TO ALTER THE PROJECT TITLE. ISSUE TITLE SHOULD BE MENTIONED AFTER []`.
-      #### You can go through the issues mentioned here before creating any issue to know how the issue is supposed to be created : [Issue 1](https://github.com/dishamodi0910/APIVerse/issues/1) , [Issue 2](https://github.com/dishamodi0910/APIVerse/issues/2) , [Issue 3](https://github.com/dishamodi0910/APIVerse/issues/3), [Issue 4](https://github.com/dishamodi0910/APIVerse/issues/4)
+
+      #### You can go through the issues mentioned here before creating any issue to know how the issue is supposed to be created : [Issue 1](https://github.com/developer-student-clubs/APIVerse/issues/1) , [Issue 2](https://github.com/developer-student-clubs/APIVerse/issues/2) , [Issue 3](https://github.com/developer-student-clubs/APIVerse/issues/3), [Issue 4](https://github.com/developer-student-clubs/APIVerse/issues/4)
 
    - You have to wait till the issue is assigned to you. After the issue is assigned, you can start working on the issue.
 
 * *ADDING YOUR CODE!*
+
    - You need to fork the repository to work on the project.
    - After forking into your account, you need to clone it using `git clone "repo_link"`
    - After cloning the repository, you need to create a new branch `git checkout -b <BRANCH_NAME>`
@@ -92,6 +95,7 @@ Happy Coding!❤️
    - Make sure you follow proper file structure. If you are creating a new api, then you should add your folder(`NAMEOFAPI`) into the `New_APIs` folder. If you are adding any existing api, make sure proper file structure is followed and you have added `README.md` files for the APIs you are adding.
 
 * *BRINGING YOUR CODE ON GITHUB!*
+
    - `git add .` to stage your changes.
    - Use `git commit -m "message"` to commit the changes. Make sure you are on the branch you have created.
    - Push your changes into github using `git push origin <BRANCH_NAME>`.
@@ -103,7 +107,7 @@ Happy Coding!❤️
 <div align = "center">
  <h3>Thank you for contributing to our repository.😃</h3>
 
-![Contributors](https://contrib.rocks/image?repo=dishamodi0910/APIVerse)
+![Contributors](https://contrib.rocks/image?repo=developer-student-clubs/APIVerse)
 
 ### Show some ❤️ by starring this awesome repository!
 
