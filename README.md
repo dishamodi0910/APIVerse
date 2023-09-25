@@ -6,8 +6,10 @@
 
 <div align = "center">
 <img src="https://github.com/dishamodi0910/APIBoxTesting/assets/106090499/6972a91e-4dc5-40c9-b5bd-b0f82a6441ae" width="300" height="300">
-
-APIVerse is a collection of APIs that are useful for developers. It simplifies the process of both adding new APIs and learning how to harness the power of existing ones.  Whether you're a developer looking to expand your toolbox or a newcomer eager to dive into the API ecosystem, APIVerse empowers you to seamlessly learn about API!😃
+</div>
+<div align = "center">
+<i>APIVerse is a collection of APIs that are useful for developers. It simplifies the process of both adding new APIs and learning how to harness the power of existing ones.  Whether you're a developer looking to expand your toolbox or a newcomer eager to dive into the API ecosystem, APIVerse empowers you to seamlessly learn about API!😃
+</i>
 
 </div>
 <div align = "center">
@@ -16,7 +18,7 @@ APIVerse is a collection of APIs that are useful for developers. It simplifies t
 <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+[![discord](https://img.shields.io/badge/Discord-blue?logo=discord&logoColor=white)](https://discord.gg/mv4NTzN)
 <br>
 <table align="center">
     <thead align="center">
@@ -60,14 +62,13 @@ APIVerse is a collection of APIs that are useful for developers. It simplifies t
  ✅If you are contributing towards any documentation related bug, you should solve atleast 5 documentation bugs to get your PR merged. <br>
 
 ### Note : For existing API, You should submit the corresponding html and css files also so that we can better visualise how this API can be used within projects. Only submitting JS files won't work.
-
+</b>
+</i>
 </div>
 
- <b>
  Here you go🚀, Looking towards great contributions from your side!🔥 <br>
 
 Happy Coding!❤️
-
 <div>
 
  </div>
