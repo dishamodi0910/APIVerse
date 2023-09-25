@@ -16,7 +16,7 @@ jobs:
           pullRequestOpened: |
            @{{ author }}, Thank you for creating PR! We will review it super soon. 😇❣️
            As we continue to evolve and innovate, we encourage you to share your ideas, feedback, and code to help us push the boundaries of what's possible in the world of APIs🚀.
-           We hope you have followed [CONTRIBUTING GUIDELINES](https://github.com/developer-student-clubs/APIVerse/blob/master/CONTRIBUTING%20GUIDELINES.md).
+           We hope you have followed [CONTRIBUTING GUIDELINES](https://github.com/developer-student-clubs/APIVerse/blob/master/CONTRIBUTING.md).
            Thank you for being an essential part of our community. Together, we'll keep building amazing things!
            Don’t forget to ⭐ our repository!
            Happy Coding!✨

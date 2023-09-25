@@ -19,7 +19,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![discord](https://img.shields.io/badge/Discord-blue?logo=discord&logoColor=white)](https://discord.gg/mv4NTzN)
-<br>
+
 <table align="center">
     <thead align="center">
         <tr border: 1px;>
@@ -62,20 +62,22 @@
  ✅If you are contributing towards any documentation related bug, you should solve atleast 5 documentation bugs to get your PR merged. <br>
 
 ### Note : For existing API, You should submit the corresponding html and css files also so that we can better visualise how this API can be used within projects. Only submitting JS files won't work.
+
 </b>
 </i>
 </div>
 
- Here you go🚀, Looking towards great contributions from your side!🔥 <br>
+Here you go🚀, Looking towards great contributions from your side!🔥 
 
 Happy Coding!❤️
+
 <div>
 
  </div>
  <h2 align = "center">✨ How to contribute?</h2>
  <div align = "left">
 
-- Go through project [README.md](https://github.com/developer-student-clubs/APIVerse/blob/master/README.md) and [CONTRIBUTING GUIDELINES.md](https://github.com/developer-student-clubs/APIVerse/blob/master/CONTRIBUTING%20GUIDELINES.md) to know about project and related guidelines.
+- Go through project [README.md](https://github.com/developer-student-clubs/APIVerse/blob/master/README.md) and [CONTRIBUTING GUIDELINES.md](https://github.com/developer-student-clubs/APIVerse/blob/master/CONTRIBUTING.md) to know about project and related guidelines.
 - Go through project to know what you can contribute towards it.
 
 * *CREATING ISSUE!*

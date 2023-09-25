@@ -13,7 +13,7 @@
 - [] I have commented my code, particularly in hard-to-understand areas
 - [] I have created a helpful and easy to understand `README.md`
 - [] I have followed proper file structure.
-- [] I have gone through [CONTRIBUTING GUIDELINES.md](https://github.com/developer-student-clubs/APIVerse/blob/master/CONTRIBUTING%20GUIDELINES.md).
+- [] I have gone through [CONTRIBUTING GUIDELINES.md](https://github.com/developer-student-clubs/APIVerse/blob/master/CONTRIBUTING.md).
 
  Thank you for contributing!❤️ 
 
