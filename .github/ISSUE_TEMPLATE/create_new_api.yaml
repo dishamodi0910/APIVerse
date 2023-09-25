@@ -1,0 +1,55 @@
+name : Create your own API!
+description: Add the basic implementation and explanantion for the API that you have created!
+title: "[New API] : " 
+
+body:
+  - type: textarea
+    id : new-api-description
+    attributes:
+      label: Brief Description 🤓
+      description: Enter a brief description about API that you have created.
+      placeholder: Please include a short summary and also mention what purpose you are trying to serve through your API.
+    validations:
+      required: true
+
+  - type: textarea
+    id : api-designing
+    attributes:
+      label: How will you develop it?🤩
+      description: Provide us a short description regarding the designing of API.
+      placeholder: Keep it to the point!
+    validations:
+      required: true
+      
+  - type : dropdown
+    id : deployment
+    attributes:
+      label: Deployment
+      description: Have you deployed your API?
+      multiple: false
+      options:
+        - "Yes"
+        - "No"
+
+  - type : dropdown
+    id : open-source-program
+    attributes:
+      label: Select the open source program you are contributing to 
+      multiple: true
+      options:
+        - hacktoberfest-23
+        - Other
+    validations:
+      required: true
+
+  - type : checkboxes
+    id : terms-conditions
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to our CONTRIBUTING GUIDELINES.
+      options:
+        - label: I follow CONTRIBUTING GUIDELINES of this project.
+          required: true
+
+
+  

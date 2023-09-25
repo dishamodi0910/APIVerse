@@ -1,0 +1,36 @@
+name : Enhancing API functionalities!🤓
+description: Add the functionality that you are adding to API information already existing on this repository.
+title: "[API Enhancement] : " 
+
+body:
+  - type: textarea
+    id : enhance_api_functionality
+    attributes:
+      label: Brief Description 🤓
+      description: Enter a brief description about enhancment that you will add to API that is already existing on the repository.
+      placeholder: Please include a short summary about the additional information that you would be adding! You need atleast 2 enhancements to get your PR merged!.
+    validations:
+      required: true
+
+  - type : dropdown
+    id : open-source-program
+    attributes:
+      label: Select the open source program you are contributing to 
+      multiple: true
+      options:
+        - hacktoberfest-23
+        - Other
+    validations:
+      required: true
+
+  - type : checkboxes
+    id : terms-conditions
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to our CONTRIBUTING GUIDELINES.
+      options:
+        - label: I follow CONTRIBUTING GUIDELINES of this project.
+          required: true
+
+
+  

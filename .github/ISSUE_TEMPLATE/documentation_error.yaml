@@ -1,0 +1,36 @@
+name : Documentation Bug!
+description: Have you seen some errors in documentation?
+title: "[Documentation Error] : " 
+
+body:
+  - type: textarea
+    id : documentation-error
+    attributes:
+      label: Brief Description 🤓
+      description: Enter a brief description about documentation errors that you have observed.
+      placeholder: You need atleast 5 documentation errors to get your PRs merged.
+    validations:
+      required: true
+
+  - type : dropdown
+    id : open-source-program
+    attributes:
+      label: Select the open source program you are contributing to 
+      multiple: true
+      options:
+        - hacktoberfest-23
+        - Other
+    validations:
+      required: true
+
+  - type : checkboxes
+    id : terms-conditions
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to our CONTRIBUTING GUIDELINES.
+      options:
+        - label: I follow CONTRIBUTING GUIDELINES of this project.
+          required: true
+
+
+  

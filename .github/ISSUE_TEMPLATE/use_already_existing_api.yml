@@ -1,0 +1,45 @@
+name : Using Already Existing APIs
+description: Add the basic implementation and explanantion for already existing API!
+title: "[Existing API Name] : " 
+
+body:
+  - type: textarea
+    id : existing-api-description
+    attributes:
+      label: Brief Description 🤓
+      description: Enter a brief description about API that you are trying to use.
+      placeholder: Please include a short summary and also mention how you are using it.
+    validations:
+      required: true
+
+  - type: textarea
+    id : existing-api-reference
+    attributes:
+      label: Provide reference!
+      description: Provide us the reference of the API that you are trying to use.
+      placeholder: Enter the link to the reference page that you have refered to for API.
+    validations:
+      required: true
+
+  - type : dropdown
+    id : open-source-program
+    attributes:
+      label: Select the open source program you are contributing to 
+      multiple: true
+      options:
+        - hacktoberfest-23
+        - Other
+    validations:
+      required: true
+
+  - type : checkboxes
+    id : terms-conditions
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to our CONTRIBUTING GUIDELINES.
+      options:
+        - label: I follow CONTRIBUTING GUIDELINES of this project.
+          required: true
+
+
+  
