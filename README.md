@@ -77,7 +77,7 @@ Happy Coding!❤️
  <h2 align = "center">✨ How to contribute?</h2>
  <div align = "left">
 
-- Go through project [README.md](https://github.com/developer-student-clubs/APIVerse/blob/master/README.md) and [CONTRIBUTING GUIDELINES](https://github.com/developer-student-clubs/APIVerse/blob/master/CONTRIBUTING.md) to know about project and related guidelines.
+- Go through project [README.md](./README.md) and [CONTRIBUTING GUIDELINES](./CONTRIBUTING.md) to know about project and related guidelines.
 - Go through project to know what you can contribute towards it.
 
 * *CREATING ISSUE!*
