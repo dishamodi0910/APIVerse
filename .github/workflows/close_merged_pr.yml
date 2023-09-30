@@ -22,7 +22,7 @@ jobs:
           script: |
             const { owner, repo, number } = context.issue;
             const commentAuthor = context.payload.pull_request.user.login;
-            const commentBody = `@{{ commentAuthor }} We're thrilled to inform you that your pull request has been successfully merged into the APIverse🚀🎁
+            const commentBody = `@${ commentAuthor } We're thrilled to inform you that your pull request has been successfully merged into the APIverse🚀🎁
             Your hard work, dedication, and expertise have made a significant impact on our project, and we couldn't be more grateful for your contributions.😇
             Your code will now be a part of our growing ecosystem, helping developers worldwide to create exceptional APIs.❣️🔥
             Happy Coding! ✨
@@ -38,7 +38,7 @@ jobs:
           script: |
             const { owner, repo, number } = context.issue;
             const commentAuthor = context.payload.pull_request.user.login;
-            const commentBody = `@{{ commentAuthor }} ,I wanted to reach out and let you know that we have decided to close your pull request.🙇
+            const commentBody = `@${ commentAuthor } ,I wanted to reach out and let you know that we have decided to close your pull request.🙇
             While we truly appreciate your effort and dedication in contributing to our project, after careful consideration, we have determined that this particular PR may not align with our current goals or requirements.😢
             In case of any issues, you can contact us on [Discord](https://discord.gg/mv4NTzN).
             Thank you! ❣️
