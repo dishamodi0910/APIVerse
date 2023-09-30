@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+
+/* Main logic */
+.password-hide::before {
+  content: "🧐";
+}
+
+.password-show::before {
+  content: "😌";
+}
+
+
+/* App styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  font-family: "Arsenal", sans-serif;
+  font-size: 100%;
+}
+
+html {
+  --accent-color: #97266d;
+  --text-color: #2d3748;
+  --bg-color: #f7fafc;
+  
+  min-block-size: 50vh;
+  
+  display: grid;
+  place-items: center;
+  
+  background-color: #edf2f7;
+  
+  font-size: 150%;
+}
+
+[mv-app] {
+  min-inline-size: 18em;
+  padding: 2em 3.5em;
+  
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+label > p {
+  color: #718096;
+  
+  font-size: 80%;
+}
+
+.password {
+  margin-block-start: 0.4em;
+  padding: 0.3em 0.5em;
+  
+  color: var(--accent-color);
+}
+
+::selection {
+  color: var(--bg-color);
+  background-color: var(--accent-color);
+}
+
+[property="toggle"] {
+  min-inline-size: 5em;
+  margin-inline-start: 1em;
+  padding: 0.4em 0.6em;
+  
+  font-size: 110%;
+  color: var(--bg-color);
+  
+  background-color: var(--accent-color);
+  
+  border: none;
+  border-radius: 0.3em;
+  
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.password:focus {
+  outline: none;
+  
+  box-shadow: 0 0 1px 3px var(--accent-color);
+  
+  border-color: transparent;
+}
+
+[property="toggle"]:focus {
+  outline-color: var(--accent-color);
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.password-show::before, .password-hide::before {
+  margin-inline-end: 0.3em;
+}
+/* CSS reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* general stylings */
+
+:root {
+  --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+  --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+  --Grayish-Blue: hsl(212, 23%, 69%);
+  --Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 0.8rem;
+  background-color: var(--Light-Grayish-Blue);
+}
+
+.article-section {
+    margin: 4rem 0;
+  }
+  
+  .article__title{
+      color: black;
+      font-size: 30px;
+  }
+  
+  .article-component {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 1em;
+    box-shadow: 1rem 1rem 3rem rgba(0 0 0/ 0.1);
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  /* .article__img {
+
+    background-image: url("https://kellychi22.github.io/frontend-mentor-solutions/16-article-preview-component/images/drawers.jpg");
+    background-size: cover;
+    background-position: center;
+  } */
+.img{
+    height: 150px;
+    width: 900px;
+}
+  
+  @media (min-width: 800px) {
+    body {
+      display: grid;
+      place-items: center;
+    }
+  
+    .article-component {
+      flex-direction: row;
+      max-width: 800px;
+      height: 300px;
+      overflow: visible;
+    }
+  
+    .article__img {
+      width: 40%;
+      height: inherit;
+      border-radius: 0.7rem 0 0 0.7rem;
+    }
+  
+    .article__content {
+      width: 60%;
+      height: inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 2.5rem;
+    }
+  
+    .share {
+      position: absolute;
+      top: -80px;
+      left: 250px;
+      width: 62%;
+      height: 130%;
+      padding: 1rem 2rem;
+      border-radius: 1em;
+      justify-content: center;
+    }
+  
+    .share::before {
+      position: absolute;
+      top: 60px;
+      left: 118px;
+      content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 10px 0 10px;
+      border-color: var(--Very-Dark-Grayish-Blue) transparent transparent
+        transparent;
+    }
+  
+    #share-icon-close {
+      position: absolute;
+      top: 83px;
+      left: 110px;
+    }
+  }
+
+  .article__content {
+    width: 60%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.5rem;
+  }
