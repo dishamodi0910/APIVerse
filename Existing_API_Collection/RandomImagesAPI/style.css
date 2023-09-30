@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+  }
+  
+  .img-slider {
+    /* width: 100%; */
+    padding-left: 350px;
+    padding-top: 100px;
+    height: 500px;
+    width: 800px;
+    position: relative;
+  }
+  
+  img {
+    height: 500px;
+    width: 800px;
+    position: absolute;
+  }
+  
+  #right-arrow {
+    padding: 20px;
+    border-radius: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 2;
+    margin: 25% 5px;
+    right: 0;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  #left-arrow:hover, #right-arrow:hover {
+    opacity: 0.75;
+    border: 1px solid white;
+  }
+  
+  #left-arrow {
+    padding: 20px;
+    border-radius: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 2;
+    margin: 25% 5px;
+    left: 0;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+  }
