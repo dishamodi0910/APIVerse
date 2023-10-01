@@ -11,7 +11,7 @@ jobs:
       - name: Comment on Opening Pull Request
         uses: wow-actions/auto-comment@v1
         with:
-          GITHUB_TOKEN : ${{ secrets.APIVerse_SECRET }}
+          github-token : ${{ secrets.APIVerse_SECRET }}
           pullRequestOpened: |
            @{{ author }}, Thank you for creating PR! We will review it super soon. 😇❣️
            As we continue to evolve and innovate, we encourage you to share your ideas, feedback, and code to help us push the boundaries of what's possible in the world of APIs🚀.
