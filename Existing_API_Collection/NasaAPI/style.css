@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Slideshow styles */
+.slideshow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e5e5;
+    /* Background color for the slideshow container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    /* Pop-out effect transition */
+}
+
+.slideshow:hover {
+    transform: scale(1.05);
+    /* Increase the scale on hover for the pop-out effect */
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#apodImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.info {
+    text-align: center;
+}
+
+#apodTitle {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+}
+
+#apodExplanation {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.nav-buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
