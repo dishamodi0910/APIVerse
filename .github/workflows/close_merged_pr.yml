@@ -39,7 +39,7 @@ jobs:
             const { owner, repo, number } = context.issue;
             const commentAuthor = context.payload.pull_request.user.login;
             const commentBody = `@${ commentAuthor } ,I wanted to reach out and let you know that we have decided to close your pull request.🙇
-            While we truly appreciate your effort and dedication in contributing to our project, after careful consideration, we have determined that this particular PR may not align with our current goals or requirements.😢
+            
             In case of any issues, you can contact us on [Discord](https://discord.gg/mv4NTzN).
             Thank you! ❣️
             Happy Coding! ✨
