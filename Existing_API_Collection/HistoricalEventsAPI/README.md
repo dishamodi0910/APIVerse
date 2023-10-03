@@ -5,4 +5,5 @@
 <h2>Future Scope Of API📌</h2>
 <p>Knowledge enhancement with information of major history events with it's accurate timeline.</p>
 <h2>Preview🤩</h2>
-<img src="https://github.com/dhruvishavaghani/demo/assets/109460833/7e330949-f061-4758-8caf-af944f0f0fb2">
+
+![](https://github.com/developer-student-clubs/APIVerse/assets/106090499/a0822256-2ee7-4494-91e5-4241dae2e57a)
