@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator API</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <main mv-app="passwordToggle">
+        <meta property="isShown" content="[if(toggle mod 2, true, false)]" />
+        
+        <label>
+          <p>Password</p>
+          <input id="in" class="password" value="password" />  
+        </label>
+        
+        <button type="button" onclick="fun()" property="toggle" aria-pressed="[isShown]" aria-label="Password is [if(isShown, visible, hidden)]"
+              class="password-[if(isShown, 'hide', 'show')]">
+          Get A New Password
+        </button>
+      </main>
+</body>
+</html>

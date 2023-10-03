@@ -17,10 +17,10 @@ jobs:
                     const assignUsing = '/gdsc';
                     const isCommandPresent = commentbody.includes(assignUsing);
                     const commentor = context.payload.comment.user.login;
-                    const Repoowner = context.payload.repository.owner.login;
+                    const Repoowner = 'dishamodi0910';
                     console.log(`${Repoowner}`);
                     console.log(`${commentor}`);
-                    const isSelf = commentor === context.payload.repository.owner.login;
+                    const isSelf = commentor === 'dishamodi0910';
                     console.log(`${isSelf}`);
                     console.log(`${context.payload.issue.assignees.map(assignee => assignee.login)}`);
 
