@@ -5,5 +5,5 @@
 <h2>Future Scope Of API📌</h2>
 <p>A Threat-safe password can be easily generated for better security purposes.</p>
 <h2>Preview🤩</h2>
-<img src="https://github.com/dhruvishavaghani/demo/assets/109460833/74fb24e3-f501-4b9c-b4a4-0d7459ecdc27">
 
+![](https://github.com/developer-student-clubs/APIVerse/assets/106090499/e4fb45ff-2466-4ddf-80ae-8a97a28a24e9)
