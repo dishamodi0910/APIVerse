@@ -9,3 +9,4 @@
 |[Password generator API](./PasswordGeneratorAPI)|User can generate a strong password on a single that contains uppercase, lowercase letters, numbers, and symbols as well.|
 |[Global Holiday API](./GlobalHolidayAPI)|The Calendarific Global Holidays API covers over 230 countries and 3000 states around the world and provides information of their holidays.|
 |[Historical Events API](./HistoricalEventsAPI)|This API is used to get information about major events of history.|
+|[Nasa API](./NasaAPI)|The APOD API provides access to the Astronomy Picture of the Day, which showcases a different astronomical image or photograph each day along with a brief explanation written by a professional astronomer.|
