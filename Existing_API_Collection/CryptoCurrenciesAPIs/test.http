@@ -1,0 +1,14 @@
+
+### ADD WAZIRX DATA TO DB
+GET http://localhost:5000/api/add/wazirx/data HTTP/1.1
+
+### VIEW WAZIRX DATA ON TEMPLATE
+GET http://localhost:5000/api/view/wazirx/data HTTP/1.1
+
+
+### WAZIRX API TEST
+GET https://api.wazirx.com/api/v2/tickers HTTP/1.1
+
+
+### TEST ROUTE
+GET http://127.0.0.1:5000/test HTTP/1.1
