@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 60%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 20%;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+#gif-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gif-item {
+    margin: 10px;
+    max-width: 250px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    overflow: hidden;
+}
+
+.gif-item:hover {
+    transform: translateY(-5px);
+}
+
+.gif-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.download-button {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+    border-radius: 0 0 4px 4px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #555;
+}
