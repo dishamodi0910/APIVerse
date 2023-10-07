@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Wazirx bitcoin status">
+  <meta name="keywords" content="Wazirx,bitcoin,top 10">
+  <meta name="author" content="QuadB">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="" stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/">
+  <link href="/css/sub.css" rel="stylesheet">
+  <link href="/css/index.css" rel="stylesheet">
+  <link href="/css/toogle.css" rel="stylesheeet" >
+</head>
+
+<body class="add">
+  <header style="padding: 20px 30px 0px;">
+    <div id="head-section" class="align-items-center justify-content-sm-center row">
+      
+
+      <div class="butt-group text-center padding-none col-12 col-sm-12 col-md-2 col-lg-4">
+        <div class="btn-group">
+          <button type="button" aria-haspopup="true" aria-expanded="false"
+            class="header-button dropdown-toggle btn btn-secondary">
+            INR</button>
+          <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu"><a value="INR" tabindex="0"
+              role="menuitem" class="dropdown-item" href="/BTC-INR">INR</a>
+          </div>
+        </div>
+        <div class="btn-group"><button type="button" aria-haspopup="true" aria-expanded="true"
+            class="header-button dropdown-toggle btn btn-secondary">
+            BTC
+          </button>
+          <div tabindex="-1" role="menu" aria-hidden="false" class="dropdown-menu dropdown-toggle"
+            style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(5px, 36px, 0px);">
+            <select id="cryptoDropdown">
+              <option value="/BTC-INR">BTC</option>
+              <option value="/ETH-INR">ETH</option>
+              <option value="/USDT-INR">USDT</option>
+              <option value="/XRP-INR">XRP</option>
+              <option value="/TRX-INR">TRX</option>
+              <option value="/DASH-INR">DASH</option>
+              <option value="/ZEC-INR">ZEC</option>
+              <option value="/XEM-INR">XEM</option>
+              <option value="/IOST-INR">IOST</option>
+              <option value="/WIN-INR">WIN</option>
+              <option value="/BTT-INR">BTT</option>
+              <option value="/WRX-INR">WRX</option>
+            </select>
+          </div>
+        </div>
+        
+        
+      </div>
+      
+      <div class="right-header col-12 col-sm-12 col-md-5 col-lg-4">
+        
+        <div class="d-inline-flex flex-wrap align-items-center justify-content-center">
+          <div class="progress-bar-wrapper">
+            <svg class="CircularProgressbar" viewBox="0 0 100 100" data-test-id="CircularProgressbar">
+              <path class="CircularProgressbar-trail" d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    " stroke-width="8" fill-opacity="0" style="stroke-dasharray: 289.027px, 289.027px; stroke-dashoffset: 0px;"></path>
+              <path class="CircularProgressbar-path" d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    " stroke-width="8" fill-opacity="0" style="stroke-dasharray: 289.027px, 289.027px; stroke-dashoffset: 168.599px;">
+              </path>
+              <text class="CircularProgressbar-text" x="50" y="50">2</text>
+            </svg>
+          </div>
+          
+          <a class="color-white" href="https://hodlinfo.com/connect/telegram" target="blank">
+            <div class="d-flex telegram-logo-text header-telegram-button btn align-items-center pointer color-white">
+              <div class="d-inline-block">
+                <img
+                  src="data:image/png;base64,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"
+                  class="telegram-logo">
+              </div>
+              <div class="text-nowrap d-inline-block color-white">Connect Telegram</div>
+            </div>
+          </a>
+          
+            
+        </div>
+      </div>
+      <h6 style="color: rgba(61, 198, 193, 255);">Day and Night </h6>
+        <input type="checkbox" id="modeToggle" style="background-color: aqua; ">
+        
+  </header>
+  <div class="align-items-center justify-content-center" style="display: flex; flex-direction: column;">
+    <h3 style="color: #ccc ;">Best to value to trade </h3>
+    <h1 style="font-size: 40px;"><%= average %> </h1>
+  </div>
+  
+  <div class="table-responsive mt-5" style="margin: 0px auto;padding:30px; " >
+    
+    <table class="table table-borderless table-dark" id="cryptotable" >
+      <thead id="thead" class="thread-dark" >
+        <tr class="text-secondary text-15" style="background-color:  rgba(25,29,40,255);border:none">
+          <th scope="col" style="border-top:0px; border-bottom: 0px;">
+            <h4><span class="pointer">#</span></h4>
+          </th>
+          <th scope="col" style="border-top:0px; border-bottom: 0px;">
+            <h4><span class="pointer">Name</span></h4>
+          </th>
+          <th scope="col" style="border-top:0px; border-bottom: 0px;">
+            <h4><span class="pointer">Last</span></h4>
+          </th>
+          <th scope="col" style="border-top:0px; border-bottom: 0px;">
+            <h4><span class="pointer">Buy / Sell Price</span></h4>
+          </th>
+          <th scope="col" style="border-top:0px; border-bottom: 0px;">
+            <h4><span class="pointer">Diffrence</span></h4>
+          </th>
+          <th scope="col" style="border-top:0px; border-bottom: 0px;">
+            <h4><span class="pointer">Savings</span></h4>
+          </th>
+        </tr>
+      </thead>
+      <tbody id="cryptotable">
+        <% for(let i=0; i<10; i++) { %>
+          <tr 
+            style="border: 15px solid rgba(25,29,40,255);border-collapse: separate;padding: 100px;background-color: #2e3241">
+            <td style="border-top:0px;" class="align-middle" >
+              <h4 class="table-text">
+                <%= i+1 %>
+              </h4>
+            </td>
+            <td style="border-top:0px" class="align-middle">
+              <h4 class="table-text ">
+                <%= response[i].sName %>
+              </h4>
+            </td>
+            <td style="border-top:0px" class="align-middle">
+              <h4 class="table-text">₹ <%= response[i].sLastPrice %>
+              </h4>
+            </td>
+            <td style="border-top:0px" class="align-middle">
+              <h4 class="table-text"><span>₹ <%= response[i].sBuy %> / <%= response[i].sSell %></span></h4>
+            </td>
+            <td style="border-top:0px" class="align-middle">
+              <% if(response[i].sSell - response[i].sBuy> 0 ) { %>
+                <h4 class="table-text color-white" style="color: green;">
+                  <%= (((response[i].sSell - response[i].sBuy) /response[i].sBuy ) * 100).toFixed(2) %>%
+                </h4>
+                <% }else{ %>
+                  <h4 class="table-text color-white" style="color: red;">
+                    <%= (((response[i].sSell - response[i].sBuy) /response[i].sBuy ) * 100).toFixed(2) %>%
+                  </h4>
+                  <% } %>
+            </td>
+            <td style="border-top:0px" class="align-middle">
+              <% if(response[i].sSell - response[i].sBuy> 0 ) { %>
+                <h4 class="table-text color-white" style="color: green;">
+                  <%= ((response[i].sSell - response[i].sBuy )).toFixed(2) %>
+                </h4>
+                <% }else{ %>
+                  <h4 class="table-text color-white" style="color: green;">
+                  <%= ((response[i].sSell - response[i].sBuy )).toFixed(2) %>
+                    </h4>
+                    <% } %>
+            </td>
+          </tr>
+          <% } %>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!-- <script src="js/2.a0dcae0d.chunk.js"></script>
+  <script src="js/main.6e9412b1.chunk.js"></script> -->
+  <script src="/js/slider.js"></script>
+</body>
+
+</html>
