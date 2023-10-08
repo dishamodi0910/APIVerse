@@ -77,3 +77,14 @@ body{
     color: #ff465a;
 }
 
+#clear-btn
+{
+    font-size: 1em;
+    background-color: #3d64e6;
+    color: #ffffff;
+    padding: 0.8em 0;
+    border: none;
+    border-radius: 1.5em;
+    cursor: pointer;
+    width: 8em;
+}

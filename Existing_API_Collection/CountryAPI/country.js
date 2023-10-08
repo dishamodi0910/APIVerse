@@ -50,7 +50,9 @@ searchBtn.addEventListener("click",()=>{
                         <h4>Common Languages : </h4>
                         <span>${Object.values(data[0].languages).toString().split(",").join(", ")}</span>
                     </div>
-                </div>`;
+                </div>
+                <button id="clear-btn">Close</button>
+                `;
         })
         .catch(()=>{
             if(countryName.length == 0){
@@ -61,3 +63,10 @@ searchBtn.addEventListener("click",()=>{
             }
         });
 });
+
+document.addEventListener("click", function(e) {
+    if (e.target && e.target.id === "clear-btn") {
+        result.innerHTML = "";
+    }
+});
+
