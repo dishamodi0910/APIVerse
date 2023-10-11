@@ -44,6 +44,12 @@ MONGO_URI = <YOUR_MONGODB_CONNECTION_STRING>
 PORT = <YOUR_DESIRED_PORT_NUMBER>
 ```
 
+- Populate the database by running the following command in the terminal
+
+```bash
+node populate.js
+```
+
 - Run the following command in the terminal
 
 ```bash
