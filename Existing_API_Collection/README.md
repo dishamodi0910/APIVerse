@@ -12,3 +12,4 @@
 |[Nasa API](./NasaAPI)|The APOD API provides access to the Astronomy Picture of the Day, which showcases a different astronomical image or photograph each day along with a brief explanation written by a professional astronomer.|
 |[CryptoCurrencies API](./CryptoCurrenciesAPIs)| It is giving the data about total trading of the popular coins in 24 hrs.|
 |[Giphy API](./GiphyAPI)|This API allows developers to integrate Giphy's vast library of GIFs into their own applications, websites, and services.|
+|[PokeAPI](./PokeAPI/)| This API provides data regarding Pokemon and others related. |
