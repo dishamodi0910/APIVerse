@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="bg-black">
+  <div class="bg-black  p-8">
+    <div class="grid grid-cols-1 gap-4">
+      <ng-container *ngFor="let person of data; let i = index">
+        <div class="bg-gray-900 text-white ">
+          <div class="p-4 ">
+            <h2 class=" text-5xl font-bold mb-2 text-center">{{i+1}}. {{ person.firstName }} {{ person.lastName }}</h2>
+            <div class="text-center mb-4">
+              <h3 class="text-xl font-semibold">Hobbies</h3>
+              <ul class="pl-4 font-mono">
+                <li *ngFor="let hobby of person.hobbies" class="text-gray-400">{{ hobby }}</li>
+              </ul>
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl font-semibold">Children</h3>
+              <ul class="pl-4">
+                <li *ngFor="let child of person.children" class="text-gray-400">{{ child.firstName }} (Age: {{ child.age }})</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</html>
