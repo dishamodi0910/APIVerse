@@ -1,32 +1,43 @@
-const S3 = require('aws-sdk/clients/s3');
-require('dotenv').config();
-
-const fs = require('fs');
+require("dotenv").config();
+const { S3Client, PutObjectCommand } = require("@aws-sdk/client-s3");
+const { randomBytes } = require("crypto");
 
 const bucketName = process.env.AWS_BUCKET_NAME;
-const region = process.env.AWS_BUCKET_REGION;
-const accessKeyId = process.env.AWS_ACCESS_KEY_ID;
-const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY;
+const bucketRegion = process.env.AWS_BUCKET_REGION;
+const accessKey = process.env.AWS_ACCESS_KEY;
+const secretAccessKey = process.env.AWS_SECRET_KEY;
 
-
-console.log("bucket name = " + bucketName)
-
-const s3 = new S3({
-    region,
-    accessKeyId,
-    secretAccessKey
+const s3 = new S3Client({
+  credentials: {
+    accessKeyId: accessKey,
+    secretAccessKey: secretAccessKey,
+  },
+  region: bucketRegion,
 });
 
-const uploadMediaToS3 = (file) => {
-    const fileStream = fs.createReadStream(file.path)
+function generateRandomHash() {
+  const rawBytes = randomBytes(16);
+  const hash = rawBytes.toString("hex");
+  return hash;
+}
 
-    const uploadParams = {
-        Bucket: bucketName,
-        Body: fileStream,
-        Key: file.filename,
-        ContentType: file.mimetype
-    }
-    return s3.upload(uploadParams).promise()
+async function uploadMediaToS3(file) {
+  try {
+    const uniquehash = generateRandomHash();
+    console.log("uniqueHash::",uniquehash)
+    const params = {
+      Bucket: bucketName,
+      Key: uniquehash,
+      Body: file.buffer,
+      ContentType: file.mimetype,
+    };
+    const command = new PutObjectCommand(params);
+    await s3.send(command);
+    console.log(`${file.mimetype} file ${params.Key} was uploaded`);
+    return params.Key;
+  } catch (err) {
+    console.log("S3 error: ", err.message);
+  }
 }
 
 const downloadMediafromS3 = (key) => {
@@ -37,4 +48,6 @@ const downloadMediafromS3 = (key) => {
     return s3.getObject(downloadParams).createReadStream();
 }
 
-module.exports = {uploadMediaToS3,downloadMediafromS3};
+module.exports = {
+  uploadMediaToS3,downloadMediafromS3
+};

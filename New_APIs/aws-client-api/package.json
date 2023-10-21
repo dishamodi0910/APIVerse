@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/zakhaev26/apiverse#readme",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.433.0",
     "aws-sdk": "^2.1478.0",
+    "body-parser": "^1.20.2",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mongoose": "^7.6.3",
