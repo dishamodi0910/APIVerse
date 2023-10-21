@@ -37,4 +37,4 @@ const downloadMediafromS3 = (key) => {
     return s3.getObject(downloadParams).createReadStream();
 }
 
-module.exports = { uploadMusicToS3, downloadfromS3, UploadPicturesToS3 };
+module.exports = {uploadMediaToS3,downloadMediafromS3};
