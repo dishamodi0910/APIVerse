@@ -23,6 +23,8 @@ const postUser = async (req, res) => {
   if (!["Male", "Female"].includes(gender)) {
     throw new CustomError.BadRequestError("Gender can only be male or female")
   }
+
+  // When you create a user you get an image avatar generated using the combination of your firstname, lastname and address
   const imageAvatar = Math.ceil(Math.random() * 4)
   const image = `https://robohash.org/${firstName.split(" ").join("")}${address
     .split(" ")
