@@ -117,7 +117,11 @@ Before you begin contributing to this project, make sure you have the following 
     EMAIL=<your-email>                                         // Need If you use Email service as Node Mailer
     PASSWORD=xbwcpouxmlzcauxm                                  //This password is not your Gmail password. To obtain it, enable two-step verification for your Gmail account. Then, create an app password in your Gmail settings then you get the password.
    ```
-5. **Run This Project:**
+5. **Migration with Database Schema (Optional):** 
+   ```bash
+   npx prisma migrate dev --name <name>
+   ```
+6. **Run This Project:**
    ```bash
    npm run dev
    ```
@@ -125,7 +129,44 @@ Before you begin contributing to this project, make sure you have the following 
    <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## Vercel Deployment 🛫
 
+- Sign in to your Vercel account.
+- Click on __"Add New" -> "Project"__.
+- Choose a name for your service and select your Github Repo and Import.
+### 1. Build Command
+```bash
+ npm run vercel-build
+```
+### 2. Install Command
+```bash
+ npm install
+```
+### 3. Start Command
+```bash
+ npm start
+```
+Note : *__Dont forgot to Add Environment Variables__*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Render Deployment 🛫
+
+- Sign in to your Render account.
+- Click on __"New" -> "Web Service"__.
+- Choose a name for your service and select your Git provider (GitHub in this case).
+
+### 1. Build Command
+```bash
+ npm install; npm run vercel-build
+```
+### 3. Start Command
+```bash
+ npm run start
+```
+Note : *__Dont forgot to Add Environment Variables__*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## About The Project
