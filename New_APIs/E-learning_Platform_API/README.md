@@ -2,23 +2,18 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/Puskar-Roy/Attendance-System---Backend">
+  <div>
     <img src="https://t4.ftcdn.net/jpg/01/28/93/91/360_F_128939133_0WXTVdZ1bv1NXusQsdYYJLIwTVoXHqQ7.jpg" alt="Logo" width="150" height="120">
-  </a>
+  </div>
 
 
   <h3 align="center">E-learning Portal - Backend</h3>
 
   <p align="center">
     <br />
-    <a href="https://www.postman.com/warped-resonance-359125/workspace/e-learning-platform"><strong>Postman Public Workspace</strong></a>
-    <br />
-    <br />
     <a href="https://elearningplatformm.vercel.app">View Demo</a>
     ·
-    <a href="https://github.com/Puskar-Roy/E-learning-Platform----Backend/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Puskar-Roy/E-learning-Platform----Backend/issues">Request Feature</a>
+   <a href="https://www.postman.com/warped-resonance-359125/workspace/e-learning-platform">Postman Public Workspace</a>
   </p>
 </div>
 
