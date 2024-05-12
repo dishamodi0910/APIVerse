@@ -21,21 +21,21 @@ jobs:
             {
               coolTags.push('awesome');
               coolTags.push('newapi');
-              coolTags.push('gssoc24');
+              coolTags.push('gssoc');
               coolTags.push('level3');
             }
             if(title && title.toLowerCase().includes('api enhancement'))
             {
               coolTags.push('wow');
               coolTags.push('enhancement');
-              coolTags.push('gssoc24');
+              coolTags.push('gssoc');
               coolTags.push('level2');
             }
             if(title && title.toLowerCase().includes('existing api name'))
             {
               coolTags.push('wow');
               coolTags.push('existing-api');
-              coolTags.push('gssoc24');
+              coolTags.push('gssoc');
               coolTags.push('level2');
             }
             if(title && title.toLowerCase().includes('documentation error'))
