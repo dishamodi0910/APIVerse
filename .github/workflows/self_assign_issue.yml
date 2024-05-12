@@ -14,7 +14,7 @@ jobs:
                  github-token: ${{secrets.APIVerse_SECRET}}
                  script: |
                     const commentbody = context.payload.comment.body;
-                    const assignUsing = '/gdsc';
+                    const assignUsing = '/gssoc24';
                     const isCommandPresent = commentbody.includes(assignUsing);
                     const commentor = context.payload.comment.user.login;
                     const Repoowner = 'dishamodi0910';
