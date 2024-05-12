@@ -42,7 +42,7 @@ jobs:
             {
               coolTags.push('good');
               coolTags.push('documentation');
-              coolTags.push('gssoc24');
+              coolTags.push('gssoc');
               coolTags.push('level1');
             }
             console.log(coolTags.length);
