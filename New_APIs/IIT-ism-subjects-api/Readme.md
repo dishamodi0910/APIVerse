@@ -1,346 +1,79 @@
+# IIT ISM Subjects API Documentation
+
+This API provides endpoints to retrieve information about subjects offered at IIT ISM Dhanbad.
+
+## Usage
+
+This API can be used in various scenarios such as:
+- Retrieving the timetable for all subjects to display on a student portal or mobile app.
+- Getting information about a specific subject to display course details on a IITISM website.
+- Filtering subjects by semester, department, or subject type to aid in course selection for ISM students.
 
 
-# IIT ISM Subjects API Documantation
-
-base_url= http://localhost:3000
+Base URL: http://localhost:3000
 
 ## Get timetable of all the subjects
 
-Example Request
-
 **GET** `http://localhost:3000/timeTable/allCourses`
 
-
-Example Response
-
-```
-{
-  "success": true,
-  "message": "Extracted all timetables successfully",
-  "timeTable": [
-    {
-      "code": "CHD401",
-      "name": "Petrochemical Technology",
-      "day": "Monday",
-      "time": "10:00-10:50",
-      "room": "CHE-401"
-    },
-    {
-      "code": "CHD401",
-      "name": "Petrochemical Technology",
-      "day": "Monday",
-      "time": "09:00-09:50",
-      "room": "CHE-401"
-    }
-}
-```
-
-
+Retrieves the timetable of all subjects.
 
 ## Get timetable of a particular subject
 
 **GET** `http://localhost:3000/timeTable/courseCode/:courseCode`
 
-*Expected Course_code : First three characters [A-Z] next three [100-599]*
+Retrieves the timetable of a specific subject identified by its course code.
 
-Example Response
-
-``` 
-{
-  "success": true,
-  "message": "Extracted all timetables successfully",
-  "timeTable": [
-    [
-      [
-        "Monday",
-        "10:00-10:50",
-        "CHE-401"
-      ],
-      [
-        "Monday",
-        "09:00-09:50",
-        "CHE-401"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "CHE-401"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "CHE-401"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "CHE-401"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "CHE-401"
-      ]
-    ]
-  ]
-}
-```
-
+- **Expected Course_code Format**: The course code should consist of the first three characters [A-Z] followed by the next three characters [100-599].
 
 ## Get all subjects names
 
-
 **GET** `http://localhost:3000/subject/allSubjectNames`
 
-Example Response
-
-```
-{
-  "success": true,
-  "message": "Extracted all subject names successfully",
-  "allSubjectNames": [
-    {
-      "id": 0,
-      "name": "MS CHD401 - Petrochemical Technology"
-    },
-    {
-      "id": 1,
-      "name": "MS CHD408 - Process Data Analytics"
-    }
-}
-```
+Retrieves the names of all subjects.
 
 ## Get all information of a particular subject
 
-
 **GET** `http://localhost:3000/subject/courseCode/:courseCode`
 
-*Expected Course_code : First three characters [A-Z] next three [100-599]*
+Retrieves all information about a specific subject identified by its course code.
 
-Example Response
-
-```
-{
-  "success": true,
-  "message": "Extracted all info of subject successfully",
-  "subjectData": [
-    {
-      "id": 0,
-      "code": "CHD401",
-      "name": "Petrochemical Technology",
-      "instructor": "Paidinaidu Paluri",
-      "department": "Chemical Engineering",
-      "type": "Department Elective (DE)",
-      "link": "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHD401.pdf",
-      "credits": "3-0-0",
-      "timetable": [
-        [
-          "Monday",
-          "10:00-10:50",
-          "CHE-401"
-        ],
-        [
-          "Monday",
-          "09:00-09:50",
-          "CHE-401"
-        ],
-        [
-          "Tuesday",
-          "11:00-11:50",
-          "CHE-401"
-        ],
-        [
-          "Wednesday",
-          "11:00-11:50",
-          "CHE-401"
-        ],
-        [
-          "Wednesday",
-          "09:00-09:50",
-          "CHE-401"
-        ],
-        [
-          "Friday",
-          "10:00-10:50",
-          "CHE-401"
-        ]
-      ],
-      "semester": "MS"
-    }
-  ]
-}
-```
+- **Expected Course_code Format**: The course code should consist of the first three characters [A-Z] followed by the next three characters [100-599].
 
 ## Get all subjects of monsoon/winter semester
 
-
 **GET** `http://localhost:3000/subject/semester/:type`
 
-Example Response
+Retrieves all subjects offered in the monsoon or winter semester.
 
-```
-{
-  "success": true,
-  "message": "Extracted all subject of monsoon successfully",
-  "allSubjectNames": [
-    {
-      "id": 0,
-      "name": "MS CHD401 - Petrochemical Technology"
-    },
-    {
-      "id": 1,
-      "name": "MS CHD408 - Process Data Analytics"
-    }
-}
-```
+- **Expected Semester Types**: The semester type should be specified as `monsoon` or `winter`.
 
-## Get all subjects of a particular department 
+## Get all subjects of a particular department
 
+**GET** `http://localhost:3000/subject/departmentName/:departmentName`
 
-**GET** `http://localhost:3000/subject//departmentName/:departmentName`
+Retrieves all subjects offered by a specific department.
 
-*Allowed Filters:  {CSE,EE,ECE,CVE,CE,PHY,ESE,FME,ESE,PE}*
-
-Example Response
-
-```
-{
-  "success": true,
-  "message": "Extracted all info of subject successfully",
-  "subjectData": [
-    {
-      "id": 0,
-      "code": "CHD401",
-      "name": "Petrochemical Technology",
-      "instructor": "Paidinaidu Paluri",
-      "department": "Chemical Engineering",
-      "type": "Department Elective (DE)",
-      "link": "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHD401.pdf",
-      "credits": "3-0-0",
-      "timetable": [
-        [
-          "Monday",
-          "10:00-10:50",
-          "CHE-401"
-        ],
-        [
-          "Monday",
-          "09:00-09:50",
-          "CHE-401"
-        ],
-        [
-          "Tuesday",
-          "11:00-11:50",
-          "CHE-401"
-        ],
-        [
-          "Wednesday",
-          "11:00-11:50",
-          "CHE-401"
-        ],
-        [
-          "Wednesday",
-          "09:00-09:50",
-          "CHE-401"
-        ],
-        [
-          "Friday",
-          "10:00-10:50",
-          "CHE-401"
-        ]
-      ],
-      "semester": "MS"
-}
-```
+- **Allowed Filters**: You can filter subjects by department names such as {CSE, EE, ECE, CVE, CE, PHY, ESE, FME, ESE, PE}.
 
 ## Get all subjects of a particular subject type
 
-
 **GET** `http://localhost:3000/subjectType/:subjectType`
 
-*Expected subject type DE,OE,DC,IC*
+Retrieves all subjects of a specific subject type.
 
+- **Expected subject types**: DE (Department Elective), OE (Open Elective), DC (Department Core), IC (Institute Core).
 
-Example Response
-
-```
-   {
-      "id": 324,
-      "code": "CHC305",
-      "name": "Mass Transfer Lab",
-      "instructor": "Suman Dutta,Paidinaidu Paluri",
-      "department": "Chemical Engineering",
-      "type": "Department Compulsory (DC)",
-      "link": "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC305.pdf",
-      "credits": "0-0-3",
-      "timetable": [],
-      "semester": "MS"
-    },
-
-```
-
-
-## Check instructor name for all the subjects 
-**GET** `http://localhost:3000/instructor/allCourses`
-
-
-Example Response
-
-```
-{
-  "success": true,
-  "message": "Extracted all instructor names successfully",
-  "instructorData": [
-    {
-      "code": "CHD401",
-      "name": "Petrochemical Technology",
-      "instructor": "Paidinaidu Paluri"
-    },
-    {
-      "code": "CHD408",
-      "name": "Process Data Analytics",
-      "instructor": "Pantula Devi Priyanka"
-    },
-    {
-      "code": "CHD411",
-      "name": "Catalytic Reaction Engineering",
-      "instructor": "Lutukurthi D N V V Konda"
-    },
-    {
-      "code": "CHO401",
-      "name": "Process Integration",
-      "instructor": "Soumyajit Sen Gupta"
-    },
-    {
-      "code": "CHO402",
-      "name": "Biofuels & Biomass Conversion Technology",
-      "instructor": "Ejaz Ahmad"
-    },
-    {
-      "code": "CSD404",
-      "name": "Computer Graphics",
-      "instructor": "Sushanta Mukhopadhyay"
-    },
-
-```
-
-## Gets instructor name of a particular subject 
+## Gets instructor name of a particular subject
 
 **GET** `http://localhost:3000/instructor/courseCode/:courseCode`
 
+Retrieves the name of the instructor teaching a specific subject identified by its course code.
 
-Example Response
+- **Expected Course_code Format**: The course code should consist of the first three characters [A-Z] followed by the next three characters [100-599].
 
-```
-{
-  "success": true,
-  "message": "Extracted all timetables successfully",
-  "instructorData": [
-    {
-      "name": "Petrochemical Technology",
-      "code": "CHD401",
-      "instructor": "Paidinaidu Paluri"
-    }
-  ]
-}
-```
+
+## Additional Notes
+
+- Ensure that the expected course codes are formatted correctly when making requests to the API.
+- Use the allowed filters for department names and subject types to narrow down search results effectively.
