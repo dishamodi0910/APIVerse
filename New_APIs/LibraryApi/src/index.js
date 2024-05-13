@@ -43,19 +43,22 @@ let borrowersData = [
         id: 1,
         name: 'Md Rehan',
         book: 2,
-        date: new Date()
+        date: 20,
+        validity: 5
     },
     {
         id: 2,
         name: 'Khushee',
         book: 4,
-        date: new Date()
+        date: new Date().getDate(),
+        validity: 5
     },
     {
         id: 3,
         name: 'Om Kumar',
         book: 3,
-        date: new Date()
+        date: new Date().getDate(),
+        validity: 5
     },
 ]
 
@@ -93,8 +96,8 @@ app.post('/api/v1/books', (req, res) => {
 app.post('/api/v1/borrowers', (req, res) => {
     try {
         
-        const { name, book } = req.body;
-        if( !name || !book ) throw new Error("No Name Or Book Given")
+        const { name, book, validity } = req.body;
+        if( !name || !book || !validity ) throw new Error("No Name Or Book Or Expiry Given")
         
         let isAvailable = false
         data.map((bk, index) => {
@@ -105,7 +108,7 @@ app.post('/api/v1/borrowers', (req, res) => {
         })
 
         if(isAvailable) {
-            borrowersData.push({ id: borrowersData.length + 1, name, book, date: new Date() })
+            borrowersData.push({ id: borrowersData.length + 1, name, book, date: new Date().getDate(), validity });
             return res.status(200).json({ success: true, message: 'Borrower Added Successfully' })
         } else {
             throw new Error("No Book Found")
@@ -129,10 +132,21 @@ app.get('/api/v1/return/:id', (req, res) => {
             if(bdata.id == id) isThere = true, book = bdata.book
         })
 
+        let penalty = false
+
         if(isThere) {
-            borrowersData = borrowersData.filter((bdata) => bdata.id != id)
+            borrowersData = borrowersData.filter((bdata) => {
+                if(bdata.id == id) {
+                    const currDate = new Date().getDate()
+                    if(( bdata.date < currDate && currDate - bdata.date > bdata.validity ) || ( bdata.date > currDate && 30 - bdata.date + currDate > bdata.validity )) {
+                        penalty = true
+                    }
+                }
+                return bdata.id != id
+            })
             data[book - 1].availableCount++;
-            res.status(200).json({ success: true, message: "Record Deleted Successfully" })
+            if(penalty) return res.status(200).json({ success: true, message: "Record Deleted Successfully", penalty })
+            res.status(200).json({ success: true, message: "Record Deleted Successfully", penalty })
         } else {
             throw new Error("No Record Found")
         }
