@@ -17,14 +17,24 @@ async function formateLeetcode(data,username){
 }
 
 function formateCodechef(document){
-   const problem = (document.querySelector(".rating-data-section.problems-solved")==null)?0:parseInt(document.querySelector(".rating-data-section.problems-solved").children[0].innerHTML.match(/\((\d+)\)/)[1])+parseInt(document.querySelector(".rating-data-section.problems-solved").children[2].innerHTML.match(/\d+/)[0]);
+   const problem = Array.from((document.querySelector(".rating-data-section.problems-solved")).querySelectorAll('h3'));
+   var sum = 0;
+   const regex = /\((\d+)\)/g;
+   problem.forEach(string => {
+       
+       const matches = string.innerHTML.matchAll(regex);
+       for (const match of matches) {
+           sum += parseInt(match[1]);
+       }
+   });
   return {
+           codechefTotalContest : parseInt(document.querySelector(".contest-participated-count").children[0].innerHTML),
            codechefCurrentRating: parseInt(document.querySelector(".rating-number").textContent),
            codecheHhighestRating: parseInt(document.querySelector(".rating-number").parentNode.children[4].textContent.split('Rating')[1]),
            codechefGlobalRanking: parseInt(document.querySelector('.rating-ranks').children[0].children[0].children[0].children[0].innerHTML),
            codechefCountryRank: parseInt(document.querySelector('.rating-ranks').children[0].children[1].children[0].children[0].innerHTML),
            codechefStarRating: document.querySelector('.rating').textContent || "unrated",
-           codechefTotal :problem
+           codechefTotal :sum
   }
 }
 
