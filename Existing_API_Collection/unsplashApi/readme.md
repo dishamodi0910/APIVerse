@@ -39,3 +39,24 @@ node index.js
 ```
 6. Open index.html in your browser to view the application.
 7. Generate Random Images by clicking the "Get Me a Random Image" button or search for images by entering a keyword in the search input field and pressing the "Search" button.
+
+
+
+# 🎯 Title and Issue Number
+
+### Closes #<issue_no>
+
+<!-- Replace `issue_no` with the issue number which is fixed in this PR -->
+
+# 🗒️ Checklist:
+
+- [x] I have mentioned the issue number in my Pull Request.
+- [x] I have gone through `rules of when PR will get merged.` 
+- [x] I have commented my code, particularly in hard-to-understand areas
+- [x] I have created a helpful and easy to understand `README.md`
+- [x] I have followed proper file structure.
+- [x] I have gone through [CONTRIBUTING GUIDELINES.md](../blob/master/CONTRIBUTING.md).
+
+Thank you for contributing! ❤️ 
+
+Don't forget to show some love by ⭐ the repository!
