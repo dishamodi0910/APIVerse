@@ -1,0 +1,73 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+model User {
+  id                String              @id @default(uuid())
+  name              String
+  email             String           @unique
+  password          String
+  role              Role             @default(USER)
+  profile           Profile?
+  enrollments       UserEnrollment[]
+  reviews           Review[]
+  verificationTokens VerificationToken[]
+  isVerified        Boolean          @default(false)
+}
+
+model Profile {
+  id          String    @id @default(uuid())
+  user        User   @relation(fields: [userId], references: [id])
+  userId      String    @unique
+  profilePic  String?
+}
+
+model Course {
+  id          String           @id @default(uuid())
+  title       String
+  category    String
+  level       String
+  enrollments UserEnrollment[]
+  reviews     Review[]
+}
+
+model UserEnrollment {
+  id        String      @id @default(uuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  course    Course   @relation(fields: [courseId], references: [id])
+  courseId  String
+  createdAt DateTime @default(now())
+}
+
+model Review {
+  id          String     @id @default(uuid())
+  rating      Int
+  content     String
+  user        User     @relation(fields: [userId], references: [id])
+  userId      String
+  course      Course   @relation(fields: [courseId], references: [id])
+  courseId    String
+  createdAt   DateTime @default(now())
+
+  @@unique([userId, courseId])
+}
+
+model VerificationToken {
+  id           String      @id @default(uuid())
+  token        String   @unique
+  userId       String
+  user         User     @relation(fields: [userId], references: [id])
+  createdAt    DateTime @default(now())
+  expiresAt    DateTime @default(dbgenerated("CURRENT_TIMESTAMP + interval '10 minutes'"))
+}
