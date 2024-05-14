@@ -1,0 +1,60 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "Express Js Backend With Typescript.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b",
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon src/index.ts",
+    "vercel-build": "prisma generate",
+    "lint": "eslint src/**/*.ts",
+    "format": "eslint src/**/*.ts --fix"
+  },
+  "prisma": {
+    "schema": "./src/prisma/schema.prisma"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "bcryptjs": "^2.4.3",
+    "colorette": "^2.0.20",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.13",
+    "resend": "^0.16.0",
+    "validator": "^13.11.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.10.1",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "cloudinary": "^2.1.0",
+    "datauri": "^4.1.0",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard-with-typescript": "^40.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-typescript": "^0.14.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.1.0",
+    "prisma": "^5.11.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2",
+    "uuid": "^9.0.1"
+  }
+}
