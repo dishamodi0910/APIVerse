@@ -1,0 +1,98 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: linear-gradient(45deg, rgba(0,212,255,1) 0%, rgba(11,3,45,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+
+.content {
+    background-color: rgba(17, 25, 40, 0.25);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Righteous', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 24px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.outline {
+    background: transparent;
+    color: rgba(0, 212, 255, 0.9);
+    border: 1px solid rgba(0, 212, 255, 0.6);
+    transition: all .3s ease;
+}
+
+.outline:hover {
+    transform: scale(1.05);
+}
+
+.fill {
+    background: rgba(0, 212, 255, 0.9);
+    color: rgba(255,255,255,0.95);
+    font-weight: bold;
+    transition: all .3s ease; 
+}
+
+.fill:hover {
+    transform: scale(1.05);
+}
+
+.activity {
+    background-color: transparent; 
+    border-radius: 8px;
+    margin-top: 20px; 
+    font-family: 'Lato', sans-serif; 
+    font-size: 1.2rem; 
+    line-height: 1.5; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.ul li {
+    margin-bottom: 10px; 
+}
