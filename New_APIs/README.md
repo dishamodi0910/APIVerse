@@ -2,17 +2,16 @@
 
 | Name of API | Description of API |
 |---|---|
-|[CodingDetails_API](./CodingDetails_API)| It validates coding profiles for platforms like LeetCode, CodeChef, and Codeforces, and fetch details associated with these profiles.|
-|[Country API](./CountryAPI)| It explains us how to get all the information about a particular country|
-|[Dictionary API](./DictionaryAPI)| It provides us a meaning of a particular word|
-|[Github API](./GithubAPI)|It is a set of web-based endpoints and tools provided by GitHub to allow developers to programmatically interact with and access data from the GitHub platform.| 
-|[Password generator API](./PasswordGeneratorAPI)|User can generate a strong password on a single that contains uppercase, lowercase letters, numbers, and symbols as well.|
-|[Global Holiday API](./GlobalHolidayAPI)|The Calendarific Global Holidays API covers over 230 countries and 3000 states around the world and provides information of their holidays.|
-|[Historical Events API](./HistoricalEventsAPI)|This API is used to get information about major events of history.|
-|[Nasa API](./NasaAPI)|The APOD API provides access to the Astronomy Picture of the Day, which showcases a different astronomical image or photograph each day along with a brief explanation written by a professional astronomer.|
-|[CryptoCurrencies API](./CryptoCurrenciesAPIs)| It is giving the data about total trading of the popular coins in 24 hrs.|
-|[Giphy API](./GiphyAPI)|This API allows developers to integrate Giphy's vast library of GIFs into their own applications, websites, and services.|
-|[PokeAPI](./PokeAPI/)| This API provides data regarding Pokemon and others related. |
-|[Product Store API](./ProductStoreAPI/)| A Product Store API using NodeJS, ExpressJS, MongoDB and Mongoose |
-|[Bored API](./BoredAPI/)|Bored API is a versatile tool designed to provide users with random activity suggestions when they're feeling bored. With this API, users can access a wide range of activities to spark inspiration and alleviate boredom. From creative hobbies to outdoor adventures, Bored API offers something for everyone.|
-|[Unsplash API](./unsplashApi/)| An API that enables users to retrieve high quality and copyright free Images from Unsplash and also get random Images |
+|[Coding Details API](./CodingDetails_API)| It validates coding profiles for platforms like LeetCode, CodeChef, and Codeforces, and fetch details associated with these profiles.|
+|[College Lectures API](./College_Lectures_API)| This is a simple API for managing college lectures. It allows users to search for a particular lecture of their college.|
+|[Demo CRUD API](./Demo_CRUD_API)| It is a simple api that can be used to create, read, update and delete users. It uses a json file as a database. It also gives a glimpse about how to use authorization headers.|
+|[E-learning Platform API](./E-learning_Platform_API)|This API serves as the backend for an E-learning platform, providing various functionalities such as user authentication, user management, course management, review handling, profile management, and more. | 
+|[IIT ISM Subjects API](./IIT-ism-subjects-api)|This API provides endpoints to retrieve information about subjects offered at IIT ISM Dhanbad.|
+|[JsonServer API](./JsonServer_API)|This API sets up a development environment for an Angular project alongside a JSON server API. |
+|[Library API](./LibraryApi)|It is a library API which can be use to manage library data and library management.|
+|[Movie TV Show API](./Movie_Tv_Show_API)|It is a simple api that can be used to fetch data of movie and tv-show with filter options of page, limit, search, and type. It uses a json file as a database.|
+|[Recipe Realm API](./Recipe_Realm_API)|This is a simple web application that allows you to search for recipes using the MealDB API and display detailed information about a selected recipe, including its name, category, area, instructions, ingredients, and a link to a video demonstration (if available).|
+|[User Data API](./UserDataAPI)|This API serves as a simulated database of people, likely for testing or demonstration purposes in software development.|
+|[Authentication API](./auth_API/)|This Authentication API provides endpoints for user registration, login, forgot password, and reset password functionalities. |
+|[AWS S3 Multimedia Storage Client API](./aws-client-api/)|This is a client API that facilitates interaction with an AWS S3 bucket for storing and retrieving multimedia files. By utilizing the provided functions, you can easily upload and download multimedia files to and from the S3 bucket.|
+
