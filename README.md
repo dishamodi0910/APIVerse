@@ -1,11 +1,10 @@
 <div align = "center">
 
-# 💥  🅰️-🅿️-🅸-🆅-🅴-🆁-🆂-🅴 : 𝐂𝐨𝐥𝐥𝐞𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 𝐀𝐏𝐈𝐬 !! 🤝
+# 💥  A-P-I-V-E-R-S-E : 𝐂𝐨𝐥𝐥𝐞𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 𝐀𝐏𝐈𝐬 !! 🤝
 
 </div>
 
 <div align = "center">
-<img src="./assets/apiverse_hi.gif" width="300" height="300">
 </div>
 <div align = "center">
 <i>APIVerse is a collection of APIs that are useful for developers. It simplifies the process of both adding new APIs and learning how to harness the power of existing ones.  Whether you're a developer looking to expand your toolbox or a newcomer eager to dive into the API ecosystem, APIVerse empowers you to seamlessly learn about API!😃
