@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    
+    <form id="searchForm">
+        <input type="text" id="keywordInput" placeholder="Enter keyword">
+        <button type="submit">Search</button>
+    </form>
+    
+    <button id="randomImageButton">
+        Get Me a Random Image
+    </button>
+    
+    <div id="imageContainer"></div>
+
+    <script>
+        document.getElementById('searchForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const keyword = document.getElementById('keywordInput').value.trim();
+            if (keyword !== '') {
+                const response = await fetch(`http://localhost:3000/images/keywordImage?query=${encodeURIComponent(keyword)}`);
+                const images = await response.json();
+                displayImages(images);
+            }
+        });
+
+        document.getElementById('randomImageButton').addEventListener('click', async function() {
+            const response = await fetch('http://localhost:3000/images/randomImage');
+            const images = await response.json();
+            displayImages(images);
+        });
+
+        async function displayImages(images) {
+            const imageContainer = document.getElementById('imageContainer');
+            imageContainer.innerHTML = '';
+
+            images.forEach(imageUrl => {
+                const img = document.createElement('img');
+                img.src = imageUrl;
+                img.alt = 'Image';
+                imageContainer.appendChild(img);
+            });
+        }
+    </script>
+</body>
+</html>
