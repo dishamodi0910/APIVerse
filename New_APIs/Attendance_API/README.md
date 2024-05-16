@@ -2,25 +2,61 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/BoBsRepository/create-express-ts-template">
-    <img src="https://repository-images.githubusercontent.com/162537377/9c807700-9828-11ea-8a3b-47411956130e" alt="Logo" width="200" height="100">
+  <a href="https://github.com/Puskar-Roy/Attendance-System---Backend">
+    <img src="https://attendancee.vercel.app/logo1.png" alt="Logo" width="200" height="200">
   </a>
 
-  <h3 align="center">Express Js with Typescript</h3>
+
+  <h3 align="center">Full-Stack JavaScript Attendance Portal - Backend</h3>
 
   <p align="center">
-    An awesome template to jumpstart your Express.js (TypeScript) projects, helping you to speed up the process of building RESTful APIs.
     <br />
-    <a href="https://github.com/BoBsRepository/create-express-ts-template"><strong>Explore the docs »</strong></a>
+    <a href="https://www.postman.com/warped-resonance-359125/workspace/attendance-system"><strong>Postman Public Workspace</strong></a>
     <br />
     <br />
-    <a href="https://create-expresss-ts.vercel.app">View Demo</a>
+    <a href="https://timekeeper-api.vercel.app">View Demo</a>
     ·
-    <a href="https://github.com/BoBsRepository/create-express-ts-template/issues">Report Bug</a>
+    <a href="https://github.com/Puskar-Roy/Attendance-System---Backend/issues">Report Bug</a>
     ·
-    <a href="https://github.com/BoBsRepository/create-express-ts-template/issues">Request Feature</a>
+    <a href="https://github.com/Puskar-Roy/Attendance-System---Backend/issues">Request Feature</a>
   </p>
 </div>
+
+
+
+##### Note: *You can test API endpoints only in the development environment; otherwise, a CORS error will occur. To avoid this, create a .env file and add DEV_MODE=DEV inside.*
+
+## API End Points
+
+### 1. Authentication Routes
+```bash
+/api/auth/login                                POST               //for login
+/api/auth/register                             POST               //for register
+```
+
+### 2. Users Routes
+
+```bash
+/api/users                                     GET               //for all users
+/api/users/:id                                 GET               //for a single user
+```
+
+### 3. Attendance Routes
+
+```bash
+/api/attendance/counts/:userId                 GET               //for the number of attendance
+/api/attendance/user/:attendenceId             GET               //for a single attendance
+/api/attendance/date/:date                     GET               //for all the attendances of a date
+/api/attendance/:userId                        GET               //for all the attendances of a user
+/api/attendance/change-status/:attendanceId    PUT               //for change the status of an attendance
+/api/attendance                                POST              //for create an attendance
+/api/attendance/mark-absent                    POST              //for marking the absent users
+/api/attendance/all                            POST              //for create all attendance
+/api/attendance/:attendanceId                  DEL               //for delete an attendance
+```
+
+
+
 
 
 
@@ -32,9 +68,6 @@
 ## About The Project
 
 
-Within this repository, you will discover a fully configured and ready-to-use Express.js web application designed for the Node.js runtime. The project is built using TypeScript, providing a robust foundation for developing web applications effortlessly.
-
-Here's why:
 - **Linting & Formatting:**
   - ✔️ ESLint for code linting
   - 🎨 Prettier for code formatting
@@ -56,13 +89,11 @@ Here's why:
   - 🚦 Rate limiting with express-rate-limit for protection against brute-force attacks
   - 🌐 CORS (Cross-Origin Resource Sharing) configured to allow requests only from a specific origin  
 
-Of course, This template may not cover all project needs, as your requirements may vary. More updates will be added in the future. Feel free to suggest changes by forking this repo, creating a pull request, or opening an issue. Thanks to all contributors who have helped enhance this template!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-This section highlights the key frameworks and libraries that form the foundation of your project. Below are some notable examples:
 
 
 - **[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/):** A JavaScript runtime built on Chrome's V8 JavaScript engine.
@@ -90,55 +121,33 @@ Before you begin contributing to this project, make sure you have the following 
 ### Run This ⌨️
 
 1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/BoBsRepository/create-express-ts-template.git
-   ```
+
+
 2. **Install Dependencies:**
    ```bash
-    cd create-express-ts-template
     npm install
    ```
 3. **Add Environment Variables:**
    ```bash
-   cd create-express-ts-template
    touch .env
    ```
 4. **Add the necessary configuration:**
    ```bash
-   PORT = 5050 #Your Port 
-   MONGOURI = <your-mongodb>
-   MODE = DEV # DEV = development or PROD = production
-   JWT_SECRET = "jdiafhoaifdhoislknsfnlkfbhojsdfijoeipweopkfek;jsdm;kvm;cvkjvjpisdv" # Your Secret
-   JWT_COOKIE_EXPIRES_IN = 7 #In Days
+   PORT=5050  //Port 5000 
+   MONGOURI=<your-mongo-uri>
+
+    JWT_SECRET=<itsyourjwtsecrent?
+    JWT_COOKIE_EXPIRES_IN="3d"  // 3 days
+    DEV_MODE=DEV   // DEV or PROD
    ```
 5. **Run This Project:**
    ```bash
    npm run dev
    ```
-   or
-   
-   ```bash
-   npm start
-   ```
 
    <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## Contributing 🌟   
-### Making Contributions
 
-We welcome and appreciate contributions from the community ❤️! Here's how you can contribute:
-
-- **Open Issues:** Check for open issues or create a new one to start discussions.
-- **Fork the Repository:** Fork the project to your own GitHub account.
-- **Create Pull Request:** Make changes in your fork and submit a pull request.
-
-### Welcome Contributors!
-
-🚀 Thank you for considering contributing to this project! Your involvement makes this template even better. Feel free to explore the code, share your ideas, and make improvements ✌️.
-
-🌟 Don't hesitate to reach out if you have any questions or need assistance. Together, let's make this project amazing!🟩
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+### Puskar Roy 🖋️
 
 
 
