@@ -16,4 +16,4 @@ NewsBuster is a platform made from React where the users can view daily news, th
 
 ### Credits
 
-[NewsAPI]: https://newsapi.org/
+[NewsAPI](https://newsapi.org/)
