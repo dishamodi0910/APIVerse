@@ -55,16 +55,6 @@ Send a **GET** request to : `http://localhost:3000/geocode?address=(Your address
 
 Send a **GET** request to : `http://localhost:3000/reverse-geocode?lat=(Enter longitude)&lon=(Enter longitude)`
 
-## Example Requests
-
-### GeoCode
-
-![GeoCode Example](images/image.png)
-
-### Reverse-GeoCode
-
-![Reverse-GeoCode Example](images/image-1.png)
-
 ## Contributing
 
 Contributions are welcome! Please follow these steps if you have any improvements or new features to suggest:
