@@ -16,4 +16,4 @@
 |[Product Store API](./ProductStoreAPI/)| A Product Store API using NodeJS, ExpressJS, MongoDB and Mongoose |
 |[Bored API](./BoredAPI/)|Bored API is a versatile tool designed to provide users with random activity suggestions when they're feeling bored. With this API, users can access a wide range of activities to spark inspiration and alleviate boredom. From creative hobbies to outdoor adventures, Bored API offers something for everyone.|
 |[Unsplash API](./unsplashApi/)| An API that enables users to retrieve high quality and copyright free Images from Unsplash and also get random Images |
-
+|[GeoAPI](./GeoAPI/)| GeoAPI is a simple RESTful API that allows you to convert addresses to geographic coordinates (latitude and longitude) and vice versa. This API is built using Node.js and Express.|
