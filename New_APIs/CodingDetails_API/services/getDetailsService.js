@@ -3,8 +3,8 @@ const jsdom = require('jsdom');
 const {JSDOM} = jsdom;
 
 
-async function formateLeetcode(data,username){
-    console.log("Formate leetcode : ",username);
+async function formatLeetcode(data,username){
+    console.log("Format leetcode : ",username);
     return {
         leetcodeNoContest:(data.userContestRanking==null)?0:data.userContestRanking.attendedContestsCount,
         leetcodeRanking : (data.userContestRanking==null)?0:data.userContestRanking.globalRanking,
@@ -16,7 +16,7 @@ async function formateLeetcode(data,username){
     }
 }
 
-function formateCodechef(document){
+function formatCodechef(document){
    const problem = Array.from((document.querySelector(".rating-data-section.problems-solved")).querySelectorAll('h3'));
    var sum = 0;
    const regex = /\((\d+)\)/g;
@@ -38,9 +38,9 @@ function formateCodechef(document){
   }
 }
 
-function formateCodeforces(document){
+function formatCodeforces(document){
    const newrating = Array.from(document.querySelectorAll('.user-gray'));
-   const postionList =  ["Newbie", "Pupil", "Specialist", "Expert", "Candidate Master", "Master", "International Master", "Grandmaster", "International Grandmaster", "Legendary Grandmaster"];
+   const positionList =  ["Newbie", "Pupil", "Specialist", "Expert", "Candidate Master", "Master", "International Master", "Grandmaster", "International Grandmaster", "Legendary Grandmaster"];
    var positionName = '',rating = 0;
    for(let i=0;i<newrating.length;i++){
     try {
@@ -48,9 +48,9 @@ function formateCodeforces(document){
     } catch (error) {
         console.log(error.message);
     }
-    for(let j = 0;j<postionList.length;j++){
-        if(newrating[i].innerHTML.trim()==postionList[j]){ 
-            positionName = postionList[j];
+    for(let j = 0;j<positionList.length;j++){
+        if(newrating[i].innerHTML.trim()==positionList[j]){ 
+            positionName = positionList[j];
         }
     }
    }
@@ -69,7 +69,7 @@ class codingPrifileController{
             "query": "query getUserProfile($username: String!) { userContestRanking(username:  $username)      {attendedContestsCount        rating        globalRanking } matchedUserStats: matchedUser(username: $username) {      submitStats: submitStatsGlobal {        acSubmissionNum {          difficulty          count          submissions  }        totalSubmissionNum {          difficulty          count          submissions     }  }    }  }", "variables": {"username": `${username}`}
         };
         const response = await axios.post('https://leetcode.com/graphql',query);
-        return await (formateLeetcode(response.data.data,username));
+        return await (formatLeetcode(response.data.data,username));
        } catch (error) {
         console.log(error.message);
             throw error;
@@ -82,7 +82,7 @@ class codingPrifileController{
             const response = await axios.get(`https://www.codechef.com/users/${username}`);
             const dom = new JSDOM(response.data);
             const document = dom.window.document;
-            return await  formateCodechef(document);
+            return await  formatCodechef(document);
            } catch (error) {
             throw error;
            }
@@ -93,7 +93,7 @@ class codingPrifileController{
             const response = await axios.get(`https://codeforces.com/profile/${username}`);
             const dom = new JSDOM(response.data);
             const document = dom.window.document;
-            return await formateCodeforces(document);
+            return await formatCodeforces(document);
             
         } catch (error) {
             throw error;
