@@ -44,17 +44,48 @@ GeoAPI provides an easy way to work with geographic data. You can use it to:
    The server will start on port 3000 by default. You can access it at `http://localhost:3000`.
 
 ## Usage
+```bash
+curl -X GET "http://your-deployed-url.com/reverse-geocode?lat=37.4224764&lon=-122.0842499"
 
-### Endpoints
+curl -X GET "http://your-deployed-url.com/geocode?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA"
+```
+## Endpoints
 
-#### GeoCode
+**Endpoint:** `/geocode`
 
-Send a **GET** request to : `http://localhost:3000/geocode?address=(Your address)`
+**Method:** `GET`
 
-#### Reverse-GeoCode
+**Description:** Converts an address to latitude and longitude coordinates.
 
-Send a **GET** request to : `http://localhost:3000/reverse-geocode?lat=(Enter longitude)&lon=(Enter longitude)`
+**Query Parameters:**
+- `address` (required): The address you want to geocode.
 
+**Endpoint:** `/reverse-geocode`
+
+**Method:** `GET`
+
+**Description:** Converts latitude and longitude coordinates to a human-readable address.
+
+**Query Parameters:**
+- `lat` (required): The latitude coordinate.
+- `lon` (required): The longitude coordinate.
+
+## Example Requests
+
+GET http://your-deployed-url.com/geocode?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA.
+
+```json
+{
+    "latitude": "37.4224764",
+    "longitude": "-122.0842499"
+}
+```
+GET http://your-deployed-url.com/reverse-geocode?lat=37.4224764&lon=-122.0842499
+```json
+{
+    "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA"
+}
+```
 ## Contributing
 
 Contributions are welcome! Please follow these steps if you have any improvements or new features to suggest:
