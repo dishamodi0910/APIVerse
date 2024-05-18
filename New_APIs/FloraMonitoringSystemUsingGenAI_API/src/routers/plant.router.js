@@ -10,6 +10,5 @@ router.route('/getPlant/:id').get(isLoggedIn, getPlant);
 router.route('/getPlantsByUserId/:id').get(isLoggedIn, isOwner, getPlantsByuserId);
 router.route('/createNewPlant').post(isLoggedIn, upload.single('image') , createNewPlant);
 router.route('/deletePlant/:id').delete(isLoggedIn, isOwner, deletePlant);
-router.route('/updatePlant/:id').patch(isLoggedIn, isOwner, updatePlant);
 
 export default router;

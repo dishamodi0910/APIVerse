@@ -88,20 +88,3 @@ export const deletePlant = async (req, res) => {
   }
 }
 
-export const updatePlant = async (req, res) => {
-  try {
-    const { id } = req.params;
-    const { user_id, name, species, dateOfPlanting, comment, image } = req.body;
-
-    if (!user_id || !name || !species || !dateOfPlanting){
-      return res.sendStatus(400);
-    }
-
-    const updatedPlant = await updatePlantById(id, { user_id, name, species, dateOfPlanting, comment, image });
-
-    return res.status(200).json(updatedPlant).end();
-  } catch (error) {
-    console.log(error);
-    return res.sendStatus(400);
-  }
-};

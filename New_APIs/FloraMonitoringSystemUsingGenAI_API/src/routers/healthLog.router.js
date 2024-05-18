@@ -10,7 +10,5 @@ router.route('/getHealthLog/:id').get(isLoggedIn, getHealthLog);
 router.route('/getHealthLogsByUserId/:id').get(isLoggedIn, isOwner, getHealthLogsByuserId);
 router.route('/getHealthLogsByPlantId/:id').get(isLoggedIn, getHealthLogsByplantId);
 router.route('/createNewHealthLog').post(isLoggedIn,  upload.single('attachment'), createNewHealthLog);
-router.route('/deleteHealthLog/:id').delete(isLoggedIn, isOwner, deleteHealthLog);
-router.route('/updateHealthLog/:id').patch(isLoggedIn, isOwner, updateHealthLog);
 
 export default router;

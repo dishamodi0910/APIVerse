@@ -12,26 +12,6 @@ export const getAllMessages = async (req, res) => {
   }
 };
 
-export const getMessage = async (req, res) => {
-  try {
-    const { id  } = req.params;
-
-    if (!id) {
-      return res.status(400).json({ message: 'No id provided' });
-    }
-
-    const message = await getMessageById(id);
-
-    if (!message) {
-      return res.status(404).json({ message: 'Message not found' });
-    }
-
-    return res.json(message);
-  } catch (error) {
-    console.error(error);
-    return res.status(500).json({ message: 'Server error' });
-  }
-};
 
 export const getMessagesByuserId = async (req, res) => {
   try {
@@ -84,33 +64,3 @@ export const createNewMessage = async (req, res) => {
   }
 };
 
-export const deleteMessage = async (req, res) => {
-  try {
-    const { id } = req.params;
-
-    const deletedMessage = await deleteMessageById(id);
-
-    return res.json(deletedMessage);
-  } catch (error) {
-    console.log(error);
-    return res.sendStatus(400);
-  }
-}
-
-export const updateMessage = async (req, res) => {
-  try {
-    const { id } = req.params;
-    const { user_id, sent_By, message_content } = req.body;
-
-    if (!user_id || !sent_By){
-      return res.sendStatus(400);
-    }
-
-    const updatedMessage = await updateMessageById(id, { user_id, sent_By, message_content });
-
-    return res.status(200).json(updatedMessage).end();
-  } catch (error) {
-    console.log(error);
-    return res.sendStatus(400);
-  }
-};

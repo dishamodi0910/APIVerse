@@ -53,26 +53,6 @@ export const getTasksByuserId = async (req, res) => {
   }
 };
 
-export const getTasksByplantId = async (req, res) => {
-  try {
-    const { id } = req.params;
-
-    if (!id) {
-      return res.status(400).json({ message: 'No plant_id provided' });
-    }
-
-    const tasks = await getTasksByPlantId(id);
-
-    if (!tasks) {
-      return res.status(404).json({ message: 'Tasks not found' });
-    }
-
-    return res.json(tasks);
-  } catch (error) {
-    console.error(error);
-    return res.status(500).json({ message: 'Server error' });
-  }
-};
 
 export const createNewTask = async (req, res) => {
   try {
@@ -103,21 +83,3 @@ export const deleteTask = async (req, res) => {
     return res.sendStatus(400);
   }
 }
-
-export const updateTask = async (req, res) => {
-  try {
-    const { id } = req.params;
-    const { isCompleted } = req.body;
-
-    if (!isCompleted){
-      return res.sendStatus(400);
-    }
-
-    const updatedTask = await updateTaskById(id, { isCompleted });
-
-    return res.status(200).json(updatedTask).end();
-  } catch (error) {
-    console.log(error);
-    return res.sendStatus(400);
-  }
-};

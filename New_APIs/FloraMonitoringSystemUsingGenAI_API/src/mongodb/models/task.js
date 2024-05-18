@@ -19,7 +19,6 @@ export default Task;
 export const getTasks = () => Task.find();
 export const getTaskById = (id) => Task.findById(id);
 export const getTasksByUserId = (userId) => Task.find({ user_id: userId });
-export const getTasksByPlantId = (plantId) => Task.find({ plant_id: plantId });
 export const createTask = (values) => {
   console.log('Creating task with values:', values);
   return new Task(values).save()
