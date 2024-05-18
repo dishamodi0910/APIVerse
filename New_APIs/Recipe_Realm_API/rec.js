@@ -25,7 +25,7 @@ searchBtn.addEventListener("click", () => {
                         </div>
                         <div class="data-wrapper">
                             <h4>Article : </h4>
-                            <a href="${meal.strSource}" target="_blank">Read Artcile</a>                        
+                            <a href="${meal.strSource}" target="_blank">Read Article</a>                        
                         </div>
                     <div class="wrapper">
                         <div class data-wrapper">
