@@ -1,0 +1,76 @@
+body{
+    box-sizing: border-box;
+    background-image: url('../img/search-background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+    /* backdrop-filter: contrast(50%) brightness(80%); */
+    margin: 0;
+    height: 88vh;
+}
+.enterp{
+    text-align: left;
+    color: white;
+    padding-left: 8%;
+}
+.search-container{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    margin: 3% auto;
+    text-align: center;
+    padding: 5% 6%;
+    backdrop-filter: blur(3px) contrast(50%) brightness(70%);
+    height: 77%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.msg-box{
+    width: 55%;
+    margin: 3% auto;
+    backdrop-filter: blur(3px);
+    color: white;
+}
+input{
+    width: 40vw;
+    height: 7vh;
+    margin: 0 5% 2% 0;
+    font-size: 17px;
+    text-indent: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(238, 236, 236);
+}
+button{
+    height: 7vh;
+    width: 7rem;
+    cursor: pointer;
+    background-color: rgb(81, 133, 231);
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+img{
+    height: 200px;
+    width: 220px;
+    object-fit: cover;
+}
+.hidden{
+    display: none;
+}
+.flex {
+    display: flex;
+}
+.first-para{
+    margin-bottom: 0;
+    width: 66%;
+    text-align: right;
+}
+.icon{
+    margin-top: 6px;
+    margin-left: 15px;
+    height: 18px;
+    width: 32px;
+    border: 1px solid;
+    padding: 7px 0;
+    border-radius: 50%;
+    color: white;
+}

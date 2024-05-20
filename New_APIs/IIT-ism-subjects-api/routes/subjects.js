@@ -35,7 +35,7 @@ subjectRouter.get("/allSubjectNames", async (req, res) => {
   });
 });
 
-//gets all info about a particualr course
+//gets all info about a particular course
 subjectRouter.get("/courseCode/:courseCode", async (req, res) => {
   const returnData = data.filter(
     (course) => course.code === req.params.courseCode

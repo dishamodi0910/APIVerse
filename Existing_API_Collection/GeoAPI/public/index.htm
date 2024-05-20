@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geoCode</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="main">
+    <div class="overlay"></div>
+    <div id="title">Geo-Place</div>
+    <div id="sub-headings">
+        <li>Empowering Precision: GeoPlace for Seamless Location Solutions.</li>
+        <div id = "empty">
+
+        </div>
+
+        <hr>
+    </div>
+    <div id="container">
+        <div id="option1">
+            Option-1
+            <div id="input1">
+                <input id="box1" placeholder="Enter the Address" type="text">
+                <button id="get-coordinates">Get coordinates</button>
+            </div>
+        </div>
+        <div id="option2">
+            Option-2
+            <div id="input2">
+                <input id="box2" placeholder="Enter coordinates (latitude, longitude)" type="text">
+                <button id="get-address">Get Address</button>
+            </div>
+        </div>
+        
+    </div>
+    <div id="result"></div>
+    
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
