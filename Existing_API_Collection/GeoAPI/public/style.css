@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#main {
+    position: relative;
+    background-image: url(nasa-Q1p7bh3SHj8-unsplash.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    border: 4px solid rgb(5, 5, 5);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575); /* Adjust the opacity as needed */
+    z-index: 1;
+}
+
+#title, #sub-headings, #container, #result {
+    position: relative;
+    z-index: 2;
+}
+
+#empty {
+    height: 20px;
+}
+
+#title {
+    color: white;
+    font-size: 500%;
+    height: 12vh;
+    width: 100vw;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+#title:hover, #sub-headings:hover {
+    color: rgb(10, 236, 187);
+}
+
+#sub-headings {
+    height: 10vh;
+    font-size: 150%;
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+#container {
+    padding-top: 100px;
+    height: 78vh;
+    width: 100vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#option1, #option2 {
+    color: white;
+    font-size: 300%;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 20px;
+    height: 55%;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#option1:hover, #option2:hover
+{
+    color: aqua;
+}
+#get-address, #get-coordinates {
+    width: 50%;
+    height: 25px;
+    font-size: 40%;
+    border-radius: 7px;
+}
+
+.buttons button {
+    padding: 20px; /* Increase padding to make the button bigger */
+    font-size: 20px; /* Increase font size to make the text bigger */
+    width: 65%;
+    height: 20%;
+    border-radius: 10px;
+}
+
+#input1, #input2 {
+    width: 100%;
+}
+
+#result {
+    font-style: italic;
+    color: black;
+    /* background: black; */
+    height: 150px;
+    width: 100vw;
+    padding-left: 50px;
+    font-size: 225%;
+}
+
+#box1, #box2 {
+    border: 4px solid black;
+    border-radius: 8px;
+    height: 35px;
+    width: 95%;
+    font-size: 25px; /* Adjust font size as needed */
+    padding: 5px; /* Adjust padding as needed */
+}
+
+#get-address,#get-coordinates{
+    padding: 20px;
+    font-size: 20px;
+    width: 60%;
+    height: 20%;
+    border-radius: 10px;
+    background-color: #4cafa7;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#get-coordinates:hover,#get-address:hover{
+    transform: scale(1.1);
+    background-color: rgb(102, 170, 247);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
