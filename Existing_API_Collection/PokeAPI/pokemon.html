@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    
+        <title>PokeAPI</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="description" content="PokeAPI page example" />
+    
+        <script src="https://cdn.tailwindcss.com"></script>
+    
+    </head>
+    <body>
+        <div class="flex flex-row bg-gradient-to-r from-slate-100 to-slate-700 h-screen">
+            
+            <div class="mx-16 basis-1/3">
+                <img src = './img/pokemon.png' alt = 'pokemon-logo' class="h-28">
+                <div class="my-11 text-lg px-16">
+                    <p><span class="font-semibold">Your pokemon is : </span><span id = 'name'></span></p>
+                    <p><span class="font-semibold">Type is : </span><span id = 'type'></span></p>
+                    <p><span class="font-semibold">Abilities are : </span><span id = 'ability'></span></p>
+                    <p><span class="font-semibold">Base Experience is : </span><span id = 'base-exp'></span></p>
+                    <p><span class="font-semibold">Height is : </span><span id = 'height'></span></p>
+                    <p><span class="font-semibold">Weight is : </span><span id = 'weight'></span></p>
+                    <p><span class="font-semibold">Evolves From : </span><span id = 'evolve-from'></span></p>
+                    <p><span class="font-semibold">Category : </span><span id = 'category'></span></p>
+                    <p class="font-semibold">Base Stats are : [</p>
+                    <p id = 'base-stat' class="mx-10"></p>
+                    <p class="font-semibold">]</p>
+                </div>
+            </div>
+            <img src = '' alt = 'pokemon' class = 'h-screen py-32 px-16' id = 'poke-img'>
+        </div>
+        <script src = 'pokemon.js'></script>
+    </body>
+</html>
