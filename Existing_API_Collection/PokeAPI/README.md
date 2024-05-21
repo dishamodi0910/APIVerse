@@ -22,4 +22,4 @@ To set up the Pokémon API locally, follow these steps:
 - Clone the repository
 - Run command `.\/index.html`
 
-## Hope, you liked the Pokémon verse!!🥳
+## Hope, you enjoyed the Pokémon verse!!🥳
