@@ -1,0 +1,19 @@
+{
+    "happiness": [
+      {"quote": "Happiness is not something ready made. It comes from your own actions.", "author": "Dalai Lama"},
+      {"quote": "For every minute you are angry you lose sixty seconds of happiness.", "author": "Ralph Waldo Emerson"}
+    ],
+    "motivation": [
+      {"quote": "The best way to get started is to quit talking and begin doing.", "author": "Walt Disney"},
+      {"quote": "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.", "author": "Winston Churchill"}
+    ],
+    "hardwork": [
+      {"quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.", "author": "Colin Powell"},
+      {"quote": "The only place where success comes before work is in the dictionary.", "author": "Vidal Sassoon"}
+    ],
+    "peace": [
+      {"quote": "Peace begins with a smile.", "author": "Mother Teresa"},
+      {"quote": "Peace cannot be kept by force; it can only be achieved by understanding.", "author": "Albert Einstein"}
+    ]
+  }
+  
