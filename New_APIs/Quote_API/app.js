@@ -1,48 +1,122 @@
-import express from 'express'; // Import the Express framework
-import fs from 'fs'; // Import the File System module to read files
-import path from 'path'; // Import the Path module to work with file paths
-import { fileURLToPath } from 'url'; // Import fileURLToPath from the url module
-import cors from "cors"; // Import the CORS middleware to enable Cross-Origin Resource Sharing
-import 'dotenv/config' // Import the dotenv module to load environment variables
+import express from 'express';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import cors from 'cors';
+import 'dotenv/config';
 
-// These lines are used to get the directory name of the current module file
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const app = express(); // Create an Express application
-const port = process.env.PORT || 3000; // Use the port from environment variables or default to 3000
+const app = express();
+const port = process.env.PORT || 3000;
 
-app.use(cors()); // Enable CORS for all routes
+app.use(cors());
+app.use(express.json());
 
-app.use(express.json()); // Parse incoming JSON requests
+const quotesPath = path.join(__dirname, 'quotes.json');
+let quotesData = JSON.parse(fs.readFileSync(quotesPath, 'utf8'));
 
-// Define a simple route to check if the server is running
-app.get("/", (req, res) => {
-    res.send("Hello");
-});
-
-// Function to get quotes based on genre and limit
-const getQuotes = (genre, limit) => {
-  const quotesPath = path.join(__dirname, 'quotes.json'); // Path to the quotes.json file
-  const quotesData = JSON.parse(fs.readFileSync(quotesPath, 'utf8')); // Read and parse the quotes.json file
-  const selectedQuotes = quotesData[genre] || []; // Get quotes for the given genre, or an empty array if not found
-  return selectedQuotes.slice(0, limit); // Return the requested number of quotes
+// Helper function to save quotes to the file
+const saveQuotes = () => {
+  fs.writeFileSync(quotesPath, JSON.stringify(quotesData, null, 2), 'utf8');
 };
 
-// Define a route to get quotes by genre
-app.get('/quotes/:genre', (req, res) => {
-  const genre = req.params.genre.toLowerCase(); // Get the genre from the URL parameter and convert to lowercase
-  const limit = parseInt(req.query.limit) || 0; // Get the limit from the query parameter, default to 0 if not provided
+// Basic route to check if the server is running
+app.get("/", (req, res) => {
+  res.send("Hello");
+});
 
-  const quotes = getQuotes(genre, limit); // Get the quotes for the given genre and limit
-  if (quotes.length === 0) { // If no quotes are found, send a 404 response
+// Get quotes by genre
+app.get('/quotes/:genre', (req, res) => {
+  const genre = req.params.genre.toLowerCase();
+  const limit = parseInt(req.query.limit) || quotesData[genre].length;
+
+  const quotes = quotesData[genre]?.slice(0, limit) || [];
+  if (quotes.length === 0) {
     res.status(404).json({ message: 'No quotes found for this genre' });
-  } else { // Otherwise, send the quotes as a JSON response
+  } else {
     res.json(quotes);
   }
 });
 
-// Start the server and listen on the specified port
+// Search quotes
+app.get('/quotes/search', (req, res) => {
+  const query = req.query.q.toLowerCase();
+  const results = [];
+
+  for (const genre in quotesData) {
+    quotesData[genre].forEach(quote => {
+      if (quote.quote.toLowerCase().includes(query) || quote.author.toLowerCase().includes(query)) {
+        results.push({ ...quote, genre });
+      }
+    });
+  }
+
+  if (results.length === 0) {
+    res.status(404).json({ message: 'No quotes found for this search query' });
+  } else {
+    res.json(results);
+  }
+});
+
+// Submit a new quote
+app.post('/quotes', (req, res) => {
+  const { genre, quote, author } = req.body;
+
+  if (!genre || !quote || !author) {
+    return res.status(400).json({ message: 'Genre, quote, and author are required' });
+  }
+
+  if (!quotesData[genre]) {
+    quotesData[genre] = [];
+  }
+
+  const newQuote = { quote, author };
+  quotesData[genre].push(newQuote);
+  saveQuotes();
+  
+  res.status(201).json(newQuote);
+});
+
+// Rate a quote
+app.put('/quotes/:genre/:index/rate', (req, res) => {
+  const { genre, index } = req.params;
+  const { rating } = req.body;
+
+  if (!quotesData[genre] || !quotesData[genre][index]) {
+    return res.status(404).json({ message: 'Quote not found' });
+  }
+
+  quotesData[genre][index].rating = rating;
+  saveQuotes();
+  
+  res.json(quotesData[genre][index]);
+});
+
+// Get a random quote
+app.get('/quotes/random', (req, res) => {
+  const allQuotes = Object.values(quotesData).flat();
+  const randomQuote = allQuotes[Math.floor(Math.random() * allQuotes.length)];
+  res.json(randomQuote);
+});
+
+// Mock user authentication
+const users = {
+  "user1": { password: "password1" },
+  "user2": { password: "password2" }
+};
+
+app.post('/login', (req, res) => {
+  const { username, password } = req.body;
+
+  if (users[username] && users[username].password === password) {
+    res.json({ message: 'Login successful', username });
+  } else {
+    res.status(401).json({ message: 'Invalid credentials' });
+  }
+});
+
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
