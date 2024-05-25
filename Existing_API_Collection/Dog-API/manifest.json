@@ -1,0 +1,12 @@
+{
+    "name": "Dog facts",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "Dog.png"
+    },
+    "icons": {
+        "128": "Dog.png"
+    }
+}
