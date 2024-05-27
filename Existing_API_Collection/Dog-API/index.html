@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            width: 300px;
+            height: 300px;
+            background: url('Dogs.jpg') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            padding: 8px;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .Dog {
+            display: inline-flex;
+            margin: auto 10px;
+            font-size: 1.125rem;
+            color: #cc8c2b; /* blue-500 */
+            border-radius: 0.5rem;
+            border: 1px solid rgb(236, 229, 128);
+            padding: 10px;
+            background-color: white;
+        }
+    </style>
+    <title>Random Dog</title>
+</head>
+<body>
+    <div class="container">
+        <p id="DogElement" class="Dog">Loading...</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
