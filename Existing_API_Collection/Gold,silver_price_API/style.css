@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    min-width: fit-content;
+    width: 500px;
+    margin: 50px auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.price {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#goldDetails ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#goldDetails ul li {
+    margin-bottom: 5px;
+}
