@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Rick and Morty Character</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-image: url('Rick-And-Morty.jpeg');
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    .text-black {
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="text-black">
+    <h1 class="text-3xl font-bold mb-4">Random Rick and Morty Character</h1>
+    <button id="generateButton" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Generate Character</button>
+    <div id="characterInfo" class="mt-4"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
