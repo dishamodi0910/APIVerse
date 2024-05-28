@@ -7,7 +7,7 @@ const App = () => {
   const [articles, setArticles] = useState([]);
   const [error, setError] = useState('');
 
-  const API_KEY = 'b220b825a3024d8184bfd6a3cdd6ef68'; // Replace with your NewsAPI key
+  const API_KEY = ''; // Replace with your NewsAPI key
 
   const handleCountryChange = (e) => {
     setCountry(e.target.value);
