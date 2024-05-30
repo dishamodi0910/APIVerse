@@ -52,7 +52,7 @@
 </div>
 <br>
 <div align="left">
-<h2 align="center">🚀When you can expect your PR will get accepted?</h2>
+<h2 align="center">🚀When can you expect your PR to get accepted?</h2>
 
 <div style="color : red">
 <i><b>
