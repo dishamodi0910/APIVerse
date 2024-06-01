@@ -1,0 +1,169 @@
+{
+  "happiness": [
+    {
+      "quote": "Happiness is not something ready made. It comes from your own actions.",
+      "author": "Dalai Lama"
+    },
+    {
+      "quote": "For every minute you are angry you lose sixty seconds of happiness.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "quote": "The only thing that will make you happy is being happy with who you are.",
+      "author": "Goldie Hawn"
+    },
+    {
+      "quote": "Don't cry because it's over, smile because it happened.",
+      "author": "Dr. Seuss"
+    },
+    { "quote": "Happiness is a warm puppy.", "author": "Charles M. Schulz" },
+    {
+      "quote": "The happiness of your life depends upon the quality of your thoughts.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "quote": "Happiness is when what you think, what you say, and what you do are in harmony.",
+      "author": "Mahatma Gandhi"
+    },
+    {
+      "quote": "The best way to cheer yourself up is to try to cheer somebody else up.",
+      "author": "Mark Twain"
+    },
+    {
+      "quote": "Count your age by friends, not years. Count your life by smiles, not tears.",
+      "author": "John Lennon"
+    },
+    {
+      "quote": "Learn to value yourself, which means: fight for your happiness.",
+      "author": "Ayn Rand"
+    }
+  ],
+  "motivation": [
+    {
+      "quote": "The best way to get started is to quit talking and begin doing.",
+      "author": "Walt Disney"
+    },
+    {
+      "quote": "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.",
+      "author": "Winston Churchill"
+    },
+    {
+      "quote": "Don't watch the clock; do what it does. Keep going.",
+      "author": "Sam Levenson"
+    },
+    {
+      "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+      "author": "Albert Schweitzer"
+    },
+    {
+      "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "quote": "You are never too old to set another goal or to dream a new dream.",
+      "author": "C.S. Lewis"
+    },
+    {
+      "quote": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+      "author": "Zig Ziglar"
+    },
+    {
+      "quote": "Believe you can and you're halfway there.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "quote": "The only way to achieve the impossible is to believe it is possible.",
+      "author": "Charles Kingsleigh"
+    },
+    {
+      "quote": "Do not wait to strike till the iron is hot; but make it hot by striking.",
+      "author": "William B. Sprague"
+    }
+  ],
+  "hardwork": [
+    {
+      "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
+      "author": "Colin Powell"
+    },
+    {
+      "quote": "The only place where success comes before work is in the dictionary.",
+      "author": "Vidal Sassoon"
+    },
+    {
+      "quote": "Success is not in the never falling, but in rising every time we fall.",
+      "author": "Confucius"
+    },
+    {
+      "quote": "Success is the sum of small efforts, repeated day in and day out.",
+      "author": "Robert Collier"
+    },
+    {
+      "quote": "Success is walking from failure to failure with no loss of enthusiasm.",
+      "author": "Winston Churchill"
+    },
+    {
+      "quote": "Success is not how high you have climbed, but how you make a positive difference to the world.",
+      "author": "Roy T. Bennett"
+    },
+    {
+      "quote": "The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack in will.",
+      "author": "Vince Lombardi"
+    },
+    {
+      "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+      "author": "Albert Schweitzer"
+    },
+    {
+      "quote": "The only way to achieve the impossible is to believe it is possible.",
+      "author": "Charles Kingsleigh"
+    },
+    {
+      "quote": "Do not wait to strike till the iron is hot; but make it hot by striking.",
+      "author": "William B. Sprague"
+    }
+  ],
+  "peace": [
+    { "quote": "Peace begins with a smile.", "author": "Mother Teresa" },
+    {
+      "quote": "Peace cannot be kept by force; it can only be achieved by understanding.",
+      "author": "Albert Einstein"
+    },
+    {
+      "quote": "If we have no peace, it is because we have forgotten that we belong to each other.",
+      "author": "Mother Teresa"
+    },
+
+    {
+      "quote": "An eye for an eye only ends up making the whole world blind.",
+      "author": "Mahatma Gandhi"
+    },
+    {
+      "quote": "When the power of love overcomes the love of power the world will know peace.",
+      "author": "Jimi Hendrix"
+    },
+    {
+      "quote": "If you want to make peace with your enemy, you have to work with your enemy. Then he becomes your partner.",
+      "author": "Nelson Mandela"
+    },
+    {
+      "quote": "Peace is not absence of conflict, it is the ability to handle conflict by peaceful means.",
+      "author": "Ronald Reagan"
+    },
+    {
+      "quote": "Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.",
+      "author": "Martin Luther King Jr."
+    },
+    {
+      "quote": "Imagine all the people living life in peace. You may say I'm a dreamer, but I'm not the only one. I hope someday you'll join us, and the world will be as one.",
+      "author": "John Lennon"
+    },
+    {
+      "quote": "If everyone demanded peace instead of another television set, then there'd be peace.",
+      "author": "John Lennon"
+    },
+    {
+      "quote": "Peace is a daily, a weekly, a monthly process, gradually changing opinions, slowly eroding old barriers, quietly building new structures.",
+      "author": "John F. Kennedy"
+    }
+  ]
+}
