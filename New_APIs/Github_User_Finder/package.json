@@ -1,0 +1,21 @@
+{
+    "name": "github-user-finder-api",
+    "version": "1.0.0",
+    "description": "GitHub User Finder API to retrieve user details and repositories",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "GitHub",
+        "API",
+        "Node.js",
+        "Express.js"
+    ],
+    "author": "Vipul Lakum",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.26.0",
+        "express": "^4.17.2"
+    }
+}
