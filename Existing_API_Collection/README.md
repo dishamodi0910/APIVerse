@@ -20,3 +20,4 @@
 |[Gold Silver Price](./Gold,silver_price_API/)|This API helps you check realtime price of gold and silver for each categories |
 |[GeoAPI](./GeoAPI/)| GeoAPI is a simple RESTful API that allows you to convert addresses to geographic coordinates (latitude and longitude) and vice versa. This API is built using Node.js and Express.|
 |[Currency Converter API](./Currency_Converter_API/)| Currency_Converter is a simple RESTful API that allows you to convert currency values to different currency|
+|[PotterAPI](./PotterAPI/)|PotterAPI is a Harry Potter API developed with Express.js and available in multiple languages.This API stores information and images of books, characters, and spells. It provides a way to search for books, characters, and spells|
