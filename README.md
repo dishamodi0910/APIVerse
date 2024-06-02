@@ -110,7 +110,7 @@ Happy Coding!❤️
    - You need to fork the repository to work on the project.
    - After forking into your account, you need to clone it using `git clone "repo_link"`
    - After cloning the repository, you need to create a new branch `git checkout -b <BRANCH_NAME>`
-   - Add the code that you want to contribute from your side under newly created branch.
+   - Add the code that you want to contribute from your side under the newly created branch.
    - Make sure you follow proper file structure. If you are creating a new API, then you should add your folder(`NAMEOFAPI`) into the `New_APIs` folder. If you are adding any existing API, make sure proper file structure is followed and you have added `README.md` files for the APIs you are adding.
 
 * *BRINGING YOUR CODE ON GITHUB!*
