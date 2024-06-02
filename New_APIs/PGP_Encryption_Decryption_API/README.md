@@ -57,7 +57,8 @@ The Data body :
 
 {
     "text":"Encrypted plain text to be decrypted",
-    "decryptKey":"Generated Decryption Key"
+    "decryptKey":"Generated Decryption Key",
+    "password":"Your password"
 }
 
 ## Usage
