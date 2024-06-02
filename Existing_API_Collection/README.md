@@ -22,4 +22,5 @@
 |[JSON_Placeholder_API](./JSON_Plaeholder_API/)| this api is used to test basic crud operations on fake data posts |
 |[Gold Silver Price](./Gold,silver_price_API/)|This API helps you check realtime price of gold and silver for each categories |
 |[GeoAPI](./GeoAPI/)| GeoAPI is a simple RESTful API that allows you to convert addresses to geographic coordinates (latitude and longitude) and vice versa. This API is built using Node.js and Express.|
+|[Books API](./Books_API/)| The Google Books API allows developers to access a wealth of information about books, including their titles, authors, publishers, publication dates, and descriptions. |
 |[Currency Converter API](./Currency_Converter_API/)| Currency_Converter is a simple RESTful API that allows you to convert currency values to different currency|
