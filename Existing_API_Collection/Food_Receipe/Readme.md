@@ -2,7 +2,6 @@
 
 **Technologies:**
 
-- React JS
 - Food API
 - Materialize CSS
 
