@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSONPlaceholder CRUD</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div id="container" class="container py-4">
+        <h1 class="text-center mb-4">JSONPlaceholder CRUD</h1>
+        <form id="postForm" class="mb-4">
+            <div class="form-group">
+                <input type="text" id="title" placeholder="Title" class="form-control mb-2">
+            </div>
+            <div class="form-group">
+                <textarea id="body" placeholder="Body" class="form-control mb-2" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Create Post</button>
+        </form>
+        <hr>
+        <h2 class="text-center mb-4">Posts</h2>
+        <div id="posts" class="list-group"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
