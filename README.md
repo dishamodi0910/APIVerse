@@ -50,6 +50,23 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black">
 
 </div>
+
+<br>
+<div align="left">
+<h2 align="center">New API v/s Existing API</h2>
+
+<div style="color : red">
+<i><b>
+
+📌New API is the one where all the endpoints are defined by you and there is no integration of any API that's already existing.
+
+📌Existing API means that there is an API that is already existing, you are just fetching data and displaying it from external source.<br>
+
+</b>
+</i>
+</div>
+
+
 <br>
 <div align="left">
 <h2 align="center">🚀When you can expect your PR will get accepted?</h2>

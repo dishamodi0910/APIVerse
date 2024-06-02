@@ -1,0 +1,16 @@
+{
+  "name": "ip_information_api",
+  "version": "1.0.0",
+  "description": "Give geological Information of IP Address",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Helpin Lakkad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "maxmind": "^4.3.19",
+    "validator": "^13.12.0"
+  }
+}
