@@ -130,3 +130,62 @@ dist
 .pnp.*
 .vscode
 .DS_Store
+
+# For Spring boot applications Gitignore 
+
+/New_APIs/*/HELP.md
+/New_APIs/*/target/
+/New_APIs/*/!.mvn/wrapper/maven-wrapper.jar
+/New_APIs/*/!**/src/main/**/target/
+/New_APIs/*/!**/src/test/**/target/
+
+### STS ###
+/New_APIs/*/.apt_generated
+/New_APIs/*/.classpath
+/New_APIs/*/.factorypath
+/New_APIs/*/.project
+/New_APIs/*/.settings
+/New_APIs/*/.springBeans
+/New_APIs/*/.sts4-cache
+
+### IntelliJ IDEA ###
+/New_APIs/*/.idea
+/New_APIs/*/*.iws
+/New_APIs/*/*.iml
+/New_APIs/*/*.ipr
+
+### VS Code ###
+/New_APIs/*/.vscode/
+
+/New_APIs/*/.metadata
+/New_APIs/*/bin/
+/New_APIs/*/tmp/
+/New_APIs/*/*.tmp
+/New_APIs/*/*.bak
+/New_APIs/*/*.swp
+/New_APIs/*/*~.nib
+/New_APIs/*/local.properties
+/New_APIs/*/.settings/
+/New_APIs/*/.loadpath
+/New_APIs/*/.recommenders
+
+/New_APIs/*/.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+/New_APIs/*/*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+/New_APIs/*/*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+/New_APIs/*/.cproject
+
+# PDT-specific (PHP Development Tools)
+/New_APIs/*/.buildpath
+
+# sbteclipse plugin
+/New_APIs/*/.target
+
+# Tern plugin
+/New_APIs/*/.tern-project
+

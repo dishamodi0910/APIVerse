@@ -1,0 +1,3 @@
+spring.application.name=VideoGame
+spring.data.mongodb.uri=[your mongodb database connection string]
+spring.data.mongodb.database=[your database name]
