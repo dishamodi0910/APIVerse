@@ -1,0 +1,3 @@
+[submodule "New_APIs/fantacy-cricket_API"]
+	path = New_APIs/fantacy-cricket_API
+	url = https://github.com/Diyouf/fantasy-cricket-app.git
