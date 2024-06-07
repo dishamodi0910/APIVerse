@@ -16,6 +16,7 @@
 |[Product Store API](./ProductStoreAPI/)| A Product Store API using NodeJS, ExpressJS, MongoDB and Mongoose |
 |[Bored API](./BoredAPI/)|Bored API is a versatile tool designed to provide users with random activity suggestions when they're feeling bored. With this API, users can access a wide range of activities to spark inspiration and alleviate boredom. From creative hobbies to outdoor adventures, Bored API offers something for everyone.|
 |[Unsplash API](./unsplashApi/)| An API that enables users to retrieve high quality and copyright free Images from Unsplash and also get random Images |
+| [News Reader API](./News_Reader_API/) | The News Reader API allows you to fetch the latest news articles from various sources. Simply click the "Get News" button to retrieve the most recent headlines! |
 |[Cricket API](./Cricket_Score_API/)| this api gives all the current matches and upcoming matches also give scores of current matches and gives players list  |
 |[NewsBuster](./news-buster-api/)|This API helps you gain worldly knowledge with a better frontend by fetching API |
 |[TranslatorAPI](./TranslatorAPI/)|This API helps to translate text with OTHER languages|
