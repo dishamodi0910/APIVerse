@@ -37,15 +37,15 @@
         "jokes": "How do you open a banana? With a mon-key."
       },
       {
-        "id": 10,
+        "id":10,
         "jokes": "Which is faster, hot or cold? Hot, because you can catch cold."
       },
       {
-        "id": 11,
+        "id":11,
         "jokes": "What did one plate say to the other plate? Dinner's on me."
       },
       {
-        "id": 12,
+        "id":12,
         "jokes": "Why do oranges wear sunscreen? So they don't peel."
       },
       {
@@ -279,9 +279,129 @@
       {
         "id": 70,
         "jokes": "What did the snail who was riding on the turtle's back say? Wheeeee!"
+      },
+      {
+        "id": 71,
+        "jokes": "Why couldn't the bicycle find its way home? It lost its bearings."
+      },
+      {
+        "id": 72,
+        "jokes": "What do you call fake spaghetti? An impasta."
+      },
+      {
+        "id": 73,
+        "jokes": "Why did the golfer bring two pairs of pants? In case he got a hole in one."
+      },
+      {
+        "id": 74,
+        "jokes": "Why don't skeletons fight each other? They don't have the guts."
+      },
+      {
+        "id": 75,
+        "jokes": "What did one ocean say to the other ocean? Nothing, they just waved."
+      },
+      {
+        "id": 76,
+        "jokes": "Why don't scientists trust atoms? Because they make up everything."
+      },
+      {
+        "id": 77,
+        "jokes": "What do you call a factory that makes okay products? A satisfactory."
+      },
+      {
+        "id": 78,
+        "jokes": "Why was the belt arrested? It held up a pair of pants."
+      },
+      {
+        "id": 79,
+        "jokes": "Why did the tomato turn red? Because it saw the salad dressing."
+      },
+      {
+        "id": 80,
+        "jokes": "What did the grape do when it got stepped on? Nothing, it just let out a little wine."
+      },
+      {
+        "id": 81,
+        "jokes": "Why don't eggs tell jokes? Because they'd crack each other up."
+      },
+      {
+        "id": 82,
+        "jokes": "What do you call a can opener that doesn't work? A can't opener."
+      },
+      {
+        "id": 83,
+        "jokes": "How do you make a tissue dance? You put a little boogey in it."
+      },
+      {
+        "id": 84,
+        "jokes": "What do you call a snowman with a six-pack? An abdominal snowman."
+      },
+      {
+        "id": 85,
+        "jokes": "What do you get when you cross a snowman and a vampire? Frostbite."
+      },
+      {
+        "id": 86,
+        "jokes": "Why don't skeletons fight each other? They don't have the guts."
+      },
+      {
+        "id": 87,
+        "jokes": "What did one toilet say to the other toilet? You look flushed."
+      },
+      {
+        "id": 88,
+        "jokes": "What did the grape say when it got stepped on? Nothing, it just let out a little wine."
+      },
+      {
+        "id": 89,
+        "jokes": "What do you call a fish wearing a bowtie? Sofishticated."
+      },
+      {
+        "id": 90,
+        "jokes": "How does a penguin build its house? Igloos it together."
+      },
+      {
+        "id": 91,
+        "jokes": "Why don't scientists trust atoms? Because they make up everything."
+      },
+      {
+        "id": 92,
+        "jokes": "What do you call fake spaghetti? An impasta."
+      },
+      {
+        "id": 93,
+        "jokes": "What's orange and sounds like a parrot? A carrot."
+      },
+      {
+        "id": 94,
+        "jokes": "Why did the tomato turn red? Because it saw the salad dressing."
+      },
+      {
+        "id": 95,
+        "jokes": "How do you organize a space party? You planet."
+      },
+      {
+        "id": 96,
+        "jokes": "Why did the bicycle fall over? Because it was two-tired."
+      },
+      {
+        "id": 97,
+        "jokes": "What do you call a sleeping bull? A bulldozer."
+      },
+      {
+        "id": 98,
+        "jokes": "What did the traffic light say to the car? Don't look, I'm changing!"
+      },
+      {
+        "id": 99,
+        "jokes": "Why did the scarecrow win an award? Because he was outstanding in his field."
+      },
+      {
+        "id":70,
+        "jokes": "How do you catch a squirrel? Climb a tree and act like a nut!"
       }
     ],
-    "id": [
+    "in": [
       {
         "id": 1,
         "jokes": "Kalo bubur bayi buat bayi berarti kalo bubur ayam buat ayam ??"
@@ -319,15 +439,15 @@
         "jokes": "Sepeda apa yang tidak bisa dicat? Sepeda hilang!"
       },
       {
-        "id": 10,
+        "id":10,
         "jokes": "Benda apa yang baru dibeli langsung dibuang? Peti mati."
       },
       {
-        "id": 11,
+        "id":11,
         "jokes": "Apa persamaan antara uang dan rahasia? sama-sama susah dipegang."
       },
       {
-        "id": 12,
+        "id":12,
         "jokes": "Uang 100 ribu jika dilempar maka akan menjadi? Jadi rebutan."
       },
       {
@@ -438,7 +558,7 @@
         "id": 39,
         "jokes": "Apa bahasa Indianya bumbu dapur? Tumbar miri jahe."
       },
-      {
+      { 
         "id": 40,
         "jokes": "Apa ayang badannya hijau, kepalanya merah, jalannya mundur? Obat nyamuk bakar."
       },
@@ -561,6 +681,125 @@
       {
         "id": 70,
         "jokes": "Berapa jumlah kaki seekor kerbau? Delapan, yaitu: dua kaki kiri, dua kaki kanan, dua kaki depan, dan dua kaki belakang."
-      }
+      },{
+        "id":71,
+        "jokes": "Mengapa sepeda tidak bisa pulang? Karena kehilangan beringnya."
+      },
+      {
+        "id":72,
+        "jokes": "Apa nama spaghetti palsu? Impasta."
+      },
+      {
+        "id":73,
+        "jokes": "Mengapa pemain golf membawa dua pasang celana? Untuk jaga-jaga jika dia membuat hole in one."
+      },
+      {
+        "id":74,
+        "jokes": "Mengapa tulang-tulang tidak saling berkelahi? Karena mereka tidak punya hati."
+      },
+      {
+        "id":75,
+        "jokes": "Apa yang dikatakan satu lautan kepada lautan lainnya? Tidak apa-apa, mereka hanya melambai."
+      },
+      {
+        "id":76,
+        "jokes": "Mengapa ilmuwan tidak percaya pada atom? Karena mereka membentuk segalanya."
+      },
+      {
+        "id":77,
+        "jokes": "Apa yang disebut pabrik yang membuat produk yang cukup baik? Memuaskan."
+      },
+      {
+        "id":78,
+        "jokes": "Mengapa sabuk ditangkap? Karena ia menahan celana."
+      },
+      {
+        "id":79,
+        "jokes": "Mengapa tomat berubah merah? Karena melihat dressing salad."
+      },
+      {
+        "id":80,
+        "jokes": "Apa yang dilakukan anggur ketika diinjak? Tidak apa-apa, hanya mengeluarkan sedikit anggur."
+      },
+      {
+        "id":81,
+        "jokes": "Mengapa telur tidak bercanda? Karena mereka akan membuat satu sama lain tertawa."
+      },
+      {
+        "id":82,
+        "jokes": "Apa yang disebut pembuka kaleng yang tidak berfungsi? Pembuka kaleng."
+      },
+      {
+        "id":83,
+        "jokes": "Bagaimana cara membuat tisu menari? Letakkan sedikit goyang di dalamnya."
+      },
+      {
+        "id":84,
+        "jokes": "Apa yang Anda sebut snowman dengan six-pack? Snowman abdominal."
+      },
+      {
+        "id":85,
+        "jokes": "Apa yang Anda dapatkan ketika menyeberangi snowman dan vampir? Frostbite."
+      },
+      {
+        "id":86,
+        "jokes": "Mengapa tulang-tulang tidak saling berkelahi? Karena mereka tidak punya hati."
+      },
+      {
+        "id":87,
+        "jokes": "Apa yang dikatakan satu toilet kepada toilet lainnya? Kamu terlihat merah."
+      },
+      {
+        "id":88,
+        "jokes": "Apa yang dikatakan anggur ketika diinjak? Tidak apa-apa, hanya mengeluarkan sedikit anggur."
+      },
+      {
+        "id":89,
+        "jokes": "Apa yang Anda sebut ikan yang mengenakan dasi kupu-kupu? Berkelas."
+      },
+      {
+        "id":90,
+        "jokes": "Bagaimana penguin membangun rumahnya? Igloonya itu bersama-sama."
+      },
+      {
+        "id":91,
+        "jokes": "Mengapa ilmuwan tidak percaya pada atom? Karena mereka membentuk segalanya."
+      },
+      {
+        "id":92,
+        "jokes": "Apa nama spaghetti palsu? Impasta."
+      },
+      {
+        "id":93,
+        "jokes": "Apa yang berwarna oranye dan terdengar seperti burung beo? Wortel."
+      },
+      {
+        "id":94,
+        "jokes": "Mengapa tomat berubah merah? Karena melihat dressing salad."
+      },
+      {
+        "id":95,
+        "jokes": "Bagaimana cara mengatur pesta luar angkasa? Anda planet."
+      },
+      {
+        "id":96,
+        "jokes": "Mengapa sepeda jatuh? Karena kelelahan."
+      },
+      {
+        "id":97,
+        "jokes": "Apa yang Anda sebut banteng yang tidur? Bulldozer."
+      },
+      {
+        "id": 98,
+        "jokes": "Apa yang dikatakan lampu lalu lintas kepada mobil? Jangan lihat, aku sedang berubah!"
+      },
+      {
+        "id": 99,
+        "jokes": "Mengapa orang-orang-orangan menang dalam sebuah penghargaan? Karena dia luar biasa di bidangnya."
+      },
+      {
+        "id": 100,
+        "jokes": "Bagaimana Anda menangkap seekor tupai? Mendaki pohon dan bertingkah seperti kacang!"
+      } 
     ]
   }

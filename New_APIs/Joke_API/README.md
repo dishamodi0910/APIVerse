@@ -21,7 +21,7 @@ GET    : /v1/en?_limit=20
 ```
 - **Get Jokes with Sort**
 ```bash
-GET    : /v1/en?_sort=id&_order=desc
+GET    : /v1/en?_sort=id&_order=desc/v1/en?_limit=20
 ```
 # Author
 [Sivaprasath](https://github.com/sivaprasath2004)
