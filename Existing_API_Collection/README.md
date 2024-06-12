@@ -24,3 +24,4 @@
 |[GeoAPI](./GeoAPI/)| GeoAPI is a simple RESTful API that allows you to convert addresses to geographic coordinates (latitude and longitude) and vice versa. This API is built using Node.js and Express.|
 |[Books API](./Books_API/)| The Google Books API allows developers to access a wealth of information about books, including their titles, authors, publishers, publication dates, and descriptions. |
 |[Currency Converter API](./Currency_Converter_API/)| Currency_Converter is a simple RESTful API that allows you to convert currency values to different currency|
+|[CoinGecko API](./CoinGecko_API/)| This API is use to fetch Top 100 Crypto Currencies and display comprehensive data about them with market capital, price etc.|
