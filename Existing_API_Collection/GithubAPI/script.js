@@ -32,7 +32,7 @@ searchButton.addEventListener('click', () => {
         .then(response => response.json())
         .then(repos => {
             // Display user repositories
-            const repoList = repos.map(repo => `<li>${repo.name}</li>`).join('');
+            const repoList = repos.map(repo => `<div style="display:flex;position:relative;justify-content:flex-start;align-items:center;padding:0.5rem 0rem;border-bottom:0.1rem solid;"><li style="flex:0.8;text-align:left;">${repo.name.length>28?repo.name.slice(0,25)+'..':repo.name}</li><a style="flex:0.2;" href=https://github.com/${username}/${repo.name}>visit</a></div> `).join('');
             userRepos.innerHTML = `<h2>Repositories</h2><ul>${repoList}</ul>`;
         })
         .catch(error => {

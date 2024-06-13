@@ -42,7 +42,9 @@ header {
     border-radius: 5px 0 0 5px;
     background-color: #f0f0f0;
 }
-
+#profile-container{
+    width:30rem;
+}
 /* Search button styles */
 #search-button {
     padding: 10px 20px;
@@ -103,6 +105,18 @@ header {
 }
 
 #user-repos ul li {
-    margin-bottom: 10px;
     font-size: 18px;
+}
+#user-repos ul a{
+    text-decoration:none;
+    color:white;
+    padding:0.5rem 1rem;
+    background-color:black;
+    border-radius: 0.6rem;
+    border:1px solid;
+    transition: 0.3s ease-in;
+}
+#user-repos ul a:hover{
+    background-color:white;
+    color:black;
 }
