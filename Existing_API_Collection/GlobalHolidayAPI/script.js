@@ -2,25 +2,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchButton = document.getElementById("search-button");
     const countryInput = document.getElementById("country-input");
     const holidaysList = document.getElementById("holidays-list");
-    const Year_container=document.getElementById('year-input')
+
     searchButton.addEventListener("click", () => {
         const countryCode = countryInput.value;
-        const Year=Year_container.value
-        if (countryCode && Year) {
-            fetchHolidays(countryCode,Year);
+
+        if (countryCode) {
+            fetchHolidays(countryCode);
         }
     });
-    const year=new Date().getFullYear()
-    for(let i=year;i>=2010;i--){
-        const option=document.createElement('option')
-        option.setAttribute('value',i)
-        option.textContent='year: ' +i
-        Year_container.appendChild(option)
-    }
-    function fetchHolidays(countryCode,Year) {
+
+    function fetchHolidays(countryCode) {
         //API KEY
         const apiKey = 'akio9k5qVkY8dCwDGw657ZGC3M8LWOcY';
-        const apiUrl = `https://calendarific.com/api/v2/holidays?country=${countryCode}&year=${Year}&api_key=${apiKey}`;
+        const apiUrl = `https://calendarific.com/api/v2/holidays?country=${countryCode}&year=2023&api_key=${apiKey}`;
 
         fetch(apiUrl)
             .then(response => {

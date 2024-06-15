@@ -27,7 +27,7 @@ label {
     font-size: 18px;
 }
 
-#country-input ,#year-input{
+#country-input {
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
