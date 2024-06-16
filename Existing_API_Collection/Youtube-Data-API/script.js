@@ -4,7 +4,7 @@ document.getElementById('search-button').addEventListener('click', function() {
 });
 
 function searchYouTube(query) {
-    const apiKey = 'AIzaSyA6VaxA4K-bq1Kbd5gnhOngygpOcqTN8r4';
+    const apiKey = 'YOUR_API_KEY';
     const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(query)}&key=${apiKey}&maxResults=10&type=video`;
 
     fetch(url)
