@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Campaign Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Market Campaign Generator</h1>
+        <form id="campaign-form">
+            <label for="product">Product Name:</label>
+            <input type="text" id="product" name="product" required>
+
+            <label for="audience">Target Audience:</label>
+            <input type="text" id="audience" name="audience" required>
+
+            <label for="message">Key Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Generate Campaign</button>
+        </form>
+
+        <div id="campaign-output" class="output"></div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
