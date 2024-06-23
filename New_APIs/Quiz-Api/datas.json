@@ -1,0 +1,984 @@
+[
+    {
+      "id": 1,
+      "category": "Geography",
+      "question": "What is the capital of France?",
+      "options": ["Paris", "Berlin", "Madrid", "Rome"],
+      "answer": "Paris"
+    },
+    {
+      "id": 2,
+      "category": "Geography",
+      "question": "Which river flows through Cairo?",
+      "options": ["Nile", "Amazon", "Mississippi", "Danube"],
+      "answer": "Nile"
+    },
+    {
+      "id": 3,
+      "category": "Geography",
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": ["China", "Japan", "Thailand", "South Korea"],
+      "answer": "Japan"
+    },
+    {
+      "id": 4,
+      "category": "Science",
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Fe", "Pb"],
+      "answer": "Au"
+    },
+    {
+      "id": 5,
+      "category": "Science",
+      "question": "Who discovered penicillin?",
+      "options": ["Alexander Fleming", "Marie Curie", "Albert Einstein", "Isaac Newton"],
+      "answer": "Alexander Fleming"
+    },
+    {
+      "id": 6,
+      "category": "Science",
+      "question": "What is the largest organ in the human body?",
+      "options": ["Liver", "Heart", "Brain", "Skin"],
+      "answer": "Skin"
+    },
+    {
+      "id": 7,
+      "category": "History",
+      "question": "In which year did World War II end?",
+      "options": ["1943", "1945", "1950", "1939"],
+      "answer": "1945"
+    },
+    {
+      "id": 8,
+      "category": "History",
+      "question": "Who was the first President of the United States?",
+      "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+      "answer": "George Washington"
+    },
+    {
+      "id": 9,
+      "category": "History",
+      "question": "What was the name of the ship that carried the Pilgrims to America in 1620?",
+      "options": ["Mayflower", "Santa Maria", "Nina", "Pinta"],
+      "answer": "Mayflower"
+    },
+    {
+      "id": 10,
+      "category": "Literature",
+      "question": "Who wrote the novel \"Pride and Prejudice\"?",
+      "options": ["Jane Austen", "Charles Dickens", "Leo Tolstoy", "F. Scott Fitzgerald"],
+      "answer": "Jane Austen"
+    },
+    {
+        "id": 11,
+        "category": "Literature",
+        "question": "Who wrote the play \"Hamlet\"?",
+        "options": ["William Shakespeare", "Anton Chekhov", "Oscar Wilde", "George Bernard Shaw"],
+        "answer": "William Shakespeare"
+      },
+      {
+        "id": 12,
+        "category": "Science",
+        "question": "What is the smallest bone in the human body?",
+        "options": ["Stapes", "Femur", "Humerus", "Patella"],
+        "answer": "Stapes"
+      },
+      {
+        "id": 13,
+        "category": "Geography",
+        "question": "Which country is the largest by land area?",
+        "options": ["Russia", "Canada", "China", "United States"],
+        "answer": "Russia"
+      },
+      {
+        "id": 14,
+        "category": "History",
+        "question": "Who was the first man to walk on the moon?",
+        "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn"],
+        "answer": "Neil Armstrong"
+      },
+      {
+        "id": 15,
+        "category": "Geography",
+        "question": "What is the longest river in the world?",
+        "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+        "answer": "Nile"
+      },
+      {
+        "id": 16,
+        "category": "Geography",
+        "question": "What is the capital of Australia?",
+        "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+        "answer": "Canberra"
+      },
+      {
+        "id": 17,
+        "category": "Geography",
+        "question": "Which river flows through Cairo?",
+        "options": ["Nile", "Amazon", "Mississippi", "Danube"],
+        "answer": "Nile"
+      },
+      {
+        "id": 18,
+        "category": "Geography",
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "options": ["China", "Japan", "Thailand", "South Korea"],
+        "answer": "Japan"
+      },
+      {
+        "id": 19,
+        "category": "Science",
+        "question": "What is the chemical symbol for gold?",
+        "options": ["Au", "Ag", "Fe", "Pb"],
+        "answer": "Au"
+      },
+      {
+        "id": 20,
+        "category": "Science",
+        "question": "Who discovered penicillin?",
+        "options": ["Alexander Fleming", "Marie Curie", "Albert Einstein", "Isaac Newton"],
+        "answer": "Alexander Fleming"
+      },
+      {
+        "id": 21,
+        "category": "Science",
+        "question": "What is the largest organ in the human body?",
+        "options": ["Liver", "Heart", "Brain", "Skin"],
+        "answer": "Skin"
+      },
+      {
+        "id": 22,
+        "category": "History",
+        "question": "In which year did World War II end?",
+        "options": ["1943", "1945", "1950", "1939"],
+        "answer": "1945"
+      },
+      {
+        "id": 23,
+        "category": "History",
+        "question": "Who was the first President of the United States?",
+        "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+        "answer": "George Washington"
+      },
+      {
+        "id": 24,
+        "category": "History",
+        "question": "What was the name of the ship that carried the Pilgrims to America in 1620?",
+        "options": ["Mayflower", "Santa Maria", "Nina", "Pinta"],
+        "answer": "Mayflower"
+      },
+      {
+        "id": 25,
+        "category": "Literature",
+        "question": "Who wrote the novel \"Pride and Prejudice\"?",
+        "options": ["Jane Austen", "Charles Dickens", "Leo Tolstoy", "F. Scott Fitzgerald"],
+        "answer": "Jane Austen"
+      },
+      {
+        "id": 26,
+        "category": "Literature",
+        "question": "Who wrote the play \"Hamlet\"?",
+        "options": ["William Shakespeare", "Anton Chekhov", "Oscar Wilde", "George Bernard Shaw"],
+        "answer": "William Shakespeare"
+      },
+      {
+        "id": 27,
+        "category": "Science",
+        "question": "What is the smallest bone in the human body?",
+        "options": ["Stapes", "Femur", "Humerus", "Patella"],
+        "answer": "Stapes"
+      },
+      {
+        "id": 28,
+        "category": "Geography",
+        "question": "Which country is the largest by land area?",
+        "options": ["Russia", "Canada", "China", "United States"],
+        "answer": "Russia"
+      },
+      {
+        "id": 29,
+        "category": "History",
+        "question": "Who was the first man to walk on the moon?",
+        "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn"],
+        "answer": "Neil Armstrong"
+      },
+      {
+        "id": 30,
+        "category": "Geography",
+        "question": "What is the longest river in the world?",
+        "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+        "answer": "Nile"
+      },
+      {
+        "id": 31,
+        "category": "Literature",
+        "question": "Who wrote the novel \"1984\"?",
+        "options": ["George Orwell", "Aldous Huxley", "J.D. Salinger", "Ray Bradbury"],
+        "answer": "George Orwell"
+      },
+      {
+        "id": 32,
+        "category": "Science",
+        "question": "What is the chemical symbol for water?",
+        "options": ["H2O", "CO2", "O2", "NaCl"],
+        "answer": "H2O"
+      },
+      {
+        "id": 33,
+        "category": "History",
+        "question": "Which ancient civilization built the pyramids?",
+        "options": ["Egyptians", "Greeks", "Romans", "Persians"],
+        "answer": "Egyptians"
+      },
+      {
+        "id": 34,
+        "category": "Geography",
+        "question": "Which continent is the largest by land area?",
+        "options": ["Asia", "Africa", "North America", "South America"],
+        "answer": "Asia"
+      },
+      {
+        "id": 35,
+        "category": "Literature",
+        "question": "Who wrote the play \"Romeo and Juliet\"?",
+        "options": ["William Shakespeare", "Tennessee Williams", "Arthur Miller", "Oscar Wilde"],
+        "answer": "William Shakespeare"
+      },
+      {
+        "id": 36,
+        "category": "Science",
+        "question": "What is the chemical symbol for oxygen?",
+        "options": ["O", "O2", "O3", "O-"],
+        "answer": "O2"
+      },
+      {
+        "id": 37,
+        "category": "History",
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+        "answer": "Leonardo da Vinci"
+      },
+      {
+        "id": 38,
+        "category": "Geography",
+        "question": "Which city is known as the \"Eternal City\"?",
+        "options": ["Rome", "Athens", "Paris", "London"],
+        "answer": "Rome"
+      },
+      {
+        "id": 39,
+        "category": "Literature",
+        "question": "Who wrote the novel \"To Kill a Mockingbird\"?",
+        "options": ["Harper Lee", "F. Scott Fitzgerald", "Ernest Hemingway", "Mark Twain"],
+        "answer": "Harper Lee"
+      },
+      {
+        "id": 40,
+        "category": "Science",
+        "question": "What is the largest planet in our solar system?",
+        "options": ["Jupiter", "Saturn", "Neptune", "Uranus"],
+        "answer": "Jupiter"
+      },
+      {
+        "id": 41,
+        "category": "History",
+        "question": "Who was the longest-reigning British monarch?",
+        "options": ["Queen Victoria", "Queen Elizabeth II", "King George III", "King Henry VIII"],
+        "answer": "Queen Elizabeth II"
+      },
+      {
+        "id": 42,
+        "category": "Geography",
+        "question": "Which is the smallest country in the world?",
+        "options": ["Vatican City", "Monaco", "Maldives", "San Marino"],
+        "answer": "Vatican City"
+      },
+      {
+        "id": 43,
+        "category": "Literature",
+        "question": "Who wrote the novel \"Moby Dick\"?",
+        "options": ["Herman Melville", "Nathaniel Hawthorne", "Edgar Allan Poe", "Ralph Waldo Emerson"],
+        "answer": "Herman Melville"
+      },
+      {
+        "id": 44,
+        "category": "Science",
+        "question": "What is the chemical symbol for carbon?",
+        "options": ["C", "Ca", "Co", "Cr"],
+        "answer": "C"
+      },
+      {
+        "id":45,
+        "category": "History",
+        "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+        "options": ["Amelia Earhart", "Bessie Coleman", "Jacqueline Cochran", "Harriet Quimby"],
+        "answer": "Amelia Earhart"
+      },
+        {
+          "id": 46,
+          "category": "Geography",
+          "question": "Which is the largest desert in the world?",
+          "options": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Kalahari Desert"],
+          "answer": "Sahara Desert"
+        },
+        {
+          "id": 47,
+          "category": "Geography",
+          "question": "Which mountain range is located between France and Spain?",
+          "options": ["Andes", "Himalayas", "Alps", "Pyrenees"],
+          "answer": "Pyrenees"
+        },
+        {
+          "id": 48,
+          "category": "Geography",
+          "question": "Which ocean is the largest by area?",
+          "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+          "answer": "Pacific Ocean"
+        },
+        {
+          "id": 49,
+          "category": "Science",
+          "question": "What is the freezing point of water in Fahrenheit?",
+          "options": ["32°F", "0°F", "212°F", "100°F"],
+          "answer": "32°F"
+        },
+        {
+          "id": 50,
+          "category": "Science",
+          "question": "What is the study of fossils called?",
+          "options": ["Archaeology", "Biology", "Geology", "Paleontology"],
+          "answer": "Paleontology"
+        },
+        {
+          "id": 51,
+          "category": "Science",
+          "question": "What is the chemical symbol for sodium?",
+          "options": ["Na", "Ni", "Nb", "Ne"],
+          "answer": "Na"
+        },
+        {
+          "id": 52,
+          "category": "History",
+          "question": "Who was the first Emperor of China?",
+          "options": ["Qin Shi Huang", "Sun Yat-sen", "Mao Zedong", "Deng Xiaoping"],
+          "answer": "Qin Shi Huang"
+        },
+        {
+          "id": 53,
+          "category": "History",
+          "question": "Which city hosted the first modern Olympic Games?",
+          "options": ["Athens", "Paris", "London", "Rome"],
+          "answer": "Athens"
+        },
+        {
+          "id": 54,
+          "category": "History",
+          "question": "Who founded Microsoft in 1975?",
+          "options": ["Bill Gates", "Steve Jobs", "Larry Page", "Jeff Bezos"],
+          "answer": "Bill Gates"
+        },
+        {
+          "id": 55,
+          "category": "Literature",
+          "question": "Which Shakespearean play features the characters Rosencrantz and Guildenstern?",
+          "options": ["Hamlet", "Romeo and Juliet", "Macbeth", "Othello"],
+          "answer": "Hamlet"
+        },
+        {
+          "id": 56,
+          "category": "Literature",
+          "question": "Who wrote the novel \"War and Peace\"?",
+          "options": ["Leo Tolstoy", "Fyodor Dostoevsky", "Anton Chekhov", "Nikolai Gogol"],
+          "answer": "Leo Tolstoy"
+        },
+        {
+          "id": 57,
+          "category": "Literature",
+          "question": "In J.R.R. Tolkien's Middle-earth legendarium, what is the name of Gandalf's sword?",
+          "options": ["Sting", "Glamdring", "Andúril", "Orcrist"],
+          "answer": "Glamdring"
+        },
+        {
+          "id": 58,
+          "category": "Science",
+          "question": "What is the largest species of bear?",
+          "options": ["Polar Bear", "Grizzly Bear", "Kodiak Bear", "Sun Bear"],
+          "answer": "Polar Bear"
+        },
+        {
+          "id": 59,
+          "category": "Science",
+          "question": "What is the chemical symbol for silver?",
+          "options": ["Si", "Sv", "Sr", "Ag"],
+          "answer": "Ag"
+        },
+        {
+          "id": 60,
+          "category": "Science",
+          "question": "Which gas do plants absorb from the atmosphere?",
+          "options": ["Oxygen", "Carbon Monoxide", "Nitrogen", "Carbon Dioxide"],
+          "answer": "Carbon Dioxide"
+        },
+        {
+          "id": 61,
+          "category": "History",
+          "question": "Who was the first woman to win a Nobel Prize?",
+          "options": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Mother Teresa"],
+          "answer": "Marie Curie"
+        },
+        {
+          "id": 62,
+          "category": "History",
+          "question": "Who was the longest-serving Prime Minister of the United Kingdom in the 20th century?",
+          "options": ["Margaret Thatcher", "Winston Churchill", "Tony Blair", "David Lloyd George"],
+          "answer": "Margaret Thatcher"
+        },
+        {
+          "id": 63,
+          "category": "History",
+          "question": "Which US President signed the Civil Rights Act of 1964 into law?",
+          "options": ["Lyndon B. Johnson", "John F. Kennedy", "Richard Nixon", "Dwight D. Eisenhower"],
+          "answer": "Lyndon B. Johnson"
+        },
+        {
+          "id": 64,
+          "category": "Geography",
+          "question": "Which city is known as the City of Seven Hills?",
+          "options": ["Rome", "Lisbon", "San Francisco", "Istanbul"],
+          "answer": "Rome"
+        },
+        {
+          "id": 65,
+          "category": "Geography",
+          "question": "What is the deepest ocean trench in the world?",
+          "options": ["Mariana Trench", "Puerto Rico Trench", "Java Trench", "Tonga Trench"],
+          "answer": "Mariana Trench"
+        },
+        {
+          "id": 66,
+          "category": "Geography",
+          "question": "Which is the largest lake in Africa?",
+          "options": ["Lake Victoria", "Lake Tanganyika", "Lake Malawi", "Lake Chad"],
+          "answer": "Lake Victoria"
+        },
+        {
+          "id": 67,
+          "category": "Literature",
+          "question": "Who wrote the novel \"The Catcher in the Rye\"?",
+          "options": ["J.D. Salinger", "Ernest Hemingway", "F. Scott Fitzgerald", "Harper Lee"],
+          "answer": "J.D. Salinger"
+        },
+        {
+          "id": 68,
+          "category": "Literature",
+          "question": "Which author created the character Sherlock Holmes?",
+          "options": ["Arthur Conan Doyle", "Agatha Christie", "Edgar Allan Poe", "Sir Arthur Ignatius Conan Doyle"],
+          "answer": "Arthur Conan Doyle"
+        },
+        {
+          "id": 69,
+          "category": "Literature",
+          "question": "Who wrote the play \"Macbeth\"?",
+          "options": ["William Shakespeare", "Christopher Marlowe", "Ben Jonson", "John Webster"],
+          "answer": "William Shakespeare"
+        },
+        {
+          "id": 70,
+          "category": "Science",
+          "question": "Which element has the atomic number 1?",
+          "options": ["Hydrogen", "Oxygen", "Carbon", "Helium"],
+          "answer": "Hydrogen"
+        },
+        {
+          "id": 71,
+          "category": "Science",
+          "question": "What is the hardest natural substance on Earth?",
+          "options": ["Diamond", "Graphite", "Quartz", "Topaz"],
+          "answer": "Diamond"
+        },
+        {
+          "id": 72,
+          "category": "Science",
+          "question": "What is the process by which plants make their own food?",
+          "options": ["Photosynthesis", "Respiration", "Germination", "Pollination"],
+          "answer": "Photosynthesis"
+        },
+        {
+          "id": 73,
+          "category": "History",
+          "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+          "options": ["Amelia Earhart", "Bessie Coleman", "Jacqueline Cochran", "Harriet Quimby"],
+          "answer": "Amelia Earhart"
+        },
+        {
+          "id": 74,
+          "category": "History",
+          "question": "Which ancient civilization built the city of Machu Picchu?",
+          "options": ["Inca", "Aztec", "Maya", "Egyptian"],
+          "answer": "Inca"
+        },
+        {
+          "id": 75,
+          "category": "History",
+          "question": "Who was the first person to reach the South Pole?",
+          "options": ["Roald Amundsen", "Robert Falcon Scott", "Ernest Shackleton", "Richard E. Byrd"],
+          "answer": "Roald Amundsen"
+        },
+        {
+          "id": 76,
+          "category": "Geography",
+          "question": "Which river is the longest in the United States?",
+          "options": ["Mississippi River", "Missouri River", "Colorado River", "Columbia River"],
+          "answer": "Missouri River"
+        },
+        {
+          "id": 77,
+          "category": "Geography",
+          "question": "Which is the largest island in the Mediterranean Sea?",
+          "options": ["Sicily", "Sardinia", "Cyprus", "Crete"],
+          "answer": "Sicily"
+        },
+        {
+          "id": 78,
+          "category": "Geography",
+          "question": "Which country is known as the Land of a Thousand Lakes?",
+          "options": ["Finland", "Sweden", "Norway", "Estonia"],
+          "answer": "Finland"
+        },
+        {
+          "id": 79,
+          "category": "Literature",
+          "question": "Who wrote the novel \"Frankenstein\"?",
+          "options": ["Mary Shelley", "Bram Stoker", "Edgar Allan Poe", "H.P. Lovecraft"],
+          "answer": "Mary Shelley"
+        },
+        {
+          "id": 80,
+          "category": "Literature",
+          "question": "Which novel begins with the line \"Call me Ishmael\"?",
+          "options": ["Moby Dick", "The Great Gatsby", "Pride and Prejudice", "1984"],
+          "answer": "Moby Dick"
+        },
+        {
+          "id": 81,
+          "category": "Literature",
+          "question": "Who wrote the play \"A Streetcar Named Desire\"?",
+          "options": ["Tennessee Williams", "Arthur Miller", "Eugene O'Neill", "Samuel Beckett"],
+          "answer": "Tennessee Williams"
+        },
+        {
+          "id": 82,
+          "category": "Science",
+          "question": "What is the chemical symbol for iron?",
+          "options": ["Fe", "Ir", "In", "Io"],
+          "answer": "Fe"
+        },
+        {
+          "id": 83,
+          "category": "Science",
+          "question": "What is the rarest blood type in humans?",
+          "options": ["AB negative", "O positive", "A negative", "B positive"],
+          "answer": "AB negative"
+        },
+        {
+          "id": 84,
+          "category": "Science",
+          "question": "What is the largest species of shark?",
+          "options": ["Whale Shark", "Great White Shark", "Hammerhead Shark", "Tiger Shark"],
+          "answer": "Whale Shark"
+        },
+        {
+          "id": 85,
+          "category": "History",
+          "question": "Who was the first African American to become President of the United States?",
+          "options": ["Barack Obama", "Martin Luther King Jr.", "Malcolm X", "Jesse Jackson"],
+          "answer": "Barack Obama"
+        },
+        {
+          "id": 86,
+          "category": "History",
+          "question": "Who was the first person to win a Nobel Prize twice?",
+          "options": ["Marie Curie", "Albert Einstein", "Linus Pauling", "John Bardeen"],
+          "answer": "Marie Curie"
+        },
+        {
+          "id": 87,
+          "category": "History",
+          "question": "Which country was the first to launch a satellite into space?",
+          "options": ["Soviet Union", "United States", "China", "France"],
+          "answer": "Soviet Union"
+        },
+        {
+          "id": 88,
+          "category": "Geography",
+          "question": "Which is the largest coral reef in the world?",
+          "options": ["Great Barrier Reef", "Belize Barrier Reef", "Red Sea Coral Reef", "Maldives Coral Reef"],
+          "answer": "Great Barrier Reef"
+        },
+        {
+          "id": 89,
+          "category": "Geography",
+          "question": "Which country has the most natural lakes?",
+          "options": ["Canada", "Russia", "Sweden", "United States"],
+          "answer": "Canada"
+        },
+        {
+          "id": 90,
+          "category": "Geography",
+          "question": "What is the capital city of Brazil?",
+          "options": ["Brasília", "Rio de Janeiro", "São Paulo", "Salvador"],
+          "answer": "Brasília"
+        },
+        {
+          "id": 91,
+          "category": "Literature",
+          "question": "Who wrote the novel \"The Lord of the Rings\"?",
+          "options": ["J.R.R. Tolkien", "C.S. Lewis", "George R.R. Martin", "J.K. Rowling"],
+          "answer": "J.R.R. Tolkien"
+        },
+        {
+          "id": 92,
+          "category": "Literature",
+          "question": "Which novel features the character Atticus Finch?",
+          "options": ["To Kill a Mockingbird", "The Grapes of Wrath", "Catch-22", "Invisible Man"],
+          "answer": "To Kill a Mockingbird"
+        },
+        {
+          "id": 93,
+          "category": "Literature",
+          "question": "Who wrote the novel \"The Great Gatsby\"?",
+          "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "T.S. Eliot", "Sinclair Lewis"],
+          "answer": "F. Scott Fitzgerald"
+        },
+        {
+          "id": 94,
+          "category": "Science",
+          "question": "What is the largest species of bird?",
+          "options": ["Ostrich", "Emu", "Albatross", "Condor"],
+          "answer": "Ostrich"
+        },
+        {
+          "id": 95,
+          "category": "Science",
+          "question": "What is the chemical symbol for potassium?",
+          "options": ["K", "Pt", "P", "Ka"],
+          "answer": "K"
+        },
+        {
+          "id": 96,
+          "category": "Science",
+          "question": "What is the process of a liquid turning into a gas?",
+          "options": ["Evaporation", "Condensation", "Sublimation", "Melting"],
+          "answer": "Evaporation"
+        },
+        {
+          "id": 97,
+          "category": "History",
+          "question": "Who was the first person to set foot on Antarctica?",
+          "options": ["Fabian Gottlieb von Bellingshausen", "Roald Amundsen", "Robert Falcon Scott", "Ernest Shackleton"],
+          "answer": "Fabian Gottlieb von Bellingshausen"
+        },
+        {
+          "id": 98,
+          "category": "History",
+          "question": "In which year did the Titanic sink?",
+          "options": ["1912", "1914", "1910", "1916"],
+          "answer": "1912"
+        },
+        {
+          "id": 99,
+          "category": "History",
+          "question": "Who was the first European explorer to reach India by sea?",
+          "options": ["Vasco da Gama", "Christopher Columbus", "Ferdinand Magellan", "James Cook"],
+          "answer": "Vasco da Gama"
+        },
+        {
+          "id": 100,
+          "category": "Geography",
+          "question": "Which is the longest river in South America?",
+          "options": ["Amazon River", "Orinoco River", "Paraná River", "Magdalena River"],
+          "answer": "Amazon River"
+        },
+            {
+              "id": 101,
+              "category": "Geography",
+              "question": "Which country is known as the Land of the Rising Sun?",
+              "options": ["China", "Japan", "South Korea", "Vietnam"],
+              "answer": "Japan"
+            },
+            {
+              "id": 102,
+              "category": "Geography",
+              "question": "What is the capital city of Canada?",
+              "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+              "answer": "Ottawa"
+            },
+            {
+              "id": 103,
+              "category": "Geography",
+              "question": "Which African country is known as the \"Pearl of Africa\"?",
+              "options": ["Kenya", "Nigeria", "Uganda", "South Africa"],
+              "answer": "Uganda"
+            },
+            {
+              "id": 104,
+              "category": "Science",
+              "question": "What is the chemical symbol for lead?",
+              "options": ["Le", "Ld", "Pb", "Ld"],
+              "answer": "Pb"
+            },
+            {
+              "id": 105,
+              "category": "Science",
+              "question": "What is the largest internal organ of the human body?",
+              "options": ["Liver", "Heart", "Lungs", "Kidneys"],
+              "answer": "Liver"
+            },
+            {
+              "id": 106,
+              "category": "Science",
+              "question": "What is the hardest natural substance found on Earth?",
+              "options": ["Diamond", "Graphite", "Quartz", "Topaz"],
+              "answer": "Diamond"
+            },
+            {
+              "id": 107,
+              "category": "History",
+              "question": "Who was the first President of the United States?",
+              "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+              "answer": "George Washington"
+            },
+            {
+              "id": 108,
+              "category": "History",
+              "question": "Which famous document begins with the words \"When in the course of human events...\"?",
+              "options": ["Declaration of Independence", "Magna Carta", "Constitution of the United States", "Emancipation Proclamation"],
+              "answer": "Declaration of Independence"
+            },
+            {
+              "id": 109,
+              "category": "History",
+              "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+              "options": ["Amelia Earhart", "Bessie Coleman", "Jacqueline Cochran", "Harriet Quimby"],
+              "answer": "Amelia Earhart"
+            },
+            {
+              "id": 110,
+              "category": "Literature",
+              "question": "Which novel features the character Holden Caulfield?",
+              "options": ["The Catcher in the Rye", "1984", "To Kill a Mockingbird", "Pride and Prejudice"],
+              "answer": "The Catcher in the Rye"
+            },
+            {
+              "id": 111,
+              "category": "Literature",
+              "question": "Who wrote the novel \"Moby Dick\"?",
+              "options": ["Herman Melville", "Nathaniel Hawthorne", "Edgar Allan Poe", "Ralph Waldo Emerson"],
+              "answer": "Herman Melville"
+            },
+            {
+              "id": 112,
+              "category": "Literature",
+              "question": "Which Shakespearean play features the character Ophelia?",
+              "options": ["Hamlet", "Macbeth", "Romeo and Juliet", "Othello"],
+              "answer": "Hamlet"
+            },
+            {
+              "id": 113,
+              "category": "Science",
+              "question": "What is the chemical symbol for silver?",
+              "options": ["Si", "Sv", "Sr", "Ag"],
+              "answer": "Ag"
+            },
+            {
+              "id": 114,
+              "category": "Science",
+              "question": "What is the study of earthquakes called?",
+              "options": ["Seismology", "Meteorology", "Ecology", "Geology"],
+              "answer": "Seismology"
+            },
+            {
+              "id": 115,
+              "category": "Science",
+              "question": "What is the largest planet in our solar system?",
+              "options": ["Jupiter", "Saturn", "Neptune", "Uranus"],
+              "answer": "Jupiter"
+            },
+            {
+              "id": 116,
+              "category": "History",
+              "question": "Who was the first man to walk on the moon?",
+              "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn"],
+              "answer": "Neil Armstrong"
+            },
+            {
+              "id": 117,
+              "category": "History",
+              "question": "Which US President is associated with the New Deal?",
+              "options": ["Franklin D. Roosevelt", "Herbert Hoover", "Harry S. Truman", "Dwight D. Eisenhower"],
+              "answer": "Franklin D. Roosevelt"
+            },
+            {
+              "id": 118,
+              "category": "History",
+              "question": "Which city hosted the first modern Olympic Games?",
+              "options": ["Athens", "Paris", "London", "Berlin"],
+              "answer": "Athens"
+            },
+            {
+              "id": 119,
+              "category": "Literature",
+              "question": "Who wrote the novel \"The Adventures of Tom Sawyer\"?",
+              "options": ["Mark Twain", "Charles Dickens", "Herman Melville", "Nathaniel Hawthorne"],
+              "answer": "Mark Twain"
+            },
+            {
+              "id": 120,
+              "category": "Literature",
+              "question": "Who wrote the play \"A Streetcar Named Desire\"?",
+              "options": ["Tennessee Williams", "Arthur Miller", "Eugene O'Neill", "Samuel Beckett"],
+              "answer": "Tennessee Williams"
+            },
+            {
+              "id": 121,
+              "category": "Literature",
+              "question": "Which novel begins with the line \"Call me Ishmael\"?",
+              "options": ["Moby Dick", "The Great Gatsby", "Pride and Prejudice", "1984"],
+              "answer": "Moby Dick"
+            },
+            {
+              "id": 122,
+              "category": "Science",
+              "question": "What is the chemical symbol for potassium?",
+              "options": ["K", "Pt", "P", "Ka"],
+              "answer": "K"
+            },
+            {
+              "id": 123,
+              "category": "Science",
+              "question": "What is the rarest blood type in humans?",
+              "options": ["AB negative", "O positive", "A negative", "B positive"],
+              "answer": "AB negative"
+            },
+            {
+              "id": 124,
+              "category": "Science",
+              "question": "What is the largest species of shark?",
+              "options": ["Whale Shark", "Great White Shark", "Hammerhead Shark", "Tiger Shark"],
+              "answer": "Whale Shark"
+            },
+            {
+              "id": 125,
+              "category": "History",
+              "question": "Who was the first African American to become President of the United States?",
+              "options": ["Barack Obama", "Martin Luther King Jr.", "Malcolm X", "Jesse Jackson"],
+              "answer": "Barack Obama"
+            },
+            {
+              "id": 126,
+              "category": "History",
+              "question": "Who was the first person to win a Nobel Prize twice?",
+              "options": ["Marie Curie", "Albert Einstein", "Linus Pauling", "John Bardeen"],
+              "answer": "Marie Curie"
+            },
+            {
+              "id": 127,
+              "category": "History",
+              "question": "Which country was the first to launch a satellite into space?",
+              "options": ["Soviet Union", "United States", "China", "France"],
+              "answer": "Soviet Union"
+            },
+            {
+              "id": 128,
+              "category": "Geography",
+              "question": "Which is the largest coral reef in the world?",
+              "options": ["Great Barrier Reef", "Belize Barrier Reef", "Red Sea Coral Reef", "Maldives Coral Reef"],
+              "answer": "Great Barrier Reef"
+            },
+            {
+              "id": 129,
+              "category": "Geography",
+              "question": "Which country has the most natural lakes?",
+              "options": ["Canada", "Russia", "Sweden", "United States"],
+              "answer": "Canada"
+            },
+            {
+              "id": 130,
+              "category": "Geography",
+              "question": "What is the capital city of Brazil?",
+              "options": ["Brasília", "Rio de Janeiro", "São Paulo", "Salvador"],
+              "answer": "Brasília"
+            },
+            {
+              "id": 131,
+              "category": "Literature",
+              "question": "Who wrote the novel \"The Lord of the Rings\"?",
+              "options": ["J.R.R. Tolkien", "C.S. Lewis", "George R.R. Martin", "J.K. Rowling"],
+              "answer": "J.R.R. Tolkien"
+            },
+            {
+              "id": 132,
+              "category": "Literature",
+              "question": "Which novel features the character Atticus Finch?",
+              "options": ["To Kill a Mockingbird", "The Grapes of Wrath", "Catch-22", "Invisible Man"],
+              "answer": "To Kill a Mockingbird"
+            },
+            {
+              "id": 133,
+              "category": "Literature",
+              "question": "Who wrote the novel \"The Great Gatsby\"?",
+              "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "T.S. Eliot", "Sinclair Lewis"],
+              "answer": "F. Scott Fitzgerald"
+            },
+            {
+              "id": 134,
+              "category": "Science",
+              "question": "What is the largest species of bird?",
+              "options": ["Ostrich", "Emu", "Albatross", "Condor"],
+              "answer": "Ostrich"
+            },
+            {
+              "id": 135,
+              "category": "Science",
+              "question": "What is the chemical symbol for potassium?",
+              "options": ["K", "Pt", "P", "Ka"],
+              "answer": "K"
+            },
+            {
+              "id": 136,
+              "category": "Science",
+              "question": "What is the process of a liquid turning into a gas?",
+              "options": ["Evaporation", "Condensation", "Sublimation", "Melting"],
+              "answer": "Evaporation"
+            },
+            {
+              "id": 137,
+              "category": "History",
+              "question": "Who was the first person to set foot on Antarctica?",
+              "options": ["Fabian Gottlieb von Bellingshausen", "Roald Amundsen", "Robert Falcon Scott", "Ernest Shackleton"],
+              "answer": "Fabian Gottlieb von Bellingshausen"
+            },
+            {
+              "id": 138,
+              "category": "History",
+              "question": "In which year did the Titanic sink?",
+              "options": ["1912", "1914", "1910", "1916"],
+              "answer": "1912"
+            },
+            {
+              "id": 139,
+              "category": "History",
+              "question": "Who was the first European explorer to reach India by sea?",
+              "options": ["Vasco da Gama", "Christopher Columbus", "Ferdinand Magellan", "James Cook"],
+              "answer": "Vasco da Gama"
+            },
+            {
+              "id": 140,
+              "category": "Geography",
+              "question": "Which is the longest river in South America?",
+              "options": ["Amazon River", "Orinoco River", "Paraná River", "Magdalena River"],
+              "answer": "Amazon River"
+            }
+          
+  ]
+  
