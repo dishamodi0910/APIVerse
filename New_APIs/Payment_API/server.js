@@ -2,6 +2,7 @@ const express = require('express');
 const paypal = require('paypal-rest-sdk');
 const bodyParser = require('body-parser');
 const path = require('path');
+require('dotenv').config();
 
 const app = express();
 const port = 3000;
@@ -13,8 +14,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 paypal.configure({
   'mode': 'sandbox', // sandbox or live
-  'client_id': 'AVA7iFWZrxVJy-aEyxLLpq5udhboqo365fKwKfVNLK13ICJth7Hdubkh8fACoFwu8TkjaV6LMrSl--4x',
-  'client_secret': 'EMHXSvPOnUCkjoVDGKY-lE3jbszWS1kbak_fZMdmIBRxQSmVy0m05Ym4OxfbYRdV_8nGymoh-J_8pgs0'
+  'client_id': process.env.PAYPAL_CLIENT_ID,
+  'client_secret': process.env.PAYPAL_CLIENT_SECRET
 });
 
 app.post('/pay', (req, res) => {
