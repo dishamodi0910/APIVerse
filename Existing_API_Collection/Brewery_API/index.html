@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Brewery Finder</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Brewery Finder</h1>
+        <div class="search_wrapper">
+            <select id="state_select">
+                <option value="" disabled selected>Select a state</option>
+            </select>
+            <label>Sort By:</label>
+            <input type="radio" name="sort" value="name" checked> Name
+            <input type="radio" name="sort" value="city"> City
+            <input type="radio" name="sort" value="type"> Type
+            <button id="search_btn">Search</button>
+        </div>
+        <div id="result"></div>
+        <button id="random_btn">🍺 Feeling Lucky? Find a Random Brewery!</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

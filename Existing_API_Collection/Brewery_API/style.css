@@ -1,0 +1,95 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(254, 251, 237);
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  /* background-color: #f8e7c2; */
+  border-radius: 8px;
+  box-shadow: 10px 10px 40px rgba(0.3, 0.3, 0.3, 0.3);
+}
+
+h1 {
+  text-align: center;
+  color: #572d00;
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.search_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#state_select {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#search_btn,
+#random_btn {
+  padding: 10px 20px;
+  background-color: #9a6200;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+#search_btn:hover,
+#random_btn:hover {
+  background-color: #634000; 
+}
+
+#result {
+  margin-top: 20px;
+}
+
+.brewery_card {
+  background-color: #fff7e5; 
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.brewery_card h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.brewery_details p {
+  margin: 5px 0;
+}
+
+#random_btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #9a6200; 
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 10px 10px 40px rgba(0.3, 0.3, 0.3, 0.3); */
+}
+
+#random_btn:hover {
+  background-color: #634000; 
+}

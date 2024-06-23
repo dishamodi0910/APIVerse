@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Coins</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <input type="text" id="searchBar" onkeyup="searchCoins()" placeholder="Search for coins..">
+            <select id="currencySelector" onchange="changeCurrency()">
+                <option value="usd">USD</option>
+                <option value="inr">INR</option>
+            </select>
+        </div>
+        <table id="cryptoTable">
+            <thead>
+                <tr>
+                    <th>Icon</th>
+                    <th>Coin</th>
+                    <th>Current Price</th>
+                    <th>Market Cap</th>
+                    <th>% Change (24h)</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+        <div id="pagination"></div>
+    </div>
+    <div class="footer">
+        Made with ❤️ by <a href="https://github.com/ThisIsSahaj">ThisIsSahaj</a>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
