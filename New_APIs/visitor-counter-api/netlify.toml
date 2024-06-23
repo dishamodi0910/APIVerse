@@ -1,0 +1,3 @@
+[build]
+   functions = "/functions"
+   included_files = ["/count.txt"]
