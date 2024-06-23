@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(158, 181, 197);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.box {
+    background-color: azure;
+    border-radius: 18px;
+    box-shadow: rgba(129, 129, 152, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    width: 650px;
+    max-height: 300px;
+    padding: 12px;
+    border: 2px solid red;
+
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(182 196 237);
+    margin-top: 23px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: rgb(101, 159, 136);
+}
+
+.joke {
+    font-size: 18px;
+    line-height: 1.5rem;
+    padding: 0 5px 35px 5px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:400px) {
+    .box {
+        width: 300px;
+        max-height: 500px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:355px) {
+    .box {
+        width: 270px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .joke {
+        font-size: 16px;
+    }
+}
