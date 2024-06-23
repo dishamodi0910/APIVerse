@@ -1,12 +1,19 @@
-const express = require('express');
-const quizData = require('./datas.json'); // Load quiz data
+ const express = require('express');
+const Quizdata = require('./datas.json'); // Load quiz data
 const cors=require('cors')
 const app = express();
+const mongoose=require('mongoose')
+const Quiz=require('./mongodb/schema')
 const PORT = process.env.PORT || 3000;
+require("dotenv").config();
 app.use(cors())
 app.use(express.json());
 app.use(express.urlencoded({extended:true}))
-// Routes
+// Routes 
+mongoose.connect(process.env.DB, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+})  
 app.get('/',(req,res)=>{
     res.json({
         name:"Quiz Application API",
@@ -37,19 +44,22 @@ app.get('/',(req,res)=>{
     })
 })
 // random route
-app.get('/api/random', (req, res) => {
+app.get('/api/random',async(req, res) => {
+    let quizData=await Quiz.find() 
     let data= Math.floor(Math.random()*quizData.length)+1
    res.json(quizData[data]);
  });
 //  category route
-app.get('/api/:category', (req, res) => {
+app.get('/api/:category',async(req, res) => {
+    let quizData=await Quiz.find() 
     let filter=quizData.filter(ele=>ele.category.toLowerCase()===req.params.category.toLowerCase())
     if(filter){
     res.json(filter);
     }else{res.send("Invalid")}
  });
 //  category with random
- app.get('/api/:category/random', (req, res) => {
+ app.get('/api/:category/random',async(req, res) => {
+    let quizData=await Quiz.find() 
     let filter=quizData.filter(ele=>ele.category.toLowerCase()===req.params.category.toLowerCase())
     if(filter){
     let data= Math.floor(Math.random()*filter.length)+1
@@ -57,7 +67,8 @@ app.get('/api/:category', (req, res) => {
     }else{res.send("Invalid")}
  });
 //  specific question
- app.get('/api/specific/:id', (req, res) => {
+ app.get('/api/specific/:id',async(req, res) => {
+    let quizData=await Quiz.find() 
     console.log(req.params.id)
     let data=quizData.filter(ele=>ele.id==req.params.id)
     if(data){
