@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background {
+    background-image: url('img/background_image.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+  }
+  
+  .content {
+    text-align: center;
+    color: white;
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+  }
+  
+  .btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #f1c40f;
+  }
