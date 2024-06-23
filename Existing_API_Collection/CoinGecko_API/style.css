@@ -1,0 +1,87 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+.container {
+    width: 60%;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    position: relative;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 8px;
+}
+th {
+    text-align: left;
+}
+td {
+    background-color: transparent;
+    border-bottom: 2px solid #2b2b2b;
+    height: 40px;
+}
+#searchBar {
+    width: 70%;
+    height: 30px;
+    font-size: medium;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #2b2b2b;
+    margin: 0 auto;
+    display: block;
+}
+#currencySelector {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+.page-link {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    background-color: #2b2b2b;
+    border-radius: 6px;
+}
+.page-link:hover {
+    background-color: #333;
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.footer a {
+    color: orange;
+    font-style: italic;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

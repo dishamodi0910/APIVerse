@@ -24,3 +24,6 @@
 |[GeoAPI](./GeoAPI/)| GeoAPI is a simple RESTful API that allows you to convert addresses to geographic coordinates (latitude and longitude) and vice versa. This API is built using Node.js and Express.|
 |[Books API](./Books_API/)| The Google Books API allows developers to access a wealth of information about books, including their titles, authors, publishers, publication dates, and descriptions. |
 |[Currency Converter API](./Currency_Converter_API/)| Currency_Converter is a simple RESTful API that allows you to convert currency values to different currency|
+|[CoinGecko API](./CoinGecko_API/)| This API is use to fetch Top 100 Crypto Currencies and display comprehensive data about them with market capital, price etc.|
+|[Gemini API](./Gemini_API/)| The Google Gemini API is a powerful tool that leverages cutting-edge generative AI models to assist developers and businesses in various tasks. It provides functionalities such as text generation, content creation, and creative assistance.|
+|[Brewery_API](./Brewery_API/)| Brewery Finder API is designed to help you explore the world of breweries by providing detailed information about various breweries across different states.|
