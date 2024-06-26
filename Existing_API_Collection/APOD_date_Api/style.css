@@ -1,0 +1,48 @@
+#textInput {
+    font-size: 1.2rem;
+    padding: 0.5em;
+    border-radius: 0.25rem;
+    border: none;
+    outline: none;
+    background-color: #eaeaea;
+    transition: box-shadow 0.3s ease;
+}
+
+#search {
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    background-color: #078686;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 0.25em; 
+    box-shadow: 1px 1px 2px 2px #636161; 
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+}
+
+#display{
+    margin-top: 50px;
+}
+
+#apodTitle{
+    display: flex;
+    justify-content: center;
+}
+
+#apodExplanation{
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 23px;
+    text-align: center;
+}
+img{
+    margin-top: 40px;
+    width: 450px;
+    text-align: center;
+    margin-left: 550px;;
+}

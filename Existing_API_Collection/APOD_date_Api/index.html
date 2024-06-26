@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+
+        <div id = root>
+               <input id="textInput" type="text" placeholder="YYYY-MM-DD"/>
+               <button id="search" onclick="submit()">
+                Search
+               </button>
+        </div>
+
+        <div id="display">
+            <h2 id="apodTitle"></h2>
+            <p id="apodExplanation"></p>
+            <img id = "image" />
+        </div>
+
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>
