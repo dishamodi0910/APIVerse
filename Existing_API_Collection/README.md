@@ -25,3 +25,4 @@
 |[Books API](./Books_API/)| The Google Books API allows developers to access a wealth of information about books, including their titles, authors, publishers, publication dates, and descriptions. |
 |[Currency Converter API](./Currency_Converter_API/)| Currency_Converter is a simple RESTful API that allows you to convert currency values to different currency|
 |[Brewery_API](./Brewery_API/)| Brewery Finder API is designed to help you explore the world of breweries by providing detailed information about various breweries across different states.|
+|[Bhagavad_Gita_API](./Bhagavad_Gita_API/)| Bhagavad Gita API provides quotes from the Bhagavad Gita, offering wisdom and inspiration.|
