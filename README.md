@@ -60,7 +60,7 @@
 
 📌New API is the one where all the endpoints are defined by you and there is no integration of any API that's already existing.
 
-📌Existing API means that there is an API that is already existing, you are just fetching data and displaying it from external source.<br>
+📌Existing API means that there is an API that is already existing, you are just fetching data and displaying it from an  external source.<br>
 
 </b>
 </i>
@@ -73,11 +73,11 @@
 
 <div style="color : red">
 <i><b>
- ✅ You should add either 1 new API or 1 existing APIafter testing the code properly. The file structure should be followed. README.md file should be present inside your folder. <br>
- ✅If you are contributing towards enhancement of any API, you need to make sure that you are enhancing atleast 2 APIs. <br>
- ✅If you are contributing towards any documentation related bug, you should solve atleast 5 documentation bugs to get your PR merged. <br>
+ ✅ You should add either 1 new API or 1 existing API after testing the code properly. The file structure should be followed. README.md file should be present inside your folder. <br>
+ ✅If you are contributing towards enhancement of any API, you need to make sure that you are enhancing at least 2 APIs. <br>
+ ✅If you are contributing towards any documentation related bug, you should solve at least 5 documentation bugs to get your PR merged. <br>
 
-### Note : For existing API, You should submit the corresponding html and css files also so that we can better visualise how this API can be used within projects. Only submitting JS files won't work.
+### Note : For existing API, you should submit the corresponding html and css files also so that we can better visualise how this API can be used within projects. Only submitting JS files won't work.
 
 </b>
 </i>
@@ -93,12 +93,12 @@ Happy Coding!❤️
  <h2 align = "center">✨ How to contribute?</h2>
  <div align = "left">
 
-- Go through project [README.md](./README.md) and [CONTRIBUTING GUIDELINES](./CONTRIBUTING.md) to know about project and related guidelines.
-- Go through project to know what you can contribute towards it.
+- Go through the project [README.md](./README.md) and [CONTRIBUTING GUIDELINES](./CONTRIBUTING.md) to know about the project and related guidelines.
+- Go through the project to know what you can contribute towards it.
 
 * *CREATING ISSUE!*
 
-   - Under issues section, you can select proper template, and fill all the necessary details.
+   - Under the issues section, you can select a proper template, and fill all the necessary details.
       `YOU ARE NOT SUPPOSED TO ALTER THE PROJECT TITLE. ISSUE TITLE SHOULD BE MENTIONED AFTER []`.
 
       #### You can go through the issues mentioned here before creating any issue to know how the issue is supposed to be created : [Issue 1](https://github.com/developer-student-clubs/APIVerse/issues/1) , [Issue 2](https://github.com/developer-student-clubs/APIVerse/issues/2) , [Issue 3](https://github.com/developer-student-clubs/APIVerse/issues/3), [Issue 4](https://github.com/developer-student-clubs/APIVerse/issues/4)
@@ -110,8 +110,8 @@ Happy Coding!❤️
    - You need to fork the repository to work on the project.
    - After forking into your account, you need to clone it using `git clone "repo_link"`
    - After cloning the repository, you need to create a new branch `git checkout -b <BRANCH_NAME>`
-   - Add the code that you want to contribute from your side under newly created branch.
-   - Make sure you follow proper file structure. If you are creating a new api, then you should add your folder(`NAMEOFAPI`) into the `New_APIs` folder. If you are adding any existing api, make sure proper file structure is followed and you have added `README.md` files for the APIs you are adding.
+   - Add the code that you want to contribute from your side under the newly created branch.
+   - Make sure you follow proper file structure. If you are creating a new API, then you should add your folder(`NAMEOFAPI`) into the `New_APIs` folder. If you are adding any existing API, make sure proper file structure is followed and you have added `README.md` files for the APIs you are adding.
 
 * *BRINGING YOUR CODE ON GITHUB!*
 
