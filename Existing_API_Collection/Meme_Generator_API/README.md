@@ -26,6 +26,10 @@ This is a random meme generator web application built using HTML, CSS, and JavaS
 
 5. Click on share button and spread the laughter.
 
+## Deployed version
+
+- https://giggle-hub.vercel.app/
+
 ## Screenshot
 
 ![Demo](image.png)
