@@ -19,5 +19,5 @@ No special installation is required. Simply download the files and open index.ht
 3. Click the "Search" button to fetch and display the search results.
 
 ### Screenshot
+![image](https://github.com/Roshr2211/APIVerse/assets/136987759/5b472654-9467-4e1f-b8af-01deed8ddefe)
 
-![](https://github.com/MohanRamSridhar/APIVerse/blob/9213cc20e28e6753e8532273d4126fb78d89e441/Existing_API_Collection/Books_API/booksapi.png)
