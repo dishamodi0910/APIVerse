@@ -12,6 +12,13 @@ searchBtn.addEventListener("click", () => {
     getCountry(country);
 });
 
+document.addEventListener("click", (e) =>{
+    if (e.target && e.target.id === "clear") {
+    result.innerHTML = "";
+    searchInput.value = "";
+    }
+})
+
 const getCountry = async (countryName) => {
     const response = await fetch(`${BASE_URL}/${countryName}?fullText=true`)
         .then((response) => response.json())
@@ -78,7 +85,7 @@ const updateData = () => {
 
     let image = document.createElement("img") //flag Image
     image.src = countryInfo?.flags?.png;
-    image.alt = "country-flag"
+    image.alt = "country flag"
 
     result.append(image)
 
@@ -96,6 +103,12 @@ const updateData = () => {
         box.appendChild(info);
         result.append(box)
     });
+
+    let button = document.createElement("button")
+    button.className = 'clear highlight'
+    button.id = 'clear'
+    button.textContent = "Close"
+    result.append(button)
 };
 
 
