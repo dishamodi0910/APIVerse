@@ -34,6 +34,7 @@ const getCountry = async (countryName) => {
 
 const updateData = () => {
 
+    //contains all response tree got from api for specific details
     const countryMap = [
         { name: "common-name", value: countryInfo?.name?.common },
         {
@@ -75,21 +76,20 @@ const updateData = () => {
         { name: "start-Of-Week", value: countryInfo?.startOfWeek },
     ];
 
-    let image = document.createElement("img")
+    let image = document.createElement("img") //flag Image
     image.src = countryInfo?.flags?.png;
     image.alt = "country-flag"
-    // image.className = "country-flag"
 
     result.append(image)
 
     countryMap.forEach((item) => {
+        // create html for each detail block
         let box = document.createElement("div");
         let info = document.createElement("h2");
         let label = document.createElement("label");
 
         { item.name === "common-name" || item.name === "currency" ? box.className = "highlight" : box.className = "box" };
         label.textContent = (item.name).split('-').join(' ');
-        // info.className = "country-" + item.name;
         info.textContent = item.value;
 
         box.appendChild(label);
