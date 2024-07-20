@@ -1,4 +1,4 @@
-# Dictionary API
+# Random Jokes API
 Welcome to the Joke Generator API! This API offers an innovative approach to accessing an this api is use for the generating random joke and which helps for bigger to learn the concept or how to use api
 
 ## Features
