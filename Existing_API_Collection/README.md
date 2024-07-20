@@ -21,7 +21,13 @@
 |[TranslatorAPI](./TranslatorAPI/)|This API helps to translate text with OTHER languages|
 |[JSON_Placeholder_API](./JSON_Plaeholder_API/)| this api is used to test basic crud operations on fake data posts |
 |[Gold Silver Price](./Gold,silver_price_API/)|This API helps you check realtime price of gold and silver for each categories |
+|[Wikipedia API](./Wikipedia_API/)| Demonstrates a webpage using the Wikipedia API to fetch and display summarized information based on user input.|
 |[GeoAPI](./GeoAPI/)| GeoAPI is a simple RESTful API that allows you to convert addresses to geographic coordinates (latitude and longitude) and vice versa. This API is built using Node.js and Express.|
 |[Books API](./Books_API/)| The Google Books API allows developers to access a wealth of information about books, including their titles, authors, publishers, publication dates, and descriptions. |
 |[Currency Converter API](./Currency_Converter_API/)| Currency_Converter is a simple RESTful API that allows you to convert currency values to different currency|
 |[Game Of Throne API](./GameOfThrone_API/)| Game Of Throne_API is a simple RESTful API that generates random quotes from the series|
+|[Brewery_API](./Brewery_API/)| Brewery Finder API is designed to help you explore the world of breweries by providing detailed information about various breweries across different states.|
+|[CoinGecko API](./CoinGecko_API/)| This API is use to fetch Top 100 Crypto Currencies and display comprehensive data about them with market capital, price etc.|
+|[Gemini API](./Gemini_API/)| The Google Gemini API is a powerful tool that leverages cutting-edge generative AI models to assist developers and businesses in various tasks. It provides functionalities such as text generation, content creation, and creative assistance.|
+|[Brewery_API](./Brewery_API/)| Brewery Finder API is designed to help you explore the world of breweries by providing detailed information about various breweries across different states.|
+|[Bhagavad_Gita_API](./Bhagavad_Gita_API/)| Bhagavad Gita API provides quotes from the Bhagavad Gita, offering wisdom and inspiration.|
