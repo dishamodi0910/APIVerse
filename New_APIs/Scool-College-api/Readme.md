@@ -27,3 +27,14 @@ This API provides a comprehensive system for retrieving and managing ratings for
 ## Statistics
 - Number of schools: 140+
 - Number of colleges: 200+
+
+## Output
+
+![Screenshot from 2024-07-22 08-15-14](https://github.com/user-attachments/assets/ac21b1d6-8104-4508-b155-8f7bedec65bb)
+
+![Screenshot from 2024-07-22 08-14-51](https://github.com/user-attachments/assets/821b2872-1a80-40a0-b7d1-00cb63a9caa4)
+
+![Screenshot from 2024-07-22 08-15-04](https://github.com/user-attachments/assets/4162d3c9-c9cb-40db-88fb-f7f5e1207f38)
+
+![Screenshot from 2024-07-22 08-14-21](https://github.com/user-attachments/assets/d03666f5-2893-43b6-938c-0abfb8e0e700)
+
