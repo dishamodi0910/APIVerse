@@ -10,7 +10,7 @@ Marvel API App is a simple web application that allows users to search for Marve
 
 ## Screenshots
 
-![Marvel API App Screenshot](Existing_API_Collection/Marvel_API/image.png)
+![Marvel API App Screenshot](./image.png)
 
 ## Technologies Used
 
