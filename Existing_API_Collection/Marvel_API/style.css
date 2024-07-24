@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #313030;
+}
+
+.container {
+    background-color: #ee130b;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 3em 2em;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    right: 50%;
+    top: 1em;
+    border-radius: 1em;
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1em;
+}
+
+input {
+    padding: 1em 0.5em;
+    background-color: #3a3939;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5em;
+    outline: none;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: #f8f5f6;
+    color: black;
+    border-radius: 0.5em;
+}
+
+.display-container {
+    padding: 1em;
+}
+
+.container-character-image {
+    background-color: #ffffff;
+    padding: 0.5em;
+    height: 9.37em;
+    width: 9.37em;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.container-character-image img {
+    width: 100%;
+    position: relative;
+    width: block;
+    border-radius: 50%;
+}
+
+.character-name {
+    padding: 0.5em 0 0.8em 0;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.character-description {
+    text-align: justify;
+    color: wheat;
+    line-height: 2em;
+    font-weight: 300;
+}
+
+.list {
+    position: absolute;
+    width: 64%;
+    background-color: #555;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.autocomplete-items {
+    padding: 0.5em;
+}
+
+.autocomplete-items:hover {
+    background-color: #ddd;
+    color: #171821;
+}
