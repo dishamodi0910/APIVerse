@@ -1,0 +1,31 @@
+{
+    "name": "jokes-api",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "node index.js",
+        "start:dev": "nodemon index.js"
+    },
+    "keywords": [
+        "jokes",
+        "jokes-api",
+        "api",
+        "serverless"
+    ],
+    "author": "Sivaprasath R",
+    "license": "MIT",
+    "dependencies": {
+        "clone": "^2.1.2",
+        "compression": "^1.7.4",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.2",
+        "express": "^4.19.2",
+        "express-rate-limit": "^6.6.0",
+        "helmet": "^6.0.0",
+        "json-server": "^0.17.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.19",
+        "supertest": "^6.2.4"
+    }
+}
