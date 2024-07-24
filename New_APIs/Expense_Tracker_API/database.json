@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1721424141648,
+      "name": "Khushi Kalra",
+      "email": "kalra@gmail.com",
+      "password": "$2a$10$hfW1tOhVl4JK77JY0uJmSeexuEbWcXU3BFEl0LJYRXR9Z3dIKMBUm"
+    },
+    {
+      "id": 1721454350397,
+      "name": "XYZ",
+      "email": "xyz@gmail.com",
+      "password": "$2a$10$Rn4gwRZyHjMRdZka23KSXuEP2GAJkGbmUZzH.zhExyiNO3yZOrDmq"
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1721452253157,
+      "userId": 1721424141648,
+      "amount": 100,
+      "description": "Office Supplies",
+      "category": "Work",
+      "date": "2024-07-20T05:10:53.157Z"
+    },
+    {
+      "id": 1721452284744,
+      "userId": 1721424141648,
+      "amount": 50,
+      "description": "Markers",
+      "category": "Work",
+      "date": "2024-07-20T05:11:24.744Z"
+    },
+    {
+      "id": 1721452309611,
+      "userId": 1721424141648,
+      "amount": 250,
+      "description": "Outing",
+      "category": "Food",
+      "date": "2024-06-20T05:11:49.611Z"
+    },
+    {
+      "id": 1721454204902,
+      "userId": 1721424141648,
+      "amount": 50,
+      "description": "Outing",
+      "category": "Food",
+      "date": "2024-07-20T05:43:24.902Z"
+    },
+    {
+      "id": 1721454410029,
+      "userId": 1721454350397,
+      "amount": 150,
+      "description": "Outing",
+      "category": "Food",
+      "date": "2024-07-20T05:46:50.029Z"
+    },
+    {
+      "id": 1721454479574,
+      "userId": 1721454350397,
+      "amount": 50,
+      "description": "Outing",
+      "category": "Food",
+      "date": "2024-07-20T05:47:59.574Z"
+    }
+  ]
+}
