@@ -2,6 +2,13 @@
 
 This project is a robust fullstack web application developed with React for the frontend and integrated with AWS services for authentication, GraphQL API, and infrastructure management. The application leverages AWS capabilities to deliver a scalable, secure, and efficient solution.
 
+## Steps:-
+1. Set up a React project and configure AWS Amplify for authentication, GraphQL API, and infrastructure management.
+2. Integrate Amplify libraries into React for authentication and API interactions, implementing CRUD operations.
+3. Manage state with React hooks or Redux and style components using SCSS.
+4. Deploy the application using AWS Amplify Hosting and monitor performance with AWS CloudWatch.
+
+
 ## Frontend: React
 
 use :- npx create-react-app
