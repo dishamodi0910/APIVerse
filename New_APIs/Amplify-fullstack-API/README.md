@@ -26,5 +26,9 @@ use :- npx create-react-app
 
 **Serverless Functions:**AWS Lambda functions are employed to handle backend logic and integrate with the GraphQL API, supporting a serverless architecture that scales automatically.
 
+**Project Strucutre:**
+
+<img width="481" alt="Screenshot 2024-07-27 at 1 36 20 PM" src="https://github.com/user-attachments/assets/4b2f5303-9af8-4cd0-8798-b828e55c1181">
+
 
 
