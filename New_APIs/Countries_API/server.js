@@ -1,4 +1,5 @@
 const express = require('express');
+const fs = require('fs');
 const app = express();
 const port = 5000;
 const countries = require('./countries');
@@ -88,6 +89,62 @@ app.get('/api/countries/continent/:continent/language/:language', (req, res) => 
   const language = toLowerCase(req.params.language);
   const filteredCountries = countries.filter(c => toLowerCase(c.continent) === continent && toLowerCase(c.language) === language);
   res.json(filteredCountries);
+});
+
+// Add a new country
+app.post('/api/countries', (req, res) => {
+  const newCountry = req.body;
+
+  if (!newCountry.country || !newCountry.capital || !newCountry.continent) {
+    return res.status(400).json({ message: 'Country, capital, and continent are required fields.' });
+  }
+  countries.push(newCountry);
+  fs.writeFile('./countries.js', `module.exports = ${JSON.stringify(countries, null, 2)};`, (err) => {
+    if (err) {
+      console.error(err);
+      return res.status(500).json({ message: 'Failed to update countries file.' });
+    }
+
+    res.status(201).json(newCountry);
+  });
+});
+
+// Update a country
+app.put('/api/countries/:name', (req, res) => {
+  const countryName = toLowerCase(req.params.name);
+  const countryIndex = countries.findIndex(c => toLowerCase(c.country) === countryName);
+
+  if (countryIndex === -1) {
+    return res.status(404).json({ message: 'Country not found' });
+  }
+  countries[countryIndex] = { ...countries[countryIndex], ...req.body };
+  fs.writeFile('./countries.js', `module.exports = ${JSON.stringify(countries, null, 2)};`, (err) => {
+    if (err) {
+      console.error(err);
+      return res.status(500).json({ message: 'Failed to update countries file.' });
+    }
+
+    res.json(countries[countryIndex]);
+  });
+});
+
+// Delete a country
+app.delete('/api/countries/:name', (req, res) => {
+  const countryName = toLowerCase(req.params.name);
+  const countryIndex = countries.findIndex(c => toLowerCase(c.country) === countryName);
+
+  if (countryIndex === -1) {
+    return res.status(404).json({ message: 'Country not found' });
+  }
+  const deletedCountry = countries.splice(countryIndex, 1);
+  fs.writeFile('./countries.js', `module.exports = ${JSON.stringify(countries, null, 2)};`, (err) => {
+    if (err) {
+      console.error(err);
+      return res.status(500).json({ message: 'Failed to update countries file.' });
+    }
+
+    res.json(deletedCountry);
+  });
 });
 
 // Start the server
