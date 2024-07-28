@@ -5,7 +5,7 @@ This is a simple web application that fetches and displays photos taken by NASA'
 
 ## Features
 - Select a Mars rover (Curiosity, Opportunity, Spirit).
-- Pick a date to view photos taken by the selected rover on that date.
+- Pick a date to view photos taken by the selected rover.
 - Display photos in a responsive grid layout.
 
 ## How to Generate a NASA API Key
@@ -27,5 +27,4 @@ This is a simple web application that fetches and displays photos taken by NASA'
    - Replace `DEMO_KEY` with your actual NASA API key.
 
 ## Screenshots
-
-
+![Screenshot 2024-07-28 123553](https://github.com/user-attachments/assets/ee926729-2227-4647-8d71-085ec1360534)
