@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "openpgp": "^5.11.1"
+  }
+}
