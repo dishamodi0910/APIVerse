@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "activity": "Read a book"
+    },
+    {
+      "id": 2,
+      "activity": "Go for a walk in the park"
+    },
+    {
+      "id": 3,
+      "activity": "Try a new recipe"
+    },
+    {
+      "id": 4,
+      "activity": "Learn a new language"
+    },
+    {
+      "id": 5,
+      "activity": "Practice meditation or yoga"
+    },
+    {
+      "id": 6,
+      "activity": "Write in a journal"
+    },
+    {
+      "id": 7,
+      "activity": "Watch a documentary"
+    },
+    {
+      "id": 8,
+      "activity": "Take up gardening"
+    },
+    {
+      "id": 9,
+      "activity": "Try a new hobby like painting or knitting"
+    },
+    {
+      "id": 10,
+      "activity": "Visit a museum or art gallery"
+    },
+    {
+      "id": 11,
+      "activity": "Volunteer for a local charity"
+    },
+    {
+      "id": 12,
+      "activity": "Listen to a podcast"
+    },
+    {
+      "id": 13,
+      "activity": "Have a picnic in the backyard"
+    },
+    {
+      "id": 14,
+      "activity": "Explore a nearby town or city"
+    },
+    {
+      "id": 15,
+      "activity": "Take a photography walk"
+    },
+    {
+      "id": 16,
+      "activity": "Have a board game night with friends or family"
+    },
+    {
+      "id": 17,
+      "activity": "Try a DIY project"
+    },
+    {
+      "id": 18,
+      "activity": "Attend a virtual workshop or webinar"
+    },
+    {
+      "id": 19,
+      "activity": "Organize your living space"
+    },
+    {
+      "id": 20,
+      "activity": "Plan a future trip or adventure"
+    }
+  ]
+  

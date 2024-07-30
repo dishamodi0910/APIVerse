@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter - Convert your currency</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 flex flex-col justify-center items-center min-h-screen">
+    <div class="container max-w-lg bg-white p-8 rounded-lg shadow-lg">
+        <h1 class="text-2xl font-bold mb-4">Choose a currency to convert</h1>
+        <form action="/action.php" method="get" class="flex flex-col items-center">
+            <label for="quantity" class="text-lg mb-2">Choose a quantity:</label>
+            <input type="number" name="quantity" min="1" max="10" class="border border-gray-300 rounded-md py-2 px-4 mb-4 text-lg">
+
+            <label for="currency" class="text-lg mb-2">Choose a currency:</label>
+            <select name="currency" class="border border-gray-300 rounded-md py-2 px-4 mb-4 text-lg">
+                <option value="INR">Indian Rupee</option>
+                <option value="USD">US Dollar</option>
+                <option value="EUR">Euro</option>
+                <option value="GBP">British Pound</option>
+                <option value="JPY">Japanese Yen</option>
+                <option value="CAD">Canadian Dollar</option>
+                <option value="AUD">Australian Dollar</option>
+                <option value="CHF">Swiss Franc</option>
+                <option value="CNY">Chinese Yuan</option>
+                <option value="NZD">New Zealand Dollar</option>
+                <option value="SGD">Singapore Dollar</option>
+                <option value="HKD">Hong Kong Dollar</option>
+                <option value="SEK">Swedish Krona</option>
+                <option value="NOK">Norwegian Krone</option>
+                <option value="DKK">Danish Krone</option>
+                <option value="MXN">Mexican Peso</option>
+                <option value="RUB">Russian Ruble</option>
+                <option value="ZAR">South African Rand</option>
+                <option value="BRL">Brazilian Real</option>
+                <option value="KRW">South Korean Won</option>
+            </select>
+
+            <button class="btn bg-purple-500 text-white py-2 px-4 rounded-md text-lg hover:bg-purple-600 transition duration-300">Submit</button>
+        </form>
+
+        <div class="output mt-8 hidden">
+            <h2 class="text-xl font-bold mb-4">Here is your converted values in different currencies</h2>
+            <table class="w-full border-collapse border border-gray-300">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="py-2 px-4">Currency</th>
+                        <th class="py-2 px-4">Code</th>
+                        <th class="py-2 px-4">Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

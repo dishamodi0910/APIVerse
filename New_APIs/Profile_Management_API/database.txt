@@ -1,0 +1,13 @@
+CREATE TABLE user_details(
+	id BIGINT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+	name VARCHAR(250),
+	image VARCHAR(1000),
+	bio LONGTEXT,
+	phone_number VARCHAR(10),
+	email VARCHAR(50),
+	password TEXT,
+	profile_type VARCHAR(45),
+	role VARCHAR(45),
+	create_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	google_id VARCHAR(1000)
+);

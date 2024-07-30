@@ -1,0 +1,100 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  nav {
+    background-color: rgb(224, 209, 245);
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: rgb(2, 3, 18);
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: rgb(103, 101, 235);
+  }
+
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container h1,
+  .container h2 {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container form label {
+    font-size: 20px;
+  }
+
+  .container form input[type='number'],
+  .container select,
+  .container label {
+    font-size: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: #e0d0f5;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #cbb6ee;
+  }
+
+  .output table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+
+  .output th,
+  .output td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+
+  .output th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
