@@ -17,3 +17,4 @@
 |[Music API Web Application](./music-api/)|You can access any song and listen to it. Below are some useful links and information.|
 [Result-marks Data api ](./Result-marks_API/)|this is for those who want  to make college management  project they can simple take this api and connect to project easily|
 |[Payment API](./Payment_API/)|This demonstrates how to integrate PayPal API for online payments. It handles payment success and cancellation scenarios.|
+|[Social Media Analytics API](./Social_Media_Analytics_API/)|This demonstrates how to create a Social Media Analytics API to retrieve user engagement data like posts, likes, comments, and shares.|
