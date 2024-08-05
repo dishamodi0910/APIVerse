@@ -1,0 +1,20 @@
+{
+    "name": "heroku-api",
+    "version": "1.0.0",
+    "description": "A simple API to interact with Heroku platform for deployments, scaling, and logs.",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js",
+      "dev": "nodemon src/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.27.2",
+      "express": "^4.18.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    }
+  }
+  
