@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(8px); /* Add blur effect */
+    z-index: -1;
+}
+
+h1 {
+    text-align: center;
+    color: #FF4500; /* Change heading color to OrangeRed */
+    margin-bottom: 20px;
+    font-size: 4em; /* Increase heading size */
+    font-family: 'Verdana', sans-serif; /* Change font to Verdana */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for better readability */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px; /* Adjust maximum width to your preference */
+}
+
+.left, .right {
+    flex: 1;
+    background-color: rgba(40, 40, 40, 0.8); /* Darker background with slight transparency */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.left {
+    max-width: 400px;
+}
+
+.right {
+    max-width: 600px;
+}
+
+h2 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#tasks, #new-task {
+    margin-top: 20px;
+}
+
+.task {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.task:hover {
+    background-color: #f9f9f9;
+}
+
+.task strong {
+    font-size: 18px;
+    color: #333;
+}
+
+.task p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.task div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task button {
+    background-color: #28a745;
+    margin-left: 5px;
+}
+
+.task button:hover {
+    background-color: #218838;
+}
+
+.task button:nth-child(2) {
+    background-color: #dc3545;
+}
+
+.task button:nth-child(2):hover {
+    background-color: #c82333;
+}
+
+#new-task {
+    background-color: #e9f7f9;
+    border: 1px solid #b3e0e5;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#new-task .task {
+    border: none;
+    box-shadow: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left, .right {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: calc(100% - 22px);
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+}
