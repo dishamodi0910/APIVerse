@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffaa89, #6132ef);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#app {
+    margin-bottom: 20px;
+}
+
+.deployment {
+    text-align: left;
+}
+
+.deployment h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.deployment p {
+    margin: 5px 0;
+}
+
+.deployment button {
+    background: #ef32d9;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.deployment button:hover {
+    background: #a726c1;
+}
+
+.deployment input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+#donationList .donation {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#donationList .donation h3 {
+    margin: 0;
+}
+
+#donationList .donation p {
+    margin: 5px 0;
+}
