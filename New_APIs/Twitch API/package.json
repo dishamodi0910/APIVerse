@@ -1,0 +1,14 @@
+{
+    "name": "twitch-api-app",
+    "version": "1.0.0",
+    "description": "An app to display Twitch streams.",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server ."
+    },
+    "dependencies": {
+        "http-server": "^0.12.3"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+}

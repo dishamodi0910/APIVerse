@@ -1,0 +1,111 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mynotes-staging-b2b56-authRole",
+      "UnauthRoleArn": "arn:aws:iam::339712714202:role/amplify-mynotes-staging-b2b56-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::339712714202:role/amplify-mynotes-staging-b2b56-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-mynotes-staging-b2b56-deployment",
+      "UnauthRoleName": "amplify-mynotes-staging-b2b56-unauthRole",
+      "StackName": "amplify-mynotes-staging-b2b56",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:339712714202:stack/amplify-mynotes-staging-b2b56/5d40cab0-4b32-11ef-8fd8-06f396c97ee1",
+      "AmplifyAppId": "d2nrrgvsn5u7rq"
+    }
+  },
+  "api": {
+    "mynotes": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            },
+            "authenticationType": "API_KEY"
+          }
+        },
+        "GraphQLAPIIdOutput": "cye6ubdc6bgxddnh7pcgwbmubi",
+        "GraphQLAPIEndpointOutput": "https://n5edpqals5aohotum3xa72osli.appsync-api.ap-southeast-2.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-kehm2qcqofd3besloumulb5vlm"
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync",
+      "lastPushTimeStamp": "2024-07-26T15:57:37.537Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-mynotes-staging-b2b56-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apimynotes"
+      }
+    }
+  },
+  "auth": {
+    "mynotesccae4f3b": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "output": {
+        "UserPoolId": "ap-southeast-2_i03FxeqOd",
+        "AppClientIDWeb": "6bm1hrehfqg90vta1ifbgjr00h",
+        "AppClientID": "1d896vivvec1d0hvqrk6lptel2",
+        "IdentityPoolId": "ap-southeast-2:9db4441d-2163-440e-adba-e23a3fe75fd4",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-southeast-2:339712714202:userpool/ap-southeast-2_i03FxeqOd",
+        "IdentityPoolName": "mynotesccae4f3b_identitypool_ccae4f3b__staging",
+        "UserPoolName": "mynotesccae4f3b_userpool_ccae4f3b"
+      },
+      "lastPushTimeStamp": "2024-07-26T15:57:44.008Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-mynotes-staging-b2b56-deployment/amplify-cfn-templates/auth/mynotesccae4f3b-cloudformation-template.json",
+        "logicalId": "authmynotesccae4f3b"
+      },
+      "lastPushDirHash": "Y2leA1T/brYAcNS4RPXQwBzzY/Q="
+    }
+  },
+  "function": {
+    "S3Triggerdc42a5d7": {
+      "service": "Lambda",
+      "providerPlugin": "awscloudformation",
+      "build": true,
+      "lastBuildTimeStamp": "2024-07-26T15:55:51.984Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2024-07-26T15:55:52.014Z",
+      "distZipFilename": "S3Triggerdc42a5d7-6a475541666d35456861-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-mynotes-staging-b2b56-deployment",
+        "s3Key": "amplify-builds/S3Triggerdc42a5d7-6a475541666d35456861-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-mynotes-staging-b2b56-deployment/amplify-cfn-templates/function/S3Triggerdc42a5d7-cloudformation-template.json",
+        "logicalId": "functionS3Triggerdc42a5d7"
+      },
+      "lastPushTimeStamp": "2024-07-26T15:57:44.008Z",
+      "output": {
+        "LambdaExecutionRoleArn": "arn:aws:iam::339712714202:role/S3Triggerdc42a5d7LambdaRoledc42a5d7-staging",
+        "Region": "ap-southeast-2",
+        "Arn": "arn:aws:lambda:ap-southeast-2:339712714202:function:S3Triggerdc42a5d7-staging",
+        "Name": "S3Triggerdc42a5d7-staging",
+        "LambdaExecutionRole": "S3Triggerdc42a5d7LambdaRoledc42a5d7-staging"
+      },
+      "lastPushDirHash": "1B2Qj8YebkkXB424dBxxW7J3vvM="
+    }
+  },
+  "storage": {}
+}
