@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Streamlabs API Viewer</title>
+</head>
+<body>
+    <h1>Streamlabs API Viewer</h1>
+    <div id="app">
+        <h2>Donation List</h2>
+        <div id="donationList"></div>
+        <h2>Deploy</h2>
+        <input type="text" id="deployAppName" placeholder="App Name">
+        <input type="text" id="deploySourceUrl" placeholder="Source URL">
+        <button id="deployButton">Deploy</button>
+        <h2>Scale</h2>
+        <input type="text" id="scaleAppName" placeholder="App Name">
+        <input type="text" id="scaleDynoType" placeholder="Dyno Type">
+        <input type="number" id="scaleQuantity" placeholder="Quantity">
+        <button id="scaleButton">Scale</button>
+        <h2>Logs</h2>
+        <input type="text" id="logsAppName" placeholder="App Name">
+        <button id="logsButton">Get Logs</button>
+        <ul id="results"></ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

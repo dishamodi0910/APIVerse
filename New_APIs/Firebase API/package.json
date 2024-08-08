@@ -1,0 +1,16 @@
+{
+    "name": "firebase-api-app",
+    "version": "1.0.0",
+    "description": "A simple app to view Firebase data",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "firebase": "^9.0.0"
+    }
+  }
+  

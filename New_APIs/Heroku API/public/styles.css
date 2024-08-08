@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #f06, #00f);
+    color: #fff;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 2.5em;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+#app {
+    margin-top: 20px;
+    width: 90%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+input, button, select {
+    margin: 10px 0;
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(233, 233, 233, 0.9);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input::placeholder, select::placeholder {
+    color: #aaa;
+}

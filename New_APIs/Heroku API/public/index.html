@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Heroku API</title>
+</head>
+<body>
+    <h1>Heroku API</h1>
+    <div id="app">
+        <h2>Deploy</h2>
+        <input type="text" id="deployAppName" placeholder="App Name">
+        <input type="text" id="deploySourceUrl" placeholder="Source URL">
+        <button id="deployButton">Deploy</button>
+        <h2>Scale</h2>
+        <input type="text" id="scaleAppName" placeholder="App Name">
+        <input type="text" id="scaleDynoType" placeholder="Dyno Type">
+        <input type="number" id="scaleQuantity" placeholder="Quantity">
+        <button id="scaleButton">Scale</button>
+        <h2>Logs</h2>
+        <input type="text" id="logsAppName" placeholder="App Name">
+        <button id="logsButton">Get Logs</button>
+        <ul id="results"></ul>
+    </div>
+
+    <script>
+        document.getElementById('deployButton').addEventListener('click', async () => {
+            const appName = document.getElementById('deployAppName').value;
+            const sourceUrl = document.getElementById('deploySourceUrl').value;
+            const response = await fetch('/deploy', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ app_name: appName, source_url: sourceUrl })
+            });
+            const result = await response.json();
+            console.log(result);
+        });
+
+        document.getElementById('scaleButton').addEventListener('click', async () => {
+            const appName = document.getElementById('scaleAppName').value;
+            const dynoType = document.getElementById('scaleDynoType').value;
+            const quantity = document.getElementById('scaleQuantity').value;
+            const response = await fetch('/scale', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ app_name: appName, dyno_type: dynoType, quantity: parseInt(quantity) })
+            });
+            const result = await response.json();
+            console.log(result);
+        });
+
+        document.getElementById('logsButton').addEventListener('click', async () => {
+            const appName = document.getElementById('logsAppName').value;
+            const response = await fetch(`/logs?app_name=${appName}`);
+            const result = await response.json();
+            const results = document.getElementById('results');
+            results.innerHTML = JSON.stringify(result, null, 2);
+        });
+    </script>
+</body>
+</html>

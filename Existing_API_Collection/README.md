@@ -30,4 +30,5 @@
 |[CoinGecko API](./CoinGecko_API/)| This API is use to fetch Top 100 Crypto Currencies and display comprehensive data about them with market capital, price etc.|
 |[Gemini API](./Gemini_API/)| The Google Gemini API is a powerful tool that leverages cutting-edge generative AI models to assist developers and businesses in various tasks. It provides functionalities such as text generation, content creation, and creative assistance.|
 |[Brewery_API](./Brewery_API/)| Brewery Finder API is designed to help you explore the world of breweries by providing detailed information about various breweries across different states.|
+|[NASA Mars Rover Photos API](./NASA_Mars_Rover_Photos_API/)|NASA Mars Rover Photos API provides images captured by NASA's Mars rovers, including Opportunity, Curiosity, and Spirit.|
 |[Bhagavad_Gita_API](./Bhagavad_Gita_API/)| Bhagavad Gita API provides quotes from the Bhagavad Gita, offering wisdom and inspiration.|
