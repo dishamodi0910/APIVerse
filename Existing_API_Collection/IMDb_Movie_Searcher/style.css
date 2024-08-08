@@ -1,0 +1,188 @@
+/* Global Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007bff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.nav-item:hover {
+  color: #dfe6e9;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* Main Content */
+.container {
+  padding-top: 40px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 3rem;
+  color: #007bff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#search-input {
+  height: 50px;
+  border: 2px solid #007bff;
+  border-radius: 0;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  height: 50px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Movie Cards */
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-link {
+  font-size: 1rem;
+  color: #007bff;
+}
+
+.card-link:hover {
+  color: #0056b3;
+}
+
+/* Modal */
+.modal-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.modal-body {
+  font-size: 1.1rem;
+}
+
+.list-group-item {
+  border: none;
+  padding: 15px 20px;
+}
+
+.list-group-item:first-child {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #495057;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #dfe6e9;
+  text-decoration: underline;
+}
+
+/* Additional Styles */
+hr {
+  border-top: 2px solid #007bff;
+  width: 60%;
+}
+
+.input-group-append .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#movie-list .col-md-4 {
+  margin-bottom: 20px;
+}
+
+#movie-list img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Animation for Movie Cards */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.card {
+  animation: fadeIn 0.5s ease-in-out;
+}
