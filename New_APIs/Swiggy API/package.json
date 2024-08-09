@@ -1,0 +1,15 @@
+{
+    "name": "swiggy-restaurant-finder",
+    "version": "1.0.0",
+    "description": "A simple app to search and display restaurants using Swiggy API",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  
