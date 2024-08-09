@@ -1,0 +1,15 @@
+{
+    "name": "contentful-api-explorer",
+    "version": "1.0.0",
+    "description": "A simple app to explore content from Contentful API",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "author": "Revanth",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  
