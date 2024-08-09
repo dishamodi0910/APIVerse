@@ -1,0 +1,18 @@
+{
+    "name": "aylien-api-app",
+    "version": "1.0.0",
+    "description": "A simple web app that integrates with AYLIEN Text Analysis API for text analysis functionality.",
+    "main": "index.js",
+    "scripts": {
+        "start": "echo 'No start script defined'"
+    },
+    "keywords": [
+        "text",
+        "analysis",
+        "aylien",
+        "api",
+        "web"
+    ],
+    "author": "Amrutha",
+    "license": "MIT"
+}
