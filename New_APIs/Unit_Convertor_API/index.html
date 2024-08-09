@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter API App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Unit Converter API App</h1>
+    </header>
+    <main>
+        <form id="conversion-form">
+            <input type="number" id="amount" placeholder="Amount" required>
+            <select id="from-unit">
+                <option value="meters">Meters</option>
+                <option value="feet">Feet</option>
+                <option value="kilograms">Kilograms</option>
+                <option value="pounds">Pounds</option>
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+            </select>
+            <select id="to-unit">
+                <option value="feet">Feet</option>
+                <option value="meters">Meters</option>
+                <option value="pounds">Pounds</option>
+                <option value="kilograms">Kilograms</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="celsius">Celsius</option>
+            </select>
+            <button type="submit">Convert</button>
+        </form>
+        <div id="result"></div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
