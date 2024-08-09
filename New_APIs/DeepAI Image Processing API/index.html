@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DeepAI Image Processing</title>
+</head>
+<body>
+    <header>
+        <h1>DeepAI Image Processing</h1>
+    </header>
+    <main>
+        <div class="upload-section">
+            <input type="file" id="imageUpload" accept="image/*">
+            <select id="processingType">
+                <option value="colorizer">Colorization</option>
+                <option value="super-resolution">Super-Resolution</option>
+                <option value="style-transfer">Style Transfer</option>
+            </select>
+            <button id="processButton">Process Image</button>
+        </div>
+        <div class="result-section">
+            <h2>Processed Image</h2>
+            <img id="processedImage" src="" alt="Processed Image">
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
