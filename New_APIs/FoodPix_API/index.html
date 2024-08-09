@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hungry Monster</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- code link: https://github.com/googlermridul/hungry
+live link: https://googlermridul.github.io/hungry/ -->
+
+   <div id="searchBox">
+      <div class="container">
+         <div class="row">
+            <div class="col">
+               <div class="input-group my-5">
+                  <div class="input-group-prepend">
+                     <span class="input-group-text"><i class="fas fa-search"></i></span>
+                  </div>
+                  <input id="inputField" type="text" class="form-control" placeholder="Search For Meal...">
+                  <div class="input-group-append">
+                     <button id="searchBtn" type="submit" class="btn">Search</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <div id="mealDetailSection" class="mb-5 mx-3">
+      <div class="container">
+         <div class="row">
+            <div id="mealDetails"></div>
+         </div>
+      </div>
+   </div>
+
+
+   <div id="mealSecion" class="mb-5">
+      <div class="container">
+         <div id="meal"></div>
+      </div>
+   </div>
+
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="style.js"></script>
+</body>
+</html>

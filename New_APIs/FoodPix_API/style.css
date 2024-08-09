@@ -1,0 +1,110 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Poppins', sans-serif;
+}
+h3 {
+   font-size: 24px;
+   color: #333;
+   font-weight: 600;
+}
+b {
+   font-weight: 600;
+}
+.btn:focus {
+   box-shadow: none;
+}
+
+#searchBox .input-group {
+   max-width: 400px;
+   margin: auto;
+   background: #ffeee8;
+   overflow: hidden;
+   border-radius: 5px;
+}
+#searchBox .input-group-prepend .input-group-text {
+   background: none;
+   border: none;
+   padding: 0 20px;
+}
+#searchBox .input-group-append #searchBtn {
+   padding: 0 25px;
+   background: #ff855f;
+   color: #fff;
+   font-size: 14px;
+   transition: .4s;
+}
+#searchBox .input-group-append #searchBtn:hover {
+   background: #ff6738;
+}
+#searchBox .input-group .form-control {
+   padding: 25px;
+   padding-left: 0;
+   border: none;
+   font-size: 14px;
+   background: #ffeee8;
+}
+#searchBox .input-group .form-control:focus {
+   box-shadow: none;
+}
+
+#mealDetailSection #mealDetails {
+    width: 500px;
+    margin: auto;
+    background: #ffeee8;
+    border-radius: 5px;
+}
+.item-details {
+   padding: 0 20px;
+}
+
+#mealDetailSection ul {
+   list-style: none;
+   margin-top: 15px;
+}
+#mealDetailSection ul li {
+   margin-bottom: 5px;
+   font-size: 14px;
+}
+#mealDetailSection ul li .fas {
+   color: #ff855f
+}
+
+.meal-box {
+   border: none;
+   background: #ffeee8;
+   border-radius: 5px;
+}
+.meal-box h5 {
+   color: #333;
+   font-weight: 600;
+   padding: 10px;
+}
+
+#meal{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0px;
+    align-items: center;
+    grid-gap: 15px;
+    position: relative;
+}
+#mealDetails {
+   margin: 0 15px;
+}
+
+.error {
+   position: absolute;
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+
+@media (max-width: 768px) {
+   #meal{
+       grid-template-columns: repeat(2, 2fr) !important;
+   }
+}
