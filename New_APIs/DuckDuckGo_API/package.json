@@ -1,0 +1,16 @@
+{
+    "name": "duckduckgo-like-app",
+    "version": "1.0.0",
+    "description": "A simple web app that mimics DuckDuckGo search functionality.",
+    "main": "index.js",
+    "scripts": {
+        "start": "echo 'No start script defined'"
+    },
+    "keywords": [
+        "search",
+        "duckduckgo",
+        "web"
+    ],
+    "author": "Amrutha",
+    "license": "MIT"
+}
