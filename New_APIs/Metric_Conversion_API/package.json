@@ -1,0 +1,17 @@
+{
+    "name": "metric-conversion-api-app",
+    "version": "1.0.0",
+    "description": "A simple web app that integrates with Metric Conversion API for unit conversion functionality.",
+    "main": "index.js",
+    "scripts": {
+        "start": "echo 'No start script defined'"
+    },
+    "keywords": [
+        "metric",
+        "conversion",
+        "api",
+        "web"
+    ],
+    "author": "Amrutha",
+    "license": "MIT"
+}
