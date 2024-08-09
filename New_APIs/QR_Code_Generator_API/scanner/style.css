@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #927dfc;
+}
+
+.wrapper {
+  height: 295px;
+  width: 420px;
+  border-radius: 4px;
+  background: #fff;
+  padding: 30px 30px 35px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: height 0.3s ease;
+}
+
+.wrapper.active {
+  height: 100%;
+}
+
+.wrapper form {
+  margin-top: 10px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px dashed #999;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.wrapper.active form {
+  height: 215px;
+  pointer-events: none;
+}
+
+form img {
+  display: none;
+  max-width: 150px;
+}
+
+.wrapper.active form img {
+  display: block;
+}
+
+.wrapper.active form .content {
+  display: none;
+}
+
+form .content i {
+  color: #927dfc;
+  font-size: 45px;
+}
+
+form .content p {
+  color: #927dfc;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.wrapper .details {
+  opacity: 0;
+  pointer-events: none;
+  margin-top: 20px;
+}
+
+.wrapper.active .details {
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 0.5s 0.05s ease;
+}
+
+.details textarea {
+  width: 100%;
+  height: 100px;
+  background: none;
+  color: #000;
+  border: 1px solid #999;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  resize: none;
+}
+
+textarea::-webkit-scrollbar {
+  width: 0px;
+}
+textarea:hover::-webkit-scrollbar-track {
+  background: none;
+}
+textarea:hover::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 8px;
+}
+
+.details .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.buttons button {
+  height: 40px;
+  width: calc(100% / 2 - 20px);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #927dfc;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 450px) {
+  .wrapper {
+    padding: 15px;
+    height: 270px;
+  }
+  .wrapper.active {
+    height: 100%;
+  }
+}
