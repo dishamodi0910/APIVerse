@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SendGrid Email Sender</title>
+</head>
+<body>
+    <header>
+        <h1>SendGrid Email Sender</h1>
+    </header>
+    <main>
+        <section>
+            <form id="email-form">
+                <input type="email" id="to" placeholder="Recipient Email" required>
+                <input type="text" id="subject" placeholder="Subject" required>
+                <textarea id="message" placeholder="Message" required></textarea>
+                <button type="submit">Send Email</button>
+            </form>
+            <div id="status"></div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
