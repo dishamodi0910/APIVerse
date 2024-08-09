@@ -1,0 +1,15 @@
+{
+  "name": "adobe-photoshop-api-demo",
+  "version": "1.0.0",
+  "description": "A simple app to demonstrate the Adobe Photoshop API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "adobe-photoshop-api-demo": "file:",
+    "express": "^4.17.1"
+  }
+}
