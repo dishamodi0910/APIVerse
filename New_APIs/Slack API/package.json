@@ -1,0 +1,17 @@
+{
+    "name": "slack-message-sender",
+    "version": "1.0.0",
+    "description": "A simple app to send messages to Slack channels using the Slack API",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "node-fetch": "^2.6.1",
+      "body-parser": "^1.19.0"
+    }
+  }
+  

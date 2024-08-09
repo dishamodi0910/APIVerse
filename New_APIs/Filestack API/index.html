@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Filestack File Uploader</title>
+</head>
+<body>
+    <header>
+        <h1>Filestack File Uploader</h1>
+    </header>
+    <main>
+        <section>
+            <form id="upload-form">
+                <input type="file" id="fileInput" accept="image/*">
+                <button type="submit">Upload and Transform</button>
+            </form>
+            <div id="transform-options">
+                <label for="resizeWidth">Resize Width (px):</label>
+                <input type="number" id="resizeWidth" placeholder="e.g. 300">
+                
+                <label for="resizeHeight">Resize Height (px):</label>
+                <input type="number" id="resizeHeight" placeholder="e.g. 300">
+                
+                <label for="watermark">Watermark Text:</label>
+                <input type="text" id="watermark" placeholder="Enter watermark text">
+            </div>
+            <div id="status"></div>
+            <div id="transformed-image">
+                <h2>Transformed Image:</h2>
+                <img id="imagePreview" src="" alt="Your transformed image will appear here">
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.filestackcontent.com/filestack.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

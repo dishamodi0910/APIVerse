@@ -1,0 +1,15 @@
+{
+    "name": "zomato-api-app",
+    "version": "1.0.0",
+    "description": "A simple app to view restaurant data from the Zomato API",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "author": "Revanth",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  
