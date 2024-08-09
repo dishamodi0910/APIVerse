@@ -1,0 +1,17 @@
+{
+  "name": "sendgrid-email-sender",
+  "version": "1.0.0",
+  "description": "A simple app to send emails using the SendGrid API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "sendgrid-email-sender": "file:"
+  }
+}
