@@ -1,0 +1,15 @@
+{
+    "short_name": "RapidAPIApp",
+    "name": "RapidAPI Marketplace",
+    "icons": [
+        {
+            "src": "icon.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#00c6ff",
+    "background_color": "#0072ff"
+}
