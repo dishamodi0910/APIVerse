@@ -15,3 +15,7 @@
    - `query` (string): The type of food you want to search for.
 3. **Response**:
    - Returns an array of image URLs related to the food query.
+
+## Demo Video
+
+[FoodPix_API_demo.webm](https://github.com/user-attachments/assets/1fbcc77b-619d-4299-bfb3-9a973bfe8017)
