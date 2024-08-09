@@ -1,0 +1,15 @@
+{
+  "name": "carbon-footprint-calculator",
+  "version": "1.0.0",
+  "description": "A simple app to calculate carbon footprint using the Carbon Footprint API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "carbon-footprint-calculator": "file:",
+    "express": "^4.17.1"
+  }
+}
