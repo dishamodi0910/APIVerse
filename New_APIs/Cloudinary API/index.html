@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cloudinary Image Processor</title>
+</head>
+<body>
+    <header>
+        <h1>Cloudinary Image Processor</h1>
+    </header>
+    <main>
+        <div class="upload-section">
+            <input type="file" id="imageUpload" accept="image/*">
+            <button id="uploadButton">Upload Image</button>
+        </div>
+        <div class="transform-section">
+            <h2>Transform Image</h2>
+            <input type="number" id="resizeWidth" placeholder="Width (px)">
+            <input type="number" id="resizeHeight" placeholder="Height (px)">
+            <input type="text" id="cropType" placeholder="Crop Type (e.g., fill)">
+            <button id="transformButton">Apply Transformations</button>
+        </div>
+        <div class="result-section">
+            <h2>Transformed Image</h2>
+            <img id="transformedImage" src="" alt="Transformed Image">
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
