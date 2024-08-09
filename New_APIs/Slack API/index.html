@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Slack Message Sender</title>
+</head>
+<body>
+    <header>
+        <h1>Slack Message Sender</h1>
+    </header>
+    <main>
+        <section>
+            <form id="message-form">
+                <input type="text" id="channel" placeholder="Channel Name" required>
+                <textarea id="message" placeholder="Type your message here..." required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="status"></div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
