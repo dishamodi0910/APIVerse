@@ -7,3 +7,5 @@ Whether you need assistance, information, or just a friendly chat, our bot is he
 - **Customizable Responses**: Tailor responses to fit different scenarios or personalities.
 
 [Deployed Link](https://chatbot-api-omega.vercel.app/)
+
+![image](https://github.com/user-attachments/assets/cf60ab99-80d5-4af0-a9e8-a99ab74a307d)
