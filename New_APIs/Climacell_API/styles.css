@@ -1,0 +1,68 @@
+body {
+    background-color: #f0f8ff; /* Light blue background for a pleasant feel */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weather-container {
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.location-input {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #555555;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #1e90ff; /* Dodger blue color for the button */
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1c86ee; /* Slightly darker blue on hover */
+}
+
+#weather-info {
+    margin-top: 20px;
+}
+
+#temperature, #precipitation {
+    color: #333333;
+    font-size: 18px;
+    margin: 5px 0;
+}
