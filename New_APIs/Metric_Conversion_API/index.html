@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric Conversion API App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Metric Conversion API App</h1>
+    </header>
+    <main>
+        <form id="conversion-form">
+            <input type="number" id="amount" placeholder="Amount" required>
+            <select id="from-unit">
+                <option value="meters">Meters</option>
+                <option value="centimeters">Centimeters</option>
+                <option value="kilometers">Kilometers</option>
+                <option value="grams">Grams</option>
+                <option value="kilograms">Kilograms</option>
+                <option value="liters">Liters</option>
+                <option value="milliliters">Milliliters</option>
+                <option value="celsius">Celsius</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <select id="to-unit">
+                <option value="centimeters">Centimeters</option>
+                <option value="meters">Meters</option>
+                <option value="kilometers">Kilometers</option>
+                <option value="kilograms">Kilograms</option>
+                <option value="grams">Grams</option>
+                <option value="milliliters">Milliliters</option>
+                <option value="liters">Liters</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="celsius">Celsius</option>
+            </select>
+            <button type="submit">Convert</button>
+        </form>
+        <div id="result"></div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
