@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stripe Payment Integration</title>
+</head>
+<body>
+    <header>
+        <h1>Stripe Payment Integration</h1>
+    </header>
+    <main>
+        <section>
+            <form id="payment-form">
+                <div id="card-element"></div>
+                <button id="submit">Pay Now</button>
+                <div id="card-errors" role="alert"></div>
+            </form>
+        </section>
+    </main>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="index.js"></script>
+</body>
+</html>
