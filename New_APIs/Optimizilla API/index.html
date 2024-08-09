@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Optimizilla Image Compressor</title>
+</head>
+<body>
+    <header>
+        <h1>Optimizilla Image Compressor</h1>
+    </header>
+    <main>
+        <section>
+            <form id="image-form" enctype="multipart/form-data">
+                <input type="file" id="image" accept="image/*" required>
+                <button type="submit">Compress Image</button>
+            </form>
+            <div id="status"></div>
+            <div id="result">
+                <h2>Compressed Image</h2>
+                <img id="compressed-image" src="" alt="Compressed Image">
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
