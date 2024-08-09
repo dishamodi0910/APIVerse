@@ -1,0 +1,17 @@
+{
+    "name": "bing-search-api-app",
+    "version": "1.0.0",
+    "description": "A simple web app that integrates with Bing Search API for web search functionality.",
+    "main": "index.js",
+    "scripts": {
+        "start": "echo 'No start script defined'"
+    },
+    "keywords": [
+        "search",
+        "bing",
+        "api",
+        "web"
+    ],
+    "author": "Amrutha",
+    "license": "MIT"
+}
