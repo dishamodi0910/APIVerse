@@ -18,9 +18,11 @@
 [Result-marks Data api ](./Result-marks_API/)|this is for those who want  to make college management  project they can simple take this api and connect to project easily|
 |[Payment API](./Payment_API/)|This demonstrates how to integrate PayPal API for online payments. It handles payment success and cancellation scenarios.|
 |[Social Media Analytics API](./Social_Media_Analytics_AP/)|This demonstrates how to create a Social Media Analytics API to retrieve user engagement data like posts, likes, comments, and shares.|
-|[Voice_Recognition_API](./Voice_Recognition_API/)|This demonstrates how a meachine  retrieve user engagement only Voice|
+|[Voice_Recognition_API](./Voice_Recognition_API/)|This demonstrates how a meachine  retrieve user engagement only Voice
+|[Temperature_API](./Temperature_API/)| Real-time global temperature data via HTTP requests from reliable weather sources
 |[Cryptocurrency_API](./Cryptocurrency_API/)|This demonstrates how a convert Cryptocurrency and spefic currency to dollars only|
 |[Weather_Forecast_API](./Weather_Forecast_API/)|This demonstrates we can know weather report via api and spefic locactions only|
+
 
 
 
