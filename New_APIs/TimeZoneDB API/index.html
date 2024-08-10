@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TimeZoneDB API Demo</title>
+</head>
+<body>
+    <header>
+        <h1>TimeZoneDB API</h1>
+    </header>
+    <main>
+        <div class="content-section">
+            <h2>Get Current Time Zone</h2>
+            <input type="text" id="locationInput" placeholder="Enter Location (e.g., London)">
+            <button id="getTimeZoneButton">Get Time Zone</button>
+            <h2>Convert Time Zone</h2>
+            <input type="text" id="fromTimeZone" placeholder="From Time Zone (e.g., UTC)">
+            <input type="text" id="toTimeZone" placeholder="To Time Zone (e.g., PST)">
+            <input type="text" id="timeToConvert" placeholder="Time to Convert (e.g., 2024-08-09 15:00)">
+            <button id="convertTimeButton">Convert Time</button>
+        </div>
+        <div class="result-section">
+            <h2>Results</h2>
+            <pre id="results"></pre>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
