@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextRazor NLP Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1 class="title">TextRazor NLP Analyzer</h1>
+            <p class="subtitle">Advanced Natural Language Processing for Entity Extraction & Sentiment Analysis</p>
+            <div class="features">
+                <span class="feature">🔍 Entity Extraction</span>
+                <span class="feature">😊 Sentiment Analysis</span>
+                <span class="feature">📊 Topic Classification</span>
+                <span class="feature">🔗 Relationship Extraction</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Input Section -->
+            <div class="input-section">
+                <div class="card">
+                    <h2>Text Analysis</h2>
+                    <div class="form-group">
+                        <label for="textInput">Enter text to analyze:</label>
+                        <textarea 
+                            id="textInput" 
+                            placeholder="Enter your text here for natural language processing analysis..."
+                            rows="8"
+                        ></textarea>
+                        <div class="sample-texts">
+                            <p style="font-size: 0.9em; color: #6c757d; margin: 10px 0 5px 0;">Quick start with sample texts:</p>
+                            <div class="sample-buttons">
+                                <button type="button" class="btn-sample" onclick="addSampleText(0)">Business News</button>
+                                <button type="button" class="btn-sample" onclick="addSampleText(1)">Restaurant Review</button>
+                                <button type="button" class="btn-sample" onclick="addSampleText(2)">Climate Article</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Analysis Options:</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="entities" checked>
+                                <span class="checkmark"></span>
+                                Entity Extraction
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="sentiment" checked>
+                                <span class="checkmark"></span>
+                                Sentiment Analysis
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="topics" checked>
+                                <span class="checkmark"></span>
+                                Topic Classification
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="relations" checked>
+                                <span class="checkmark"></span>
+                                Relationship Extraction
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="language" checked>
+                                <span class="checkmark"></span>
+                                Language Detection
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="button-group">
+                        <button id="analyzeBtn" class="btn btn-primary">
+                            <i class="fas fa-search"></i>
+                            Analyze Text
+                        </button>
+                        <button id="clearBtn" class="btn btn-secondary">
+                            <i class="fas fa-eraser"></i>
+                            Clear
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Section -->
+            <div class="results-section">
+                <div class="card">
+                    <h2>Analysis Results</h2>
+                    
+                    <!-- Loading State -->
+                    <div id="loadingState" class="loading hidden">
+                        <div class="spinner"></div>
+                        <p>Analyzing text...</p>
+                    </div>
+
+                    <!-- Error State -->
+                    <div id="errorState" class="error hidden">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p id="errorMessage"></p>
+                    </div>
+
+                    <!-- Results Display -->
+                    <div id="resultsDisplay" class="hidden">
+                        <!-- Sentiment Results -->
+                        <div id="sentimentResults" class="result-section">
+                            <h3><i class="fas fa-heart"></i> Sentiment Analysis</h3>
+                            <div id="sentimentContent"></div>
+                        </div>
+
+                        <!-- Entity Results -->
+                        <div id="entityResults" class="result-section">
+                            <h3><i class="fas fa-tags"></i> Entities Found</h3>
+                            <div id="entityContent"></div>
+                        </div>
+
+                        <!-- Topic Results -->
+                        <div id="topicResults" class="result-section">
+                            <h3><i class="fas fa-chart-pie"></i> Topics</h3>
+                            <div id="topicContent"></div>
+                        </div>
+
+                        <!-- Relations Results -->
+                        <div id="relationResults" class="result-section">
+                            <h3><i class="fas fa-project-diagram"></i> Relationships</h3>
+                            <div id="relationContent"></div>
+                        </div>
+
+                        <!-- Language Results -->
+                        <div id="languageResults" class="result-section">
+                            <h3><i class="fas fa-globe"></i> Language Detection</h3>
+                            <div id="languageContent"></div>
+                        </div>
+
+                        <!-- Metadata -->
+                        <div id="metadataResults" class="result-section">
+                            <h3><i class="fas fa-info-circle"></i> Analysis Metadata</h3>
+                            <div id="metadataContent"></div>
+                        </div>
+
+                        <!-- Export Button -->
+                        <div class="export-section">
+                            <button id="exportBtn" class="btn btn-export">
+                                <i class="fas fa-download"></i>
+                                Export Results (JSON)
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Empty State -->
+                    <div id="emptyState" class="empty-state">
+                        <i class="fas fa-file-text"></i>
+                        <p>Enter text above and click "Analyze Text" to see results here.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 TextRazor NLP Analyzer. Built with HTML, CSS, JavaScript and TextRazor API.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
