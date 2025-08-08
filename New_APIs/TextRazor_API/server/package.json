@@ -1,0 +1,31 @@
+{
+    "name": "textrazor-api-server",
+    "version": "1.0.0",
+    "description": "TextRazor API integration server for natural language processing",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "keywords": [
+        "textrazor",
+        "nlp",
+        "natural-language-processing",
+        "entity-extraction",
+        "sentiment-analysis",
+        "api"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "axios": "^1.5.0",
+        "helmet": "^7.0.0",
+        "express-rate-limit": "^6.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
