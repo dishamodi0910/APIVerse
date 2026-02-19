@@ -3,7 +3,7 @@
 This application helps individuals by providing plant care assistance using Google's Gemini Pro models for vision and text analysis.
 
 ## UseCase
-This service/API can be used to develop respective Mobile and Web Clients which allow it user to interact with the service and ultize the functionalities wrtten below.
+This service/API can be used to develop respective Mobile and Web Clients which allow it user to interact with the service and utilize the functionalities written below.
 
 Example : https://aarkid-client.vercel.app
 
@@ -44,7 +44,7 @@ npm i
 
 
 
-- Get Enviroment Variables
+- Get Environment Variables
 
 .env.example
 ```
@@ -78,7 +78,7 @@ const allowedOrigins = ['http://localhost:5173'];
 | Plants    | /api/plant    |
 | Tasks   | /api/task   |
 | Messages    | /api/message    |
-| Healtlogs    | /api/healthlog   |
+| Healthlogs    | /api/healthlog   |
 
 
 - Auth
